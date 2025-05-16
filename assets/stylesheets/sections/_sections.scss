@@ -368,6 +368,14 @@ section.search-stock-holder {
                 top: 0;
                 bottom: 0;
                 right: 0;
+                img {
+                    height: 100%;
+                    @include transform(scale(1.01));
+                    top: 0;
+                }
+            }
+            .content-box {
+                padding-top: 67%;
             }
         }
     }

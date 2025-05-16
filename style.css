@@ -12403,6 +12403,16 @@ section.search-stock-holder {
   top: 0;
   bottom: 0;
   right: 0; }
+  .swiper-grid-slider .grid-section--inner.grid-section--inner-v2 .image-box img {
+    height: 100%;
+    -webkit-transform: scale(1.01);
+    -moz-transform: scale(1.01);
+    -ms-transform: scale(1.01);
+    -o-transform: scale(1.01);
+    transform: scale(1.01);
+    top: 0; }
+.swiper-grid-slider .grid-section--inner.grid-section--inner-v2 .content-box {
+  padding-top: 67%; }
 
 .swiper-gallery-slider {
   --bs-border-radius: 15px;
