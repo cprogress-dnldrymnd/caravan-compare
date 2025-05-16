@@ -335,12 +335,21 @@ function swiper_sliders() {
         },
 
     });
-    var swiper_listing_gallery = new Swiper(".swiper-listing-grid-gallery", {
-        slidesPerView: 1,
-        navigation: {
-            nextEl: ".swiper-button-next",
-            prevEl: ".swiper-button-prev",
-        },
+
+
+    $key = 0;
+    jQuery('.swiper-listing-grid-gallery').each(function (index, element) {
+        var $id = 'swiper' + $key;
+        jQuery(this).attr('id', $id);
+        jQuery(this).find('.swiper-pagination').attr('id', $id + '-pagination');
+
+        var $id = new Swiper('#' + $id, {
+            slidesPerView: 1,
+            pagination: {
+                el: '.swiper-pagination',
+            },
+        });
+        $key++;
     });
 
 
