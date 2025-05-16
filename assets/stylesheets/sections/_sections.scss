@@ -715,3 +715,10 @@ section.listing-single {
         }
     }
 }
+
+
+.dealer-reviews-slider--inner {
+    @include before {
+        content: '';
+    }
+}

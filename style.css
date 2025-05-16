@@ -12705,6 +12705,9 @@ section.listing-single .nav-tabs-holder {
       .listing-pricing .price {
         font-size: 30px; } }
 
+.dealer-reviews-slider--inner:before {
+  content: ''; }
+
 /*-----------------------------------------------------------------------------------*/
 /* Plugins
 /*-----------------------------------------------------------------------------------*/
