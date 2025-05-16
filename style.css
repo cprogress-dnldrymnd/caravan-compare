@@ -11548,7 +11548,7 @@ span.icons {
   height: 37px;
   border-radius: 50%;
   display: inline-block;
-  background-color: var(--bs-white); }
+  background-color: currentColor; }
 
 #main.main-offset {
   margin-top: calc(var(--header-height) - (var(--header-height) * 2)); }
@@ -12145,7 +12145,8 @@ h5, .h5 {
   color: inherit; }
 
 .header-style-1 {
-  color: var(--bs-white); }
+  color: var(--bs-white);
+  --bs-nav-link-color: var() ; }
 
 footer hr {
   opacity: 0.5;
