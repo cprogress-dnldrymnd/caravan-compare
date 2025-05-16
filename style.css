@@ -12097,7 +12097,7 @@ h5, .h5 {
   background-color: transparent;
   padding: 0;
   position: relative;
-  color: var(--bs-white);
+  color: currentColor;
   outline: none; }
   .menu-burger .icon .menu,
   .menu-burger .icon .menu::before,
@@ -12141,12 +12141,12 @@ h5, .h5 {
   width: 34px;
   height: 28px; }
 
-#main-header {
+#main-header .logo-box a {
+  color: inherit; }
+#main-header .compare {
+  color: inherit; }
+#main-header .navbar-nav {
   --bs-nav-link-color: inherit; }
-  #main-header .logo-box a {
-    color: inherit; }
-  #main-header .compare {
-    color: inherit; }
 
 .header-style-1 {
   color: var(--bs-white); }

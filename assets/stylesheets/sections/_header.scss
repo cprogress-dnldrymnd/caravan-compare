@@ -121,10 +121,11 @@
     .compare {
         color: inherit;
     }
-    --bs-nav-link-color: inherit;
-
+    .navbar-nav {
+        --bs-nav-link-color: inherit;
+        --bs-navbar-active-color: inherit;
+    }
 }
 .header-style-1 {
     color: var(--bs-white);
-   
 }
