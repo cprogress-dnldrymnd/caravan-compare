@@ -10,8 +10,12 @@ function header() {
         $height = jQuery('#main-header').outerHeight();
         $top_bar = jQuery('.top-bar').outerHeight();
 
-        jQuery('body').css('--header-height', $height + 'px');
-        jQuery('body').css('--top-bar-height', $top_bar + 'px');
+        if ($height != 'undefined') {
+            jQuery('body').css('--header-height', $height + 'px');
+        }
+        if ($top_bar != 'undefined') {
+            jQuery('body').css('--top-bar-height', $top_bar + 'px');
+        }
     }, 500);
 }
 
