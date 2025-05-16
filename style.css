@@ -12127,7 +12127,14 @@ h5, .h5 {
   border-radius: 50%;
   position: absolute;
   background-color: var(--text-color);
-  color: var(--bs-white); }
+  color: var(--bs-white);
+  font-size: 12px;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  top: -10px;
+  right: -10px; }
 .compare svg {
   width: 34px;
   height: 28px; }
