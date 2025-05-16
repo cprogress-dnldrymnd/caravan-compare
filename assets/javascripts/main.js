@@ -341,12 +341,14 @@ function swiper_sliders() {
     jQuery('.swiper-listing-grid-gallery').each(function (index, element) {
         var $id = 'swiper' + $key;
         jQuery(this).attr('id', $id);
-        jQuery(this).find('.swiper-pagination').attr('id', $id + '-pagination');
+        jQuery(this).find('.swiper-button-next').attr('id', $id + '-next');
+        jQuery(this).find('.swiper-button-prev').attr('id', $id + '-prev');
 
         var $id = new Swiper('#' + $id, {
             slidesPerView: 1,
-            pagination: {
-                el: '.swiper-pagination',
+            navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
             },
         });
         $key++;
