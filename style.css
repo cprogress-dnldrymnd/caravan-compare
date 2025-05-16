@@ -11295,7 +11295,8 @@ body {
       gap: 20px;
       color: var(--text-color);
       justify-content: center;
-      background-color: var(--transparent); }
+      background-color: var(--transparent);
+      border: none; }
       .nav-tabs.nav-tabs-style-3 .nav-link svg {
         width: 20px;
         height: 20px; }
