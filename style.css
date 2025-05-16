@@ -11456,6 +11456,8 @@ img {
 .accordion-style-1 .form-control-holder label {
   display: none; }
 
+.accordion-style-2 .accordion {
+  border-radius: 0; }
 .accordion-style-2 .accordion-button {
   font-size: 18px;
   font-weight: bold; }
@@ -11465,7 +11467,12 @@ img {
     flex: 0 0 30px; }
 .accordion-style-2 .accordion-item {
   border-left: none;
-  border-right: none; }
+  border-right: none;
+  border-top: none;
+  background-color: transparent;
+  border-color: var(--text-color); }
+  .accordion-style-2 .accordion-item:last-child {
+    border-bottom: none; }
 
 .swiper-button.swiper-button {
   --swiper-navigation-size: 20px;
