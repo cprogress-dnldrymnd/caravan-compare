@@ -12529,6 +12529,12 @@ section.hero {
   section.hero .hero-title-image .image-box img {
     margin-bottom: calc(var(--image-margin) - (var(--image-margin) * 2)); }
 
+section.listing-single .listing-single--left {
+  padding: 20px;
+  max-width: 1080px;
+  margin-left: auto;
+  margin-right: auto; }
+
 /*-----------------------------------------------------------------------------------*/
 /* Plugins
 /*-----------------------------------------------------------------------------------*/
