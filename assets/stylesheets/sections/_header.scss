@@ -98,7 +98,13 @@
         position: absolute;
         background-color: var(--text-color);
         color: var(--bs-white);
-
+        font-size: 12px;
+        font-weight: 500;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        top: -10px;
+        right: -10px;
     }
     svg {
         width: 34px;

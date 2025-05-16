@@ -12125,7 +12125,9 @@ h5, .h5 {
   width: 22px;
   height: 22px;
   border-radius: 50%;
-  position: absolute; }
+  position: absolute;
+  background-color: var(--text-color);
+  color: var(--bs-white); }
 .compare svg {
   width: 34px;
   height: 28px; }
