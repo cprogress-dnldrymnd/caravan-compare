@@ -626,6 +626,15 @@ section.forms {
 
 .dealer-contact {
     background-color: #f8f8f4;
+    &.dealer-contact-v2 {
+        ul {
+            flex-direction: row !important;
+            flex-wrap: wrap;
+            li {
+                width: calc(50% - 0.5rem);
+            }
+        }
+    }
 }
 
 section.hero {
