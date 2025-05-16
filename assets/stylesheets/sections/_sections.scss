@@ -670,3 +670,14 @@ section.listing-single {
         padding-bottom: 1px;
     }
 }
+
+
+.dealer-details {
+    > .delear-details--inner {
+        @include not-last-child {
+            border-bottom: 1px solid var(--lightgray-color-2);
+            padding-bottom: 20px;
+            margin-bottom: 20px;
+        }
+    }
+}
