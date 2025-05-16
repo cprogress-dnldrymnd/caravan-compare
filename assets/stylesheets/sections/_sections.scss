@@ -625,8 +625,8 @@ section.forms {
 }
 
 .dealer-contact {
-    background-color: #f8f8f4;
     &.dealer-contact-v2 {
+        background-color: transparent;
         ul {
             flex-direction: row !important;
             flex-wrap: wrap;

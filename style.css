@@ -11729,7 +11729,7 @@ span.icons {
 .background-lightgray-3 {
   background-color: var(--lightgray-color-3); }
 
-.background-light-gray-4 {
+.background-lightgray-4 {
   background-color: var(--lightgray-color-4); }
 
 .background-lightgray-5 {
@@ -12635,8 +12635,8 @@ section.forms .container > .row > .col-lg-6:not(:last-child) {
     height: 17px;
     object-fit: contain; }
 
-.dealer-contact {
-  background-color: #f8f8f4; }
+.dealer-contact.dealer-contact-v2 {
+  background-color: transparent; }
   .dealer-contact.dealer-contact-v2 ul {
     flex-direction: row !important;
     flex-wrap: wrap; }
