@@ -671,7 +671,6 @@ section.listing-single {
     }
 }
 
-
 .dealer-details {
     .logo-box {
         img {
@@ -683,6 +682,16 @@ section.listing-single {
             border-bottom: 1px solid var(--lightgray-color-2);
             padding-bottom: 20px;
             margin-bottom: 20px;
+        }
+    }
+}
+
+.dealer-enquire {
+    .form-row {
+        .row {
+            height: calc(100% + var(--bs-gutter-y));
+            flex-direction: column;
+            justify-content: space-between;
         }
     }
 }

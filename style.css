@@ -11141,7 +11141,7 @@ body {
 
 .form-control {
   font-size: 18px;
-  padding: 12px 25px;
+  padding: 14px 25px;
   --bs-border-radius-lg: 5px; }
   @media screen and (max-width: 991px) {
     .form-control {
@@ -12681,6 +12681,9 @@ section.listing-single .nav-tabs-holder {
   border-bottom: 1px solid var(--lightgray-color-2);
   padding-bottom: 20px;
   margin-bottom: 20px; }
+
+.dealer-enquire .form-row .row {
+  height: calc(100% + var(--)); }
 
 /*-----------------------------------------------------------------------------------*/
 /* Plugins
