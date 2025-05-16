@@ -456,6 +456,22 @@ img {
     }
 }
 
+.accordion-style-2 {
+    .accordion-button {
+        font-size: 18px;
+        font-weight: bold;
+        svg {
+            width: 30px;
+            height: 30px;
+            flex: 0 0 30px;
+        }
+    }
+    .accordion-item {
+        border-left: none;
+        border-right: none;
+    }
+}
+
 .swiper-button.swiper-button {
     --swiper-navigation-size: 20px;
     width: 56px;
