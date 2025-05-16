@@ -225,8 +225,15 @@ body {
         overflow: hidden;
         .nav-link {
             padding: 10px 20px;
-            width: 100%;
-            max-width: 200px;
+            min-width: 200px;
+            flex: 1 0 0%;
+            display: flex;
+            align-items: center;
+            gap: 20px;
+            svg {
+                width: 20px;
+                height: 20px;
+            }
         }
     }
 
