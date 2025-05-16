@@ -718,7 +718,15 @@ section.listing-single {
 
 
 .dealer-reviews-slider--inner {
+    border-top-left-radius: 0 !important;
     @include before {
         content: '';
+        width: 0;
+        height: 0;
+        border-bottom: 20px solid var(--bs-white);
+        border-right: 20px solid transparent;
+        position: absolute;
+        top: -20px;
+        left: 0;
     }
 }

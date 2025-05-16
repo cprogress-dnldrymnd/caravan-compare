@@ -12705,8 +12705,17 @@ section.listing-single .nav-tabs-holder {
       .listing-pricing .price {
         font-size: 30px; } }
 
-.dealer-reviews-slider--inner:before {
-  content: ''; }
+.dealer-reviews-slider--inner {
+  border-top-left-radius: 0 !important; }
+  .dealer-reviews-slider--inner:before {
+    content: '';
+    width: 0;
+    height: 0;
+    border-bottom: 20px solid var(--bs-white);
+    border-right: 20px solid transparent;
+    position: absolute;
+    top: -20px;
+    left: 0; }
 
 /*-----------------------------------------------------------------------------------*/
 /* Plugins
