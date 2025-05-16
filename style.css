@@ -11858,8 +11858,20 @@ span.icons {
   line-height: 1.8; }
 
 /*new*/
-.background-gradient-1 {
-  background: transparent linear-gradient(180deg, #eeeee9 0%, #ffa7d4 100%) 0% 0% no-repeat padding-box; }
+.background-gradient-pink {
+  background: transparent linear-gradient(180deg, #eeeee9 0%, #ffa7d4 100%) 0% 0% no-repeat; }
+
+.background-gradient-yellow {
+  background: transparent linear-gradient(180deg, #eeeee9 0%, #f2ee6d 100%) 0% 0% no-repeat; }
+
+.background-gradient-blue {
+  background: transparent linear-gradient(180deg, #eeeee9 0%, #85ebf2 100%) 0% 0% no-repeat; }
+
+.background-gradient-green {
+  background: transparent linear-gradient(180deg, #eeeee9 0%, #acf59f 100%) 0% 0% no-repeat; }
+
+.background-gradient-orange {
+  background: transparent linear-gradient(180deg, #eeeee9 0%, #f58c72 100%) 0% 0% no-repeat; }
 
 .bg-decor:before {
   content: "";
