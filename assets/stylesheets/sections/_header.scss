@@ -123,7 +123,9 @@
     }
     .navbar-nav {
         --bs-nav-link-color: inherit;
-        --bs-navbar-active-color: inherit;
+        .nav-link {
+            --bs-navbar-active-color: inherit;
+        }
     }
 }
 .header-style-1 {
