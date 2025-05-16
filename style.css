@@ -11140,8 +11140,16 @@ body {
   --bs-border-color: var(--text-color); }
 
 .form-control {
-  padding: 16px 24px;
-  font-size: 16px; }
+  font-size: 18px;
+  padding: 14px 25px;
+  --bs-border-radius-lg: 5px; }
+  @media screen and (max-width: 991px) {
+    .form-control {
+      font-size: 14px;
+      padding: 12px 20px; } }
+  @media screen and (max-width: 767px) {
+    .form-control {
+      padding: 18px; } }
 
 .form-control-lg {
   font-size: 18px;
