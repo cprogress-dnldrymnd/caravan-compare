@@ -305,7 +305,7 @@ function swiper_sliders() {
 
     });
 
-    var swiper_grid_slider_2 = new Swiper(".swiper-testimonials", {
+    var swiper_testimonials = new Swiper(".swiper-testimonials", {
         freeMode: true,
 
         breakpoints: {
@@ -349,6 +349,27 @@ function swiper_sliders() {
     });
 
 
+    
 
+    var swiper_dealer_reviews = new Swiper(".swiper-dealer-reviews", {
+        freeMode: true,
 
+        breakpoints: {
+            0: {
+                slidesPerView: 0.9,
+                spaceBetween: 12,
+            },
+
+            992: {
+                slidesPerView: 2,
+                spaceBetween: 20,
+            },
+          
+        },
+
+        pagination: {
+            el: '.swiper-pagination',
+        },
+
+    });
 }
