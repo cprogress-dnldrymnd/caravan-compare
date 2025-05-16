@@ -228,7 +228,7 @@ body {
     }
 
     &.nav-tabs-style-3 {
-        border: 1px solid var(--text-color);
+        border: 1px solid var(--text-color) !important;
         display: inline-flex;
         border-radius: 5px;
         position: relative;
