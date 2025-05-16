@@ -76,6 +76,7 @@ function fancybox() {
 
 function swiper_sliders() {
 
+    $key = 0;
     if (jQuery('.swiper-thumbnails').length > 0) {
 
         if (window.innerWidth > 991) {
