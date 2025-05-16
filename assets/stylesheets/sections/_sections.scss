@@ -674,7 +674,9 @@ section.listing-single {
 
 .dealer-details {
     .logo-box {
-     
+        img {
+            max-width: 140px;
+        }
     }
     > .delear-details--inner {
         @include not-last-child {
