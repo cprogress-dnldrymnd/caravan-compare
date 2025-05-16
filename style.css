@@ -11288,15 +11288,19 @@ body {
     overflow: hidden; }
     .nav-tabs.nav-tabs-style-3 .nav-link {
       padding: 10px 20px;
-      width: 100%;
-      max-width: 200px;
+      min-width: 200px;
       flex: 1 0 0%;
       display: flex;
       align-items: center;
-      gap: 20px; }
+      gap: 20px;
+      color: var(--text-color);
+      justify-content: center; }
       .nav-tabs.nav-tabs-style-3 .nav-link svg {
         width: 20px;
         height: 20px; }
+      .nav-tabs.nav-tabs-style-3 .nav-link.active {
+        background-color: var(--text-color);
+        color: var(--white-color); }
   .nav-tabs.swiper-wrapper {
     gap: 0;
     flex-wrap: nowrap; }
