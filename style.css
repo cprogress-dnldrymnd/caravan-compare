@@ -12145,6 +12145,8 @@ h5, .h5 {
   color: inherit; }
 #main-header .compare {
   color: inherit; }
+#main-header .navbar {
+  --bs-navbar-active-color: inherit; }
 #main-header .navbar-nav {
   --bs-nav-link-color: inherit; }
   #main-header .navbar-nav .nav-link {

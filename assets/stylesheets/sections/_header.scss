@@ -121,6 +121,9 @@
     .compare {
         color: inherit;
     }
+    .navbar {
+        --bs-navbar-active-color: inherit;
+    }
     .navbar-nav {
         --bs-nav-link-color: inherit;
         .nav-link {
