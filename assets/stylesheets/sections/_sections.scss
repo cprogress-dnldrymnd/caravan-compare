@@ -549,6 +549,9 @@ section.hero {
     --image-margin: 80px;
     padding-top: calc(var(--header-height) + var(--top-bar-height));
     margin-bottom: var(--image-margin);
+    .container {
+        z-index: 2;
+    }
     .hero-title-image {
         .image-box {
             img {
