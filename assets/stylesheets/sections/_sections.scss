@@ -570,7 +570,6 @@ section.listing-single {
         margin-right: auto;
     }
     .nav-tabs-holder {
-        display: inline-block;
-        border: 1px solid var(--text-color);
+        padding-bottom: 1px;
     }
 }

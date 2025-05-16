@@ -11280,6 +11280,16 @@ body {
         color: var(--text-color);
         border-color: var(--pink-color);
         background-color: transparent; }
+  .nav-tabs.nav-tabs-style-3 {
+    border: 1px solid var(--text-color);
+    display: inline-flex;
+    border-radius: 5px;
+    position: relative;
+    overflow: hidden; }
+    .nav-tabs.nav-tabs-style-3 .nav-link {
+      padding: 10px 20px;
+      width: 100%;
+      max-width: 200px; }
   .nav-tabs.swiper-wrapper {
     gap: 0;
     flex-wrap: nowrap; }
@@ -12535,7 +12545,7 @@ section.listing-single .listing-single--left {
   margin-left: auto;
   margin-right: auto; }
 section.listing-single .nav-tabs-holder {
-  display: inline-block; }
+  padding-bottom: 1px; }
 
 /*-----------------------------------------------------------------------------------*/
 /* Plugins

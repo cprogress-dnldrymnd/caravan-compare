@@ -218,7 +218,16 @@ body {
     }
 
     &.nav-tabs-style-3 {
-        
+        border: 1px solid var(--text-color);
+        display: inline-flex;
+        border-radius: 5px;
+        position: relative;
+        overflow: hidden;
+        .nav-link {
+            padding: 10px 20px;
+            width: 100%;
+            max-width: 200px;
+        }
     }
 
     &.swiper-wrapper {
