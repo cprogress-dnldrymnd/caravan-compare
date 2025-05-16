@@ -347,8 +347,8 @@ function swiper_sliders() {
         var $id = new Swiper('#' + $id, {
             slidesPerView: 1,
             navigation: {
-                nextEl: ".swiper-button-next",
-                prevEl: ".swiper-button-prev",
+                nextEl: '#' + $id + '-next',
+                prevEl: '#' + $id + '-prev',
             },
         });
         $key++;
