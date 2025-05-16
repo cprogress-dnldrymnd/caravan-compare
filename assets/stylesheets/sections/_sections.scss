@@ -202,7 +202,6 @@
     }
 }
 
-
 .listing-inner-holder {
     .inner-box-style.inner-box-style {
         background-color: var(--lightgray-color-5);
@@ -346,7 +345,6 @@
         }
     }
 }
-
 
 .offcanvas-form--form-fields {
     padding: 30px;
@@ -646,7 +644,6 @@ section.hero {
     }
 }
 
-
 section.listing-single {
     .listing-single--left {
         padding: 20px;
@@ -655,8 +652,10 @@ section.listing-single {
         margin-right: auto;
     }
     .listing--single-right {
-        padding: 30px;
-        height: 100vh;
+        .listing--single--right-inner {
+            padding: 30px;
+            height: 100vh;
+        }
     }
     .nav-tabs-holder {
         padding-bottom: 1px;
