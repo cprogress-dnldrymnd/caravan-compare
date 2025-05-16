@@ -11456,25 +11456,27 @@ img {
 .accordion-style-1 .form-control-holder label {
   display: none; }
 
-.accordion-style-2 .accordion {
-  border-radius: 0; }
-.accordion-style-2 .accordion-button {
+.accordion-style-2.accordion-style-2.accordion-style-2 .accordion {
+  border-radius: 0;
+  padding-top: 10px;
+  padding-bottom: 10px; }
+.accordion-style-2.accordion-style-2.accordion-style-2 .accordion-button {
   font-size: 18px;
   font-weight: bold;
   background-color: transparent;
   border: none !important;
   box-shadow: none !important; }
-  .accordion-style-2 .accordion-button svg {
+  .accordion-style-2.accordion-style-2.accordion-style-2 .accordion-button svg {
     width: 30px;
     height: 30px;
     flex: 0 0 30px; }
-.accordion-style-2 .accordion-item {
+.accordion-style-2.accordion-style-2.accordion-style-2 .accordion-item {
   border-left: none;
   border-right: none;
   border-top: none;
   background-color: transparent;
   border-color: var(--text-color); }
-  .accordion-style-2 .accordion-item:last-child {
+  .accordion-style-2.accordion-style-2.accordion-style-2 .accordion-item:last-child {
     border-bottom: none; }
 
 .swiper-button.swiper-button {

@@ -456,9 +456,11 @@ img {
     }
 }
 
-.accordion-style-2 {
+.accordion-style-2.accordion-style-2.accordion-style-2 {
     .accordion {
         border-radius: 0;
+        padding-top: 10px;
+        padding-bottom: 10px;
     }
     .accordion-button {
         font-size: 18px;
