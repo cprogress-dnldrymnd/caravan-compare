@@ -16,7 +16,7 @@ function templates() {
         })
         .catch(error => {
             console.error('Error fetching the HTML file:', error);
-            document.getElementById('content-to-insert').innerHTML = '<p>Error loading content.</p>';
+            document.getElementById('top-bar-insert').innerHTML = '<p>Error loading content.</p>';
         });
 
     fetch('template-parts/--header.html') // Path to the HTML file you want to insert
@@ -26,7 +26,7 @@ function templates() {
         })
         .catch(error => {
             console.error('Error fetching the HTML file:', error);
-            document.getElementById('content-to-insert').innerHTML = '<p>Error loading content.</p>';
+            document.getElementById('header-insert').innerHTML = '<p>Error loading content.</p>';
         });
 
     fetch('template-parts/offcanvas/--offcanvas-menu.html') // Path to the HTML file you want to insert
@@ -36,7 +36,7 @@ function templates() {
         })
         .catch(error => {
             console.error('Error fetching the HTML file:', error);
-            document.getElementById('content-to-insert').innerHTML = '<p>Error loading content.</p>';
+            document.getElementById('offcanvas-menu').innerHTML = '<p>Error loading content.</p>';
         });
 
     fetch('template-parts/--footer.html') // Path to the HTML file you want to insert
@@ -46,7 +46,7 @@ function templates() {
         })
         .catch(error => {
             console.error('Error fetching the HTML file:', error);
-            document.getElementById('content-to-insert').innerHTML = '<p>Error loading content.</p>';
+            document.getElementById('footer-insert').innerHTML = '<p>Error loading content.</p>';
         });
 }
 
