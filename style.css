@@ -12663,9 +12663,11 @@ section.listing-single .listing--single-right .listing--single--right-inner {
 section.listing-single .nav-tabs-holder {
   padding-bottom: 1px; }
 
+.dealer-details .logo-box img {
+  max-width: 140px; }
 .dealer-details > .delear-details--inner:not(:last-child) {
   border-bottom: 1px solid var(--lightgray-color-2);
-  padding-top: 20px;
+  padding-bottom: 20px;
   margin-bottom: 20px; }
 
 /*-----------------------------------------------------------------------------------*/
