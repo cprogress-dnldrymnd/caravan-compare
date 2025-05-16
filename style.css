@@ -12534,6 +12534,8 @@ section.listing-single .listing-single--left {
   max-width: 1080px;
   margin-left: auto;
   margin-right: auto; }
+section.listing-single .nav-tabs-holder {
+  display: inline-block; }
 
 /*-----------------------------------------------------------------------------------*/
 /* Plugins
