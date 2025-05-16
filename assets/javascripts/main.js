@@ -151,7 +151,7 @@ function swiper_sliders() {
         },
     });
 
-    var swiper = new Swiper(".swiper-listing", {
+    var swiper_listing = new Swiper(".swiper-listing", {
 
         breakpoints: {
             0: {
