@@ -12693,7 +12693,8 @@ section.listing-single .nav-tabs-holder {
   position: fixed;
   bottom: 0;
   right: auto;
-  width: 33.33333333%; }
+  width: 33.33333333%;
+  padding: 24px; }
   .listing-pricing .price {
     font-size: 50px;
     font-weight: 500; }
