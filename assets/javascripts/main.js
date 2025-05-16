@@ -1,8 +1,8 @@
 jQuery(document).ready(function () {
+    templates();
     swiper_sliders();
     //fancybox();
     header();
-    templates();
 });
 
 function templates() {
