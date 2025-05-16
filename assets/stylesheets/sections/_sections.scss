@@ -672,7 +672,6 @@ section.listing-single {
 }
 
 .dealer-details {
-    
     .logo-box {
         img {
             max-width: 140px;
@@ -693,6 +692,25 @@ section.listing-single {
             height: calc(100% + var(--bs-gutter-y));
             flex-direction: column;
             justify-content: space-between;
+        }
+    }
+}
+
+.listing-pricing {
+    margin-left: -30px;
+    margin-right: -30px;
+    position: fixed;
+    bottom: 0;
+    right: auto;
+    width: 33.33333333%;
+    .price {
+        font-size: 50px;
+        font-weight: 500;
+        @include responsive(xs-sm) {
+            font-size: 40px;
+        }
+        @include responsive(xs) {
+            font-size: 30px;
         }
     }
 }
