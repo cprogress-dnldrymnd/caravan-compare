@@ -12156,6 +12156,9 @@ h5, .h5 {
 .header-style-1 {
   color: var(--bs-white); }
 
+.header-background-pink {
+  background-color: var(--pink-color); }
+
 footer hr {
   opacity: 0.5;
   margin-top: var(--md-spacing);
