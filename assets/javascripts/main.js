@@ -9,14 +9,14 @@ function header() {
         jQuery('.header').removeClass('overflow-hidden');
         $height = jQuery('#main-header').outerHeight();
         $top_bar = jQuery('.top-bar').outerHeight();
-
-        if ($height != 'undefined') {
+        undefinedpx
+        if ($height != undefined) {
             jQuery('body').css('--header-height', $height + 'px');
         }
-        if ($top_bar != 'undefined') {
+        if ($top_bar != undefined) {
             jQuery('body').css('--top-bar-height', $top_bar + 'px');
         }
-    }, 500);
+    }, 1000);
 }
 
 function fancybox() {
