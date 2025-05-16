@@ -12121,6 +12121,15 @@ h5, .h5 {
       .menu-burger .icon .menu:after {
         top: 8px; }
 
+.compare .count {
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+  position: absolute; }
+.compare svg {
+  width: 34px;
+  height: 28px; }
+
 footer hr {
   opacity: 0.5;
   margin-top: var(--md-spacing);
