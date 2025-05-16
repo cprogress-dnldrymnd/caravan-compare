@@ -133,7 +133,9 @@
     }
 }
 .header-style-1 {
-    color: var(--bs-white);
+    #main-header {
+        color: var(--bs-white);
+    }
 }
 .header-background-pink {
     #main-header {

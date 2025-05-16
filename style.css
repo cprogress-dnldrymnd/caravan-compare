@@ -12153,7 +12153,7 @@ h5, .h5 {
   #main-header .navbar-nav .nav-link {
     --bs-navbar-active-color: inherit; }
 
-.header-style-1 {
+.header-style-1 #main-header {
   color: var(--bs-white); }
 
 .header-background-pink #main-header {
