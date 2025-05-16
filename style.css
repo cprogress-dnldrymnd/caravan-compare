@@ -12683,7 +12683,9 @@ section.listing-single .nav-tabs-holder {
   margin-bottom: 20px; }
 
 .dealer-enquire .form-row .row {
-  height: calc(100% + var(--)); }
+  height: calc(100% + var(--bs-gutter-y));
+  flex-direction: column;
+  justify-content: space-between; }
 
 /*-----------------------------------------------------------------------------------*/
 /* Plugins
