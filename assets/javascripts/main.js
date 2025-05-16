@@ -1,8 +1,11 @@
 jQuery(document).ready(function () {
     templates();
-    swiper_sliders();
     //fancybox();
-    header();
+    setTimeout(function () {
+        swiper_sliders();
+        header();
+    }, 1000);
+
 });
 
 function templates() {
@@ -48,17 +51,15 @@ function templates() {
 }
 
 function header() {
-    setTimeout(function () {
-        jQuery('.header').removeClass('overflow-hidden');
-        $height = jQuery('#main-header').outerHeight();
-        $top_bar = jQuery('.top-bar').outerHeight();
-        if ($height != undefined) {
-            jQuery('body').css('--header-height', $height + 'px');
-        }
-        if ($top_bar != undefined) {
-            jQuery('body').css('--top-bar-height', $top_bar + 'px');
-        }
-    }, 1000);
+    jQuery('.header').removeClass('overflow-hidden');
+    $height = jQuery('#main-header').outerHeight();
+    $top_bar = jQuery('.top-bar').outerHeight();
+    if ($height != undefined) {
+        jQuery('body').css('--header-height', $height + 'px');
+    }
+    if ($top_bar != undefined) {
+        jQuery('body').css('--top-bar-height', $top_bar + 'px');
+    }
 }
 
 function fancybox() {
