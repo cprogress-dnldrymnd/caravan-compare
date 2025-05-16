@@ -16,7 +16,7 @@ function header() {
         if ($top_bar != 'undefined') {
             jQuery('body').css('--top-bar-height', $top_bar + 'px');
         }
-    }, 1000);
+    }, 500);
 }
 
 function fancybox() {
