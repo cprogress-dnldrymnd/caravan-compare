@@ -11289,48 +11289,6 @@ body {
 img {
   max-width: 100%; }
 
-.list-inline-icons li a {
-  text-decoration: none;
-  display: flex;
-  align-items: center;
-  color: var(--black-color);
-  line-height: 1; }
-  .list-inline-icons li a svg {
-    width: 20px;
-    flex: 0 0 20px;
-    height: 20px;
-    margin-right: 10px; }
-.list-inline-icons li:not(:last-child) {
-  margin-right: 1rem; }
-
-.breadcrumbs-holder {
-  border-bottom: 1px solid var(--blue-color);
-  padding-bottom: 10px; }
-  .breadcrumbs-holder ul {
-    padding: 0;
-    list-style: none;
-    display: flex;
-    flex-wrap: wrap;
-    font-size: 18px;
-    align-items: center; }
-    .breadcrumbs-holder ul li {
-      display: flex;
-      align-items: center; }
-      .breadcrumbs-holder ul li span {
-        font-weight: bold; }
-      .breadcrumbs-holder ul li a {
-        color: var(--black-color); }
-      .breadcrumbs-holder ul li:not(:last-child)::after {
-        content: "";
-        display: inline-block;
-        height: 8px;
-        width: 8px;
-        border-top: 1px solid;
-        border-left: 1px solid;
-        transform: rotate(135deg);
-        margin-left: 10px;
-        margin-right: 10px; }
-
 .form-holder {
   font-size: 20px; }
   .form-holder .row {
