@@ -12328,6 +12328,19 @@ footer hr {
     border-radius: 50%;
     flex: 0 0 10px; }
 
+.listing-inner-holder .inner-box-style {
+  background-color: var(--lightgray-color-5);
+  padding: 30px;
+  border-radius: 10px; }
+@media screen and (max-width: 991px) {
+  .listing-inner-holder .heading {
+    font-size: 30px; } }
+@media screen and (max-width: 767px) {
+  .listing-inner-holder .heading {
+    font-size: 25px; } }
+@media screen and (max-width: 575px) {
+  .listing-inner-holder .heading {
+    font-size: 20px; } }
 .listing-inner-holder .listing-grid__feature {
   justify-content: flex-end; }
   .listing-inner-holder .listing-grid__feature .grid__feature-inner {
@@ -12337,32 +12350,91 @@ footer hr {
   right: 20px;
   bottom: 20px;
   border-radius: 5px; }
+  @media screen and (max-width: 767px) {
+    .listing-inner-holder .listing-grid--gallery .swiper-gallery .swiper-pagination {
+      font-size: 12px;
+      right: 10px;
+      bottom: 10px;
+      padding: 7px 12px; } }
 .listing-inner-holder .listing-inner--tabs .nav-tabs {
   border: none;
   gap: 18px; }
-  .listing-inner-holder .listing-inner--tabs .nav-tabs > .nav-item {
-    flex: 1 0 0%; }
-    .listing-inner-holder .listing-inner--tabs .nav-tabs > .nav-item .nav-link {
-      border: none;
-      background-color: var(--lightgray-color-2);
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      gap: 18px;
-      width: 100%;
-      border-radius: 5px;
-      height: 100%; }
-      .listing-inner-holder .listing-inner--tabs .nav-tabs > .nav-item .nav-link.active {
-        background-color: var(--dark-color);
-        color: var(--bs-white); }
+  .listing-inner-holder .listing-inner--tabs .nav-tabs .nav-link {
+    flex: 1 0 0%;
+    border: none;
+    background-color: var(--lightgray-color-2);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 18px;
+    width: 100%;
+    border-radius: 5px;
+    height: 100%; }
+    @media screen and (max-width: 575px) {
+      .listing-inner-holder .listing-inner--tabs .nav-tabs .nav-link svg {
+        width: 20px;
+        height: 20px; } }
+    .listing-inner-holder .listing-inner--tabs .nav-tabs .nav-link.active {
+      background-color: var(--dark-color);
+      color: var(--bs-white); }
+      @media screen and (max-width: 575px) {
+        .listing-inner-holder .listing-inner--tabs .nav-tabs .nav-link.active {
+          display: none; } }
+    @media screen and (max-width: 575px) {
+      .listing-inner-holder .listing-inner--tabs .nav-tabs .nav-link {
+        font-size: 10px; } }
 .listing-inner-holder .listing-key--info .icon-list-v2 {
   row-gap: 0;
   column-gap: var(--sm-spacing); }
   .listing-inner-holder .listing-key--info .icon-list-v2 li {
     width: calc(50% - (var(--sm-spacing) / 2));
     flex: calc(50% - (var(--sm-spacing) / 2)); }
+    @media screen and (max-width: 767px) {
+      .listing-inner-holder .listing-key--info .icon-list-v2 li {
+        width: 100%;
+        flex: 100%;
+        border: none !important; } }
+  @media screen and (max-width: 575px) {
+    .listing-inner-holder .listing-key--info .icon-list-v2 {
+      font-size: 14px; }
+      .listing-inner-holder .listing-key--info .icon-list-v2 img {
+        width: 20px;
+        height: 20px;
+        object-fit: contain; } }
 .listing-inner-holder .listing-key--info .awning-image {
   width: calc(50% - (var(--sm-spacing) / 2)); }
+  @media screen and (max-width: 767px) {
+    .listing-inner-holder .listing-key--info .awning-image {
+      width: 100%;
+      flex: 100%;
+      display: flex;
+      align-items: start;
+      justify-content: space-between;
+      gap: 20px;
+      padding-top: 20px;
+      padding-bottom: 20px; }
+      .listing-inner-holder .listing-key--info .awning-image img {
+        max-width: 230px; } }
+@media screen and (max-width: 767px) {
+  .listing-inner-holder .listing-inner--specifications {
+    border-top: 1px solid var(--bs-border-color);
+    margin-top: var(--xs-spacing);
+    padding-top: var(--xs-spacing); }
+    .listing-inner-holder .listing-inner--specifications .accordion {
+      border: none !important;
+      padding: 0;
+      --bs-accordion-btn-padding-y: 10px; }
+      .listing-inner-holder .listing-inner--specifications .accordion .accordion-button-inner .icon-text {
+        font-size: 16px; }
+        .listing-inner-holder .listing-inner--specifications .accordion .accordion-button-inner .icon-text .icon {
+          flex: 0 0 20px; }
+          .listing-inner-holder .listing-inner--specifications .accordion .accordion-button-inner .icon-text .icon svg {
+            width: 20px;
+            height: 20px; }
+  .listing-inner-holder .listing--details-mobile {
+    border-bottom: 1px solid var(--bs-border-color);
+    margin-bottom: var(--xs-spacing);
+    padding-bottom: var(--xs-spacing); } }
 
 .offcanvas-form--form-fields {
   padding: 30px; }
