@@ -183,6 +183,33 @@ function swiper_sliders() {
         },
     });
 
+    var swiper_listing_related = new Swiper(".swiper-listing-related", {
+
+        breakpoints: {
+            0: {
+                slidesPerView: 'auto',
+                spaceBetween: 12,
+                freeMode: true,
+            },
+
+
+            992: {
+                slidesPerView: 2,
+                spaceBetween: 20,
+            },
+
+        },
+
+        navigation: {
+            nextEl: ".swiper-button-next",
+            prevEl: ".swiper-button-prev",
+        },
+
+        pagination: {
+            el: '.swiper-pagination',
+        },
+    });
+
 
     jQuery('.nav-tabs-swiper .swiper-slide').each(function (index, element) {
         $width = jQuery(this).find('.nav-link').outerWidth();
