@@ -2,7 +2,50 @@ jQuery(document).ready(function () {
     swiper_sliders();
     //fancybox();
     header();
+    templates();
 });
+
+function templates() {
+    fetch('template-parts/--topbar.html') // Path to the HTML file you want to insert
+        .then(response => response.text())
+        .then(data => {
+            document.getElementById('top-bar-insert').innerHTML = data;
+        })
+        .catch(error => {
+            console.error('Error fetching the HTML file:', error);
+            document.getElementById('content-to-insert').innerHTML = '<p>Error loading content.</p>';
+        });
+
+    fetch('template-parts/--header.html') // Path to the HTML file you want to insert
+        .then(response => response.text())
+        .then(data => {
+            document.getElementById('header-insert').innerHTML = data;
+        })
+        .catch(error => {
+            console.error('Error fetching the HTML file:', error);
+            document.getElementById('content-to-insert').innerHTML = '<p>Error loading content.</p>';
+        });
+
+    fetch('template-parts/offcanvas/--offcanvas-menu.html') // Path to the HTML file you want to insert
+        .then(response => response.text())
+        .then(data => {
+            document.getElementById('offcanvas-menu').innerHTML = data;
+        })
+        .catch(error => {
+            console.error('Error fetching the HTML file:', error);
+            document.getElementById('content-to-insert').innerHTML = '<p>Error loading content.</p>';
+        });
+
+    fetch('template-parts/--footer.html') // Path to the HTML file you want to insert
+        .then(response => response.text())
+        .then(data => {
+            document.getElementById('footer-insert').innerHTML = data;
+        })
+        .catch(error => {
+            console.error('Error fetching the HTML file:', error);
+            document.getElementById('content-to-insert').innerHTML = '<p>Error loading content.</p>';
+        });
+}
 
 function header() {
     setTimeout(function () {
