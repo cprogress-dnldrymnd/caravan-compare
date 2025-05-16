@@ -1,0 +1,91 @@
+.wp-block-site-logo {
+    img {
+        @include responsive(small-lg) {
+            max-width: 200px;
+        }
+    }
+}
+
+.header-menu.header-menu.header-menu {
+    gap: 1vw;
+    @include responsive(small-lg) {
+        font-size: 20px;
+        gap: 10px;
+    }
+
+    @include responsive(md) {
+        font-size: 18px;
+        gap: 8px;
+    }
+}
+.search-stock-row {
+    .button-col {
+        @include responsive(xs-sm) {
+            order: 12;
+        }
+    }
+}
+
+.main-header {
+    z-index: 9999;
+}
+
+.header-tel {
+    a {
+        display: inline-flex;
+        align-items: center;
+        text-decoration: none;
+        gap: 10px;
+        @include before {
+            content: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="%23202020" class="bi bi-telephone-fill" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.68.68 0 0 0 .178.643l2.457 2.457a.68.68 0 0 0 .644.178l2.189-.547a1.75 1.75 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.6 18.6 0 0 1-7.01-4.42 18.6 18.6 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877z"/></svg>');
+        }
+    }
+}
+
+/*new*/
+.top-bar {
+    a {
+        text-decoration: none;
+    }
+}
+
+.menu-burger {
+    border: none;
+    background-color: transparent;
+    padding: 0;
+    position: relative;
+    color: var(--bs-white);
+    outline: none;
+    .icon .menu,
+    .icon .menu::before,
+    .icon .menu::after {
+        background-color: currentColor;
+        content: "";
+        display: block;
+        height: 3px;
+        position: absolute;
+        transition:
+            background ease 0.3s,
+            top ease 0.3s 0.3s,
+            transform ease 0.3s;
+        width: 25px;
+    }
+    .icon {
+        cursor: pointer;
+        display: block;
+        height: 19px;
+        width: 25px;
+        position: relative;
+
+        .menu {
+            left: 0;
+            top: 8px;
+            @include before {
+                top: -8px;
+            }
+            @include after {
+                top: 8px;
+            }
+        }
+    }
+}

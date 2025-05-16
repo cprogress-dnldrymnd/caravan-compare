@@ -1,0 +1,277 @@
+.container {
+    @media (min-width: 1500px) {
+        max-width: 1420px;
+    }
+
+    &:not(.medium-container) {
+        @media (min-width: 1600px) {
+            max-width: 1520px;
+        }
+
+        @media (min-width: 1700px) {
+            max-width: 1620px;
+        }
+
+        @media (min-width: 1800px) {
+            max-width: 1720px;
+        }
+    }
+}
+.background-text {
+    background-color: var(--text-color);
+}
+.background-white {
+    background-color: var(--white-color);
+}
+
+.background-pink {
+    background-color: var(--pink-color);
+}
+
+.background-secondary {
+    background-color: var(--green-color);
+}
+.background-black {
+    background-color: var(--bs-black);
+}
+.background-teal {
+    background-color: var(--teal-color);
+}
+
+.background-accent {
+    background-color: var(--accent-color);
+}
+
+.background-lightgray {
+    background-color: var(--lightgray-color);
+}
+
+.background-lightgray-2 {
+    background-color: var(--lightgray-color-2);
+}
+
+.background-lightgray-3 {
+    background-color: var(--lightgray-color-3);
+}
+
+.background-light-gray-4 {
+    background-color: var(--lightgray-color-4);
+}
+.background-lightgray-5 {
+    background-color: var(--lightgray-color-5);
+}
+.background-yellow {
+    background-color: var(--yellow-color);
+}
+.background-transparent {
+    background-color: transparent;
+}
+.background-gray {
+    background-color: var(--gray-color);
+}
+
+.background-white {
+    background-color: var(--bs-white);
+}
+
+.full-image {
+    img {
+        width: 100%;
+    }
+}
+
+:root {
+    --xxs-spacing: 20px;
+    --xs-spacing: 40px;
+    --sm-spacing: 60px;
+    --md-spacing: 80px;
+    --lg-spacing: 100px;
+    --xl-spacing: 120px;
+
+    @include responsive(xs-sm) {
+        --xs-spacing: 30px;
+        --sm-spacing: 50px;
+        --md-spacing: 70px;
+        --lg-spacing: 80px;
+        --xl-spacing: 100px;
+    }
+
+    @include responsive(xs) {
+        --xs-spacing: 20px;
+        --sm-spacing: 25px;
+        --md-spacing: 40px;
+        --lg-spacing: 60px;
+        --xl-spacing: 80px;
+    }
+}
+
+.xl-padding {
+    padding: var(--xl-spacing);
+}
+
+.xl-padding-top {
+    padding-top: var(--xl-spacing);
+}
+
+.xl-padding-bottom {
+    padding-bottom: var(--xl-spacing);
+}
+
+.md-padding {
+    padding: var(--md-spacing);
+}
+
+.md-padding-top {
+    padding-top: var(--md-spacing);
+}
+
+.md-padding-bottom {
+    padding-bottom: var(--md-spacing);
+}
+
+.sm-padding-top {
+    padding-top: var(--sm-spacing);
+}
+
+.sm-padding-bottom {
+    padding-bottom: var(--sm-spacing);
+}
+
+.md-padding {
+    padding: var(--md-spacing);
+}
+
+.xxs-padding {
+    padding: var(--xxs-spacing);
+}
+
+.xxs-padding-top {
+    padding-top: var(--xxs-spacing);
+}
+
+.xs-padding {
+    padding: var(--xs-spacing);
+}
+
+.xs-margin-bottom {
+    margin-bottom: var(--xs-spacing);
+}
+
+.sm-margin-bottom {
+    margin-bottom: var(--sm-spacing);
+}
+.sm-margin-top {
+    margin-top: var(--sm-spacing);
+}
+.md-margin-top {
+    margin-top: var(--md-spacing);
+}
+.md-margin-bottom {
+    margin-bottom: var(--md-spacing);
+}
+
+.md-padding-mobile {
+    @include responsive(xs) {
+        padding: var(--md-spacing);
+    }
+}
+
+.text-color {
+    color: var(--text-color);
+}
+
+.text-pink {
+    color: var(--pink-color);
+}
+
+.text-pink-3 {
+    color: var(--pink-color-3);
+}
+
+.text-pink-4 {
+    color: var(--pink-color-4);
+}
+
+.text-red {
+    color: var(--red-color) !important;
+}
+.text-gold {
+    color: var(--gold-color) !important;
+}
+
+.mw-600 {
+    max-width: 600px;
+}
+
+.g-xxs {
+    --bs-gutter-x: 8px;
+    --bs-gutter-y: 8px;
+}
+.g-xs {
+    --bs-gutter-x: 16px;
+    --bs-gutter-y: 16px;
+}
+.g-sm {
+    --bs-gutter-x: 20px;
+    --bs-gutter-y: 20px;
+}
+.g-lg {
+    --bs-gutter-x: 100px;
+    --bs-gutter-y: 100px;
+}
+.col-no-gap {
+    gap: 0 !important;
+}
+
+:where(.is-layout-grid) {
+    gap: 40px;
+
+    @include responsive(xs) {
+        gap: 20px;
+    }
+
+    @include responsive(mobile) {
+        gap: 10px;
+    }
+}
+
+.row {
+    &.g-4 {
+        --bs-gutter-x: 40px;
+        --bs-gutter-y: 40px;
+    }
+}
+
+.mb-20 {
+    margin-bottom: 20px;
+}
+
+.mt-20 {
+    margin-top: 20px;
+}
+
+.pb-20 {
+    padding-bottom: 20px;
+}
+
+.p-20 {
+    padding: 20px;
+}
+
+.box-shadow {
+    @include box-shadow(0px 8px 22px #00000014);
+}
+
+.gap-24 {
+    gap: 24px;
+}
+
+.double-line-height {
+    line-height: 1.8;
+}
+
+/*new*/
+
+.background-gradient-1 {
+    background: transparent linear-gradient(180deg, #eeeee9 0%, #ffa7d4 100%) 0% 0% no-repeat padding-box;
+}
