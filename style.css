@@ -11460,7 +11460,10 @@ img {
   border-radius: 0; }
 .accordion-style-2 .accordion-button {
   font-size: 18px;
-  font-weight: bold; }
+  font-weight: bold;
+  background-color: transparent;
+  border: none;
+  box-shadow: none; }
   .accordion-style-2 .accordion-button svg {
     width: 30px;
     height: 30px;

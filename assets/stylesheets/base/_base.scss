@@ -463,6 +463,9 @@ img {
     .accordion-button {
         font-size: 18px;
         font-weight: bold;
+        background-color: transparent;
+        border: none;
+        box-shadow: none;
         svg {
             width: 30px;
             height: 30px;
