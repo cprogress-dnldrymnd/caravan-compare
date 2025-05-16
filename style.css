@@ -12141,6 +12141,12 @@ h5, .h5 {
   width: 34px;
   height: 28px; }
 
+#main-header .logo-box a {
+  color: inherit; }
+
+.header-style-1 {
+  color: var(--bs-white); }
+
 footer hr {
   opacity: 0.5;
   margin-top: var(--md-spacing);
