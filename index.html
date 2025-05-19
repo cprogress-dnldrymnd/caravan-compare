@@ -1731,6 +1731,8 @@
         console.error('Error fetching the HTML file:', error);
         document.getElementsByClassName('blog-grid-insert').innerHTML = '<p>Error loading content.</p>';
       });
-
+    jQuery(document).ready(function () {
+      jQuery('.blog-grid-insert').text('xxx');
+    });
   }, 2000);
 </script>
