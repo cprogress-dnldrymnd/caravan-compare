@@ -12470,7 +12470,7 @@ footer hr {
         width: 20px;
         height: 20px; } }
     .listing-inner-holder .listing-inner--tabs .nav-tabs .nav-link.active {
-      background-color: var(--dark-color);
+      background-color: var(--text-color);
       color: var(--bs-white); }
       @media screen and (max-width: 575px) {
         .listing-inner-holder .listing-inner--tabs .nav-tabs .nav-link.active {
