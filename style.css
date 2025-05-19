@@ -11966,6 +11966,9 @@ form > .form-group:not(:last-child) {
   width: 100%;
   max-width: 255px; }
 
+.mw-350 {
+  max-width: 350px; }
+
 body {
   font-family: "Onest", sans-serif;
   color: var(--text-color);
