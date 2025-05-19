@@ -12265,9 +12265,11 @@ h5, .h5 {
 .hero-background-darkgreen section.hero {
   background-color: var(--darkgreen-color); }
 
-.hero-background-darkgreen section.hero {
+.hero-background-darkgreen section.hero,
+.hero-background-pink section.hero {
   color: var(--bs-white); }
-  .hero-background-darkgreen section.hero a:not(.btn) {
+  .hero-background-darkgreen section.hero a:not(.btn),
+  .hero-background-pink section.hero a:not(.btn) {
     color: inherit; }
 
 footer hr {
