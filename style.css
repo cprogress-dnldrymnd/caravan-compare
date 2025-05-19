@@ -12278,9 +12278,9 @@ footer hr {
 .listing-grid-item__badges {
   --bs-border-radius: 50px;
   --bs-border-color: var(--text-color); }
-  .listing-grid-item__badges .listing-grid-item__badge {
+  .listing-grid-item__badges .listing-grid-item__badge.highlight {
     background-color: var(--lightgreen-color);
-    --bs-border-color: var(--text-color); }
+    --bs-border-color: var(--lightgreen-color); }
 
 .listing-grid-item__prices .grid-item__price-inner {
   background-color: var(--lightgray-color);
@@ -12685,7 +12685,7 @@ section.hero {
     position: absolute;
     bottom: -5px;
     right: 0;
-    content: '';
+    content: "";
     height: 100%;
     width: 67%;
     background-size: cover;

@@ -53,7 +53,7 @@
 .listing-grid-item__badges {
     --bs-border-radius: 50px;
     --bs-border-color: var(--text-color);
-    .listing-grid-item__badge {
+    .listing-grid-item__badge.highlight {
         background-color: var(--lightgreen-color);
         --bs-border-color: var(--lightgreen-color);
     }
