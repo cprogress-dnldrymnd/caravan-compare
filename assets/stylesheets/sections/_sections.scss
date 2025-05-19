@@ -759,3 +759,11 @@ section.newsletter {
         height: 50px;
     }
 }
+
+.blog-navigation {
+    a {
+        @include on-event {
+            opacity: 0.5;
+        }
+    }
+}
