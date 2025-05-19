@@ -335,3 +335,9 @@
 .mw-350 {
     max-width: 350px;
 }
+
+.row-swap {
+    .blogs-row {
+        flex-direction: row-reverse;
+    }
+}

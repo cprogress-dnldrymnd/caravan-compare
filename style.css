@@ -11984,6 +11984,9 @@ form > .form-group:not(:last-child) {
 .mw-350 {
   max-width: 350px; }
 
+.row-swap .blogs-row {
+  flex-direction: row-reverse; }
+
 body {
   font-family: "Onest", sans-serif;
   color: var(--text-color);
