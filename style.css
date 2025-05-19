@@ -12673,6 +12673,8 @@ section.hero {
     position: absolute;
     bottom: -5px;
     right: 0; }
+    section.hero:before .container {
+      position: relative; }
 
 section.listing-single .listing-single--left {
   padding: 20px;
