@@ -11735,6 +11735,7 @@ form > .form-group:not(:last-child) {
 .blog-content--inner .h5,
 .blog-content--inner h6,
 .blog-content--inner .h6 {
+  margin-top: 3rem;
   margin-bottom: 3rem; }
 
 @media (min-width: 1500px) {

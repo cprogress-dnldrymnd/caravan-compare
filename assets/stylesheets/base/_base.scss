@@ -858,6 +858,7 @@ form {
 
 .blog-content--inner {
     @include headings {
+        margin-top: 3rem;
         margin-bottom: 3rem;
     }
 }
