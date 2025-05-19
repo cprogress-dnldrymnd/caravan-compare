@@ -12663,6 +12663,10 @@ section.hero {
     z-index: 2; }
   section.hero .hero-title-image .image-box img {
     margin-bottom: calc(var(--image-margin) - (var(--image-margin) * 2)); }
+  section.hero.background-pink {
+    color: var(--bs-white); }
+    section.hero.background-pink a {
+      color: inherit; }
 
 section.listing-single .listing-single--left {
   padding: 20px;
