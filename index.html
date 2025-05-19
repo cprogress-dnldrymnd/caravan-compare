@@ -1720,9 +1720,7 @@
       console.error('Error fetching the HTML file:', error);
       document.getElementById('blogs-insert').innerHTML = '<p>Error loading content.</p>';
     });
-
-  setTimeout(function () {
-    fetch('template-parts/listing-grids/---blog.html') // Path to the HTML file you want to insert
+    fetch('template-parts/listing-grids/----blog.html') // Path to the HTML file you want to insert
       .then(response => response.text())
       .then(data => {
         document.getElementById('blog-grid-insert').innerHTML = data;
@@ -1731,6 +1729,8 @@
         console.error('Error fetching the HTML file:', error);
         document.getElementById('blog-grid-insert').innerHTML = '<p>Error loading content.</p>';
       });
+  setTimeout(function () {
+
 
   }, 1000);
 </script>
