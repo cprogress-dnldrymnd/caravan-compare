@@ -153,10 +153,25 @@
         background-color: var(--darkgreen-color);
     }
 }
+.hero-background-pink {
+}
 
 .hero-background-pink {
-    color: var(--bs-white);
-    a:not(.btn){
-        color: inherit;
+    section.hero {
+        background-color: var(--pink-color);
+    }
+}
+
+.hero-background-darkgreen {
+    section.hero {
+        background-color: var(--darkgreen-color);
+    }
+}
+.hero-background-darkgreen {
+    section.hero {
+        color: var(--bs-white);
+        a:not(.btn) {
+            color: inherit;
+        }
     }
 }
