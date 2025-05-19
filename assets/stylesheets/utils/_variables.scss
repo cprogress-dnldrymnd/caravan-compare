@@ -6,22 +6,23 @@ $image-url: "./assets/images/" !default;
 $font-url: "./assets/fonts/" !default;
 
 :root {
-    --pink-color: #F2007D;
+    --pink-color: #f2007d;
     --green-color: #45c324;
-    --lightgreen-color: #AFFF55;
-    --yellow-color: #F3EB04;
-    --teal-color: #00E8F7;
-    --blue-color: #00BCE2;
-    --text-color: #201F1F;
+    --darkgreen-color: #006363;
+    --lightgreen-color: #afff55;
+    --yellow-color: #f3eb04;
+    --teal-color: #00e8f7;
+    --blue-color: #00bce2;
+    --text-color: #201f1f;
     --dark-color: #505050;
-    --gray-color: #CCCCCC;
-    --red-color: #CC0909;
-    --gold-color: #FBBC05;
-    --lightgray-color: #EBE8E9;
+    --gray-color: #cccccc;
+    --red-color: #cc0909;
+    --gold-color: #fbbc05;
+    --lightgray-color: #ebe8e9;
     --lightgray-color-2: #eeeee9;
-    --lightgray-color-3: #F9F9F9;
-    --lightgray-color-4: #F6F6F6;
+    --lightgray-color-3: #f9f9f9;
+    --lightgray-color-4: #f6f6f6;
     --lightgray-color-5: #4b4b2d;
     --bs-border-radius: 5px;
-    --bs-border-color: #CDCDCD;
+    --bs-border-color: #cdcdcd;
 }
