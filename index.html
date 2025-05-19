@@ -1675,117 +1675,7 @@
             The latest from the industry
           </h2>
         </div>
-        <div class="blogs--holder">
-          <div class="row g-sm">
-            <div class="col-lg-6">
-              <div class="blog-grid--holder h-100">
-                <div class="row g-sm h-100">
-                  <div class="col-lg-6">
-                    <div
-                      class="blog-grid--inner background-white rounded overflow-hidden h-100 d-flex flex-column justify-content-between">
-                      <div class="image-box image-style">
-                        <img src="./images/img1 (2).png" alt="">
-                      </div>
-                      <div class="content-box p-20">
-                        <div class="blog-grid--category fs-14 fw-semibold mb-3">
-                          <span>News</span>
-                        </div>
-                        <div class="blog-grid--title mb-4">
-                          <h3 class="fs-25 fw-semibold">Best kept dealership in the UK: A great day out for the family
-                            lorem ipssum</h3>
-                        </div>
-                        <div class="blog-grid--date fs-14 fw-semibold">
-                          14th April
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-lg-6">
-                    <div
-                      class="blog-grid--inner background-white rounded overflow-hidden h-100 d-flex flex-column justify-content-between">
-                      <div class="image-box image-style">
-                        <img src="./images/img2.png" alt="">
-                      </div>
-                      <div class="content-box p-20">
-                        <div class="blog-grid--category fs-14 fw-semibold mb-3">
-                          <span>Reviews</span>
-                        </div>
-                        <div class="blog-grid--title mb-4">
-                          <h3 class="fs-25 fw-semibold">Swift unveils Sprite Exclusive caravan range as part of 2025...
-                          </h3>
-                        </div>
-                        <div class="blog-grid--date fs-14 fw-semibold">
-                          14th April
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-lg-6">
-                    <div
-                      class="blog-grid--inner background-white rounded overflow-hidden h-100 d-flex flex-column justify-content-between">
-                      <div class="image-box image-style">
-                        <img src="./images/img3.png" alt="">
-                      </div>
-                      <div class="content-box p-20">
-                        <div class="blog-grid--category fs-14 fw-semibold mb-3">
-                          <span>News</span>
-                        </div>
-                        <div class="blog-grid--title mb-4">
-                          <h3 class="fs-25 fw-semibold">Practical Caravan Awards 2025 - HIGHLY COMMENDED – Best 6...
-                          </h3>
-                        </div>
-                        <div class="blog-grid--date fs-14 fw-semibold">
-                          14th April
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-lg-6">
-                    <div
-                      class="blog-grid--inner background-white rounded overflow-hidden h-100 d-flex flex-column justify-content-between">
-                      <div class="image-box image-style">
-                        <img src="./images/img2.png" alt="">
-                      </div>
-                      <div class="content-box p-20">
-                        <div class="blog-grid--category fs-14 fw-semibold mb-3">
-                          <span>Reviews</span>
-                        </div>
-                        <div class="blog-grid--title mb-4">
-                          <h3 class="fs-25 fw-semibold">Swift unveils Sprite Exclusive caravan range as part of 2025...
-                          </h3>
-                        </div>
-                        <div class="blog-grid--date fs-14 fw-semibold">
-                          14th April
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-lg-6">
-              <div class="blog-grid--holder--featured h-100">
-                <div
-                  class="blog-grid--holder--featured-inner background-text text-white rounded overflow-hidden h-100 d-flex flex-column justify-content-between">
-                  <div class="image-box image-style">
-                    <img src="./images/img4.png" alt="">
-                  </div>
-                  <div class="content-box p-5">
-                    <div class="blog-grid--category fs-14 fw-semibold mb-3">
-                      <span>News</span>
-                    </div>
-                    <div class="blog-grid--title mb-4">
-                      <h3 class="h2 fw-semibold">A Beginner’s Guide to Owning Your First Motorhome</h3>
-                    </div>
-                    <div class="blog-grid--date fs-14 fw-semibold">
-                      14th April
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
+        <div id="blogs-insert"></div>
         <div class="button-box text-center mt-5">
           <a type="submit" class="btn btn-primary btn-lg">Visit the blog</a>
         </div>
@@ -1821,5 +1711,16 @@
       document.getElementById('listing-tab-insert').innerHTML = '<p>Error loading content.</p>';
     });
 
+    fetch('template-parts/---blogs.html') // Path to the HTML file you want to insert
+    .then(response => response.text())
+    .then(data => {
+      document.getElementById('blogs-insert').innerHTML = data;
+    })
+    .catch(error => {
+      console.error('Error fetching the HTML file:', error);
+      document.getElementById('blogs-insert').innerHTML = '<p>Error loading content.</p>';
+    });
 
+
+    
 </script>
