@@ -11741,7 +11741,8 @@ form > .form-group:not(:last-child) {
 .avatar img {
   width: 150px;
   height: 150px;
-  border-radius: 50%; }
+  border-radius: 50%;
+  object-fit: cover; }
 
 @media (min-width: 1500px) {
   .container {
