@@ -1726,8 +1726,8 @@
       .then(response => response.text())
       .then(data => {
         console.log(data);
-
-       // document.getElementsByClassName('blog-grid-insert').innerHTML = data;
+        jQuery('.blog-grid-insert').html(data);
+        // document.getElementsByClassName('blog-grid-insert').innerHTML = data;
       })
       .catch(error => {
         console.error('Error fetching the HTML file:', error);
