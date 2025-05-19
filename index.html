@@ -1725,8 +1725,9 @@
     fetch('template-parts/listing-grids/----blog.htmls') // Path to the HTML file you want to insert
       .then(response => response.text())
       .then(data => {
-        document.getElementsByClassName('blog-grid-insert').innerHTML = data;
         console.log(data);
+
+       // document.getElementsByClassName('blog-grid-insert').innerHTML = data;
       })
       .catch(error => {
         console.error('Error fetching the HTML file:', error);
