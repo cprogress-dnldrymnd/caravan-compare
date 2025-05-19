@@ -12804,6 +12804,9 @@ section.newsletter {
   .blog-navigation a:hover, .blog-navigation a:active, .blog-navigation a:focus {
     opacity: 0.5; }
 
+.blog-search label {
+  opacity: 0.5; }
+
 /*-----------------------------------------------------------------------------------*/
 /* Plugins
 /*-----------------------------------------------------------------------------------*/
