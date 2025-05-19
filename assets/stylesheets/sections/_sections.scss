@@ -642,6 +642,7 @@ section.hero {
     padding-top: calc(var(--header-height) + var(--top-bar-height));
     margin-bottom: var(--image-margin);
     position: relative;
+    overflow: hidden;
     .container {
         z-index: 2;
     }
@@ -663,9 +664,9 @@ section.hero {
         position: absolute;
         bottom: -5px;
         right: 0;
-        .container {
-            position: relative;
-        }
+    }
+    .container {
+        position: relative;
     }
 }
 
@@ -732,11 +733,10 @@ section.listing-single {
     }
 }
 
-
 .dealer-reviews-slider--inner {
     border-top-left-radius: 0 !important;
     @include before {
-        content: '';
+        content: "";
         width: 0;
         height: 0;
         border-bottom: 20px solid var(--bs-white);

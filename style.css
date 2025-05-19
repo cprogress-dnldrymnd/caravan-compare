@@ -12659,7 +12659,8 @@ section.hero {
   --image-margin: 80px;
   padding-top: calc(var(--header-height) + var(--top-bar-height));
   margin-bottom: var(--image-margin);
-  position: relative; }
+  position: relative;
+  overflow: hidden; }
   section.hero .container {
     z-index: 2; }
   section.hero .hero-title-image .image-box img {
@@ -12673,8 +12674,8 @@ section.hero {
     position: absolute;
     bottom: -5px;
     right: 0; }
-    section.hero:before .container {
-      position: relative; }
+  section.hero .container {
+    position: relative; }
 
 section.listing-single .listing-single--left {
   padding: 20px;
@@ -12720,7 +12721,7 @@ section.listing-single .nav-tabs-holder {
 .dealer-reviews-slider--inner {
   border-top-left-radius: 0 !important; }
   .dealer-reviews-slider--inner:before {
-    content: '';
+    content: "";
     width: 0;
     height: 0;
     border-bottom: 20px solid var(--bs-white);
