@@ -834,3 +834,9 @@ form {
         height: 75px;
     }
 }
+
+.checkbox-group{
+    .form-check-input {
+        margin-top: 1px;
+    }
+}
