@@ -11698,6 +11698,11 @@ span.icons {
     border-radius: 5px;
     overflow: hidden; } }
 
+form > .form-group:not(:last-child) {
+  border-bottom: 1px solid #707070;
+  margin-bottom: 40px;
+  padding-bottom: 40px; }
+
 @media (min-width: 1500px) {
   .container {
     max-width: 1420px; } }

@@ -827,3 +827,13 @@ span.icons {
         overflow: hidden;
     }
 }
+
+form {
+    > .form-group {
+        @include not-last-child {
+            border-bottom: 1px solid #707070;
+            margin-bottom: 40px;
+            padding-bottom: 40px;
+        }
+    }
+}
