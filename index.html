@@ -1711,7 +1711,7 @@
       document.getElementById('listing-tab-insert').innerHTML = '<p>Error loading content.</p>';
     });
 
-    fetch('template-parts/---blogs.html') // Path to the HTML file you want to insert
+  fetch('template-parts/---blogs.html') // Path to the HTML file you want to insert
     .then(response => response.text())
     .then(data => {
       document.getElementById('blogs-insert').innerHTML = data;
@@ -1721,6 +1721,15 @@
       document.getElementById('blogs-insert').innerHTML = '<p>Error loading content.</p>';
     });
 
+  fetch('template-parts/listing-grids/---blog.html') // Path to the HTML file you want to insert
+    .then(response => response.text())
+    .then(data => {
+      document.getElementById('blog-grid-insert').innerHTML = data;
+    })
+    .catch(error => {
+      console.error('Error fetching the HTML file:', error);
+      document.getElementById('blog-grid-insert').innerHTML = '<p>Error loading content.</p>';
+    });
 
-    
+
 </script>
