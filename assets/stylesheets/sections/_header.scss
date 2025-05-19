@@ -153,8 +153,6 @@
         background-color: var(--darkgreen-color);
     }
 }
-.hero-background-pink {
-}
 
 .hero-background-pink {
     section.hero {
@@ -167,7 +165,8 @@
         background-color: var(--darkgreen-color);
     }
 }
-.hero-background-darkgreen {
+.hero-background-darkgreen,
+.hero-background-pink {
     section.hero {
         color: var(--bs-white);
         a:not(.btn) {
