@@ -762,6 +762,7 @@ section.newsletter {
 
 .blog-navigation {
     a {
+        color: var(--text-color);
         @include on-event {
             opacity: 0.5;
         }
