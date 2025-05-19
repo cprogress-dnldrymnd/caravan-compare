@@ -11738,6 +11738,11 @@ form > .form-group:not(:last-child) {
   margin-top: 3rem;
   margin-bottom: 3rem; }
 
+.avatar img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%; }
+
 @media (min-width: 1500px) {
   .container {
     max-width: 1420px; } }
