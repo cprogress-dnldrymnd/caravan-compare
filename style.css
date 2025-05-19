@@ -12657,7 +12657,8 @@ section.search-stock-holder {
     left: 0;
     right: 0;
     z-index: 1;
-    height: 252px; }
+    height: 252px;
+    bottom: 0; }
   .blog-grid--holder--featured .content-box {
     background-color: #171717; }
 
