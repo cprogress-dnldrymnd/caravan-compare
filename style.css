@@ -12658,7 +12658,8 @@ section.forms .container > .row > .col-lg-6:not(:last-child) {
 section.hero {
   --image-margin: 80px;
   padding-top: calc(var(--header-height) + var(--top-bar-height));
-  margin-bottom: var(--image-margin); }
+  margin-bottom: var(--image-margin);
+  position: relative; }
   section.hero .container {
     z-index: 2; }
   section.hero .hero-title-image .image-box img {
