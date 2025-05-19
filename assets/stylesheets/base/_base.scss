@@ -703,9 +703,15 @@ span.icons {
 
 .sidebar {
     --bs-border-radius: 15px;
-    > div {
+    & > div {
         @include not-last-child {
             margin-bottom: 25px;
+        }
+    }
+    &.sidebar-style-2 {
+        & > div {
+            border-bottom: 1px solid #D6D6D6;
+            padding-bottom: 25px;
         }
     }
 }
@@ -762,7 +768,6 @@ span.icons {
             }
         }
     }
-  
 }
 
 .listing-filter {
@@ -835,11 +840,11 @@ form {
     }
 }
 
-.checkbox-group{
+.checkbox-group {
     .form-check-input {
         margin-top: 1px;
     }
 }
 .disclaimer {
-    color: #6A6A6A;
+    color: #6a6a6a;
 }
