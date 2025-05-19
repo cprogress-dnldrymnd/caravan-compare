@@ -658,7 +658,7 @@ section.hero {
     }
     &.background-pink {
         color: var(--bs-white);
-        a:not(.btn) {
+        a:not(.btn){
             color: inherit;
         }
     }
