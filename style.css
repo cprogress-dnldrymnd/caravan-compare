@@ -11702,6 +11702,10 @@ form > .form-group:not(:last-child) {
   margin-bottom: 40px;
   padding-bottom: 40px; }
 
+.icon-box--holder .icon svg {
+  width: 75px;
+  height: 75px; }
+
 @media (min-width: 1500px) {
   .container {
     max-width: 1420px; } }
