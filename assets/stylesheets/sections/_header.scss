@@ -148,6 +148,11 @@
         }
     }
 }
+.header-background-pink {
+    #main-header {
+        background-color: var(--pink-color);
+    }
+}
 .header-background-darkgreen {
     #main-header {
         background-color: var(--darkgreen-color);
