@@ -11996,6 +11996,9 @@ form > .form-group:not(:last-child) {
 .row-swap .blogs-row {
   flex-direction: row-reverse; }
 
+.opacity-half {
+  opacity: 0.5; }
+
 body {
   font-family: "Onest", sans-serif;
   color: var(--text-color);
@@ -12809,9 +12812,6 @@ section.newsletter {
   color: var(--text-color); }
   .blog-navigation a:hover, .blog-navigation a:active, .blog-navigation a:focus {
     opacity: 0.5; }
-
-.blog-search label {
-  opacity: 0.5; }
 
 /*-----------------------------------------------------------------------------------*/
 /* Plugins
