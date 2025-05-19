@@ -11709,6 +11709,9 @@ form > .form-group:not(:last-child) {
 .checkbox-group .form-check-input {
   margin-top: 1px; }
 
+.disclaimer {
+  color: #6A6A6A; }
+
 @media (min-width: 1500px) {
   .container {
     max-width: 1420px; } }
