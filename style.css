@@ -11702,14 +11702,17 @@ span.icons {
   .container {
     max-width: 1420px; } }
 @media (min-width: 1600px) {
-  .container:not(.medium-container) {
+  .container:not(.medium-container):not(.small-container) {
     max-width: 1520px; } }
 @media (min-width: 1700px) {
-  .container:not(.medium-container) {
+  .container:not(.medium-container):not(.small-container) {
     max-width: 1620px; } }
 @media (min-width: 1800px) {
-  .container:not(.medium-container) {
+  .container:not(.medium-container):not(.small-container) {
     max-width: 1720px; } }
+@media (min-width: 992px) {
+  .container.small-container {
+    max-width: 800px; } }
 
 .background-text {
   background-color: var(--text-color); }
