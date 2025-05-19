@@ -132,8 +132,27 @@
                                         breakdowns) are offered.
                                     </p>
                                 </div>
-                                <div class="newsletter-insert"></div>
+                                <div class="blog--author">
+                                    <div class="row">
+                                        <div class="col-lg-3">
 
+                                        </div>
+                                        <div class="col-lg-9">
+                                            <h3>
+                                                James Maddison
+                                            </h3>
+                                            <div class="desc">Sales & Marketing</div>
+                                            <div class="logo-box">
+                                                <a href="#"
+                                                    class="text-decoration-none d-flex gap-3 align-items-center">
+                                                    <span class="circle"></span>
+                                                    <span class="text">CompareCaravan</span>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="newsletter-insert"></div>
                             </div>
                         </section>
                     </div>
@@ -166,7 +185,7 @@
 
 </html>
 <script>
-       fetch('template-parts/--newsletter.html') // Path to the HTML file you want to insert
+    fetch('template-parts/--newsletter.html') // Path to the HTML file you want to insert
         .then(response => response.text())
         .then(data => {
             jQuery('.newsletter-insert').html(data);
