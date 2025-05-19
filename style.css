@@ -11724,6 +11724,19 @@ form > .form-group:not(:last-child) {
   width: 24px;
   height: 24px; }
 
+.blog-content--inner h1, .blog-content--inner .h1,
+.blog-content--inner h2,
+.blog-content--inner .h2,
+.blog-content--inner h3,
+.blog-content--inner .h3,
+.blog-content--inner h4,
+.blog-content--inner .h4,
+.blog-content--inner h5,
+.blog-content--inner .h5,
+.blog-content--inner h6,
+.blog-content--inner .h6 {
+  margin-bottom: 3rem; }
+
 @media (min-width: 1500px) {
   .container {
     max-width: 1420px; } }

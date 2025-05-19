@@ -855,3 +855,9 @@ form {
         height: 24px;
     }
 }
+
+.blog-content--inner {
+    @include headings {
+        margin-bottom: 3rem;
+    }
+}
