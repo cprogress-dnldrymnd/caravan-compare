@@ -12790,9 +12790,11 @@ section.listing-single .nav-tabs-holder {
     top: -20px;
     left: 0; }
 
-section.newsletter .icon svg {
-  width: 50px;
-  height: 50px; }
+section.newsletter {
+  --bs-border-radius: 10px; }
+  section.newsletter .icon svg {
+    width: 50px;
+    height: 50px; }
 
 /*-----------------------------------------------------------------------------------*/
 /* Plugins
