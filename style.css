@@ -11632,6 +11632,9 @@ span.icons {
   --bs-border-radius: 15px; }
   .sidebar > div:not(:last-child) {
     margin-bottom: 25px; }
+  .sidebar.sidebar-style-2 > div {
+    border-bottom: 1px solid #D6D6D6;
+    padding-bottom: 25px; }
 
 .menu-holder .menu li a {
   text-decoration: none;
