@@ -12029,6 +12029,10 @@ form > .form-group:not(:last-child) {
 .opacity-half {
   opacity: 0.5; }
 
+.icon-size-md svg {
+  height: 50px;
+  width: 50px; }
+
 body {
   font-family: "Onest", sans-serif;
   color: var(--text-color);
