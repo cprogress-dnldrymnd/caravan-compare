@@ -187,6 +187,11 @@
                             </div>
                             <div class="sidebar--blog--iner">
                                 <h5 class="opacity-half">Related posts</h5>
+                                <div class="row g-3">
+                                    <div class="col-12 related-post-insert">
+
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -235,5 +240,17 @@
             jQuery('.socials-insert').html('<p>Error loading content.</p>');
 
         });
+
+    fetch('template-parts/listing-grids/----blog-large.html') // Path to the HTML file you want to insert
+        .then(response => response.text())
+        .then(data => {
+            jQuery('.related-post-insert').html(data);
+        })
+        .catch(error => {
+            console.error('Error fetching the HTML file:', error);
+            jQuery('.related-post-insert').html('<p>Error loading content.</p>');
+
+        });
+
 
 </script>
