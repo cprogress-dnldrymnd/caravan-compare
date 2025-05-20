@@ -11848,6 +11848,12 @@ form > .form-group:not(:last-child) {
 .xl-padding-bottom {
   padding-bottom: var(--xl-spacing); }
 
+.lg-padding-top {
+  padding-top: var(--lg-spacing); }
+
+.lg-padding-bottom {
+  padding-bottom: var(--lg-spacing); }
+
 .md-padding {
   padding: var(--md-spacing); }
 
