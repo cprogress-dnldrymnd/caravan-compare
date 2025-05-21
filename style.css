@@ -13003,7 +13003,8 @@ section.newsletter {
 
 @media screen and (min-width: 992px) {
   section.icon-lists .swiper-wrapper {
-    justify-content: center; } }
+    justify-content: center;
+    gap: 20px; } }
 
 /*-----------------------------------------------------------------------------------*/
 /* Plugins

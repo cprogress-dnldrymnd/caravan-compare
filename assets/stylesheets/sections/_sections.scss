@@ -778,8 +778,9 @@ section.newsletter {
 
 section.icon-lists {
     .swiper-wrapper {
-        @include responsive(md-lg) {
+        @include responsive(xl) {
             justify-content: center;
+            gap: 20px;
         }
     }
 }
