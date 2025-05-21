@@ -11834,6 +11834,13 @@ form > .form-group:not(:last-child) {
   .login-with-holder .login-with.apple {
     background-color: #201f1f; }
 
+.separator-or {
+  display: flex;
+  align-items: center;
+  grid-area: 15px; }
+  .separator-or:before, .separator-or:after {
+    content: ''; }
+
 @media (min-width: 1500px) {
   .container {
     max-width: 1420px; } }

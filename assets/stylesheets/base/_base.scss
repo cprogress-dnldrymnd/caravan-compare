@@ -991,3 +991,12 @@ form {
         }
     }
 }
+
+.separator-or {
+    display: flex;
+    align-items: center;
+    grid-area: 15px;
+    @include before-after {
+        content: '';
+    }
+}
