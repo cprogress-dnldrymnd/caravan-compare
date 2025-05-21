@@ -349,7 +349,7 @@ function swiper_sliders() {
 
         breakpoints: {
             0: {
-                slidesPerView: 0.9,
+                slidesPerView: 1,
                 spaceBetween: 12,
             },
 
