@@ -12171,9 +12171,39 @@ hr {
     transform: rotate(-90deg); }
 
 @media screen and (max-width: 767px) {
+  .pb-5 {
+    padding-bottom: 30px !important; }
+
+  .pt-5 {
+    padding-top: 30px !important; }
+
+  .px-5 {
+    padding-left: 30px !important;
+    padding-right: 30px !important; }
+
+  .py-5 {
+    padding-top: 30px !important;
+    padding-top: 30px !important; }
+
   .p-5 {
     padding: 30px !important; } }
+@media screen and (max-width: 575px) {
+  .pb-5 {
+    padding-bottom: 25px !important; }
 
+  .pt-5 {
+    padding-top: 25px !important; }
+
+  .px-5 {
+    padding-left: 25px !important;
+    padding-right: 30px !important; }
+
+  .py-5 {
+    padding-top: 30px !important;
+    padding-top: 30px !important; }
+
+  .p-5 {
+    padding: 30px !important; } }
 .full-height {
   min-height: 100vh; }
 
