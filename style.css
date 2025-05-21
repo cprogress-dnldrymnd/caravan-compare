@@ -11547,7 +11547,6 @@ span.icons {
   width: 100%;
   z-index: 99999; }
   .offcanvas.offcanvas .offcanvas-body {
-    background-color: var(--lightgray-color-4);
     padding: 60px 40px 40px; }
     .offcanvas.offcanvas .offcanvas-body .offcanvas-body--inner {
       max-width: 740px;
