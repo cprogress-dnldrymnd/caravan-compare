@@ -91,7 +91,7 @@ function fancybox() {
 function swiper_sliders() {
 
 
-    if (window.innerWidth > 991) {
+    if (window.innerWidth < 992) {
         var swiper_icon_lists = new Swiper(".swiper-icons-lists", {
             slidesPerView: 'auto',
             breakpoints: {
