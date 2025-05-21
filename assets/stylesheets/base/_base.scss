@@ -560,6 +560,9 @@ img {
                     display: none;
                 }
             }
+            @include after {
+                filter: brightness(0) invert(1);
+            }
         }
         .accordion-body {
             @include responsive(md-lg) {
