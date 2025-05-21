@@ -2,6 +2,7 @@ body {
     --header-height: 85.5469px;
     --top-bar-height: 37.59px;
 }
+
 .btn {
     --bs-btn-font-size: 20px;
     --bs-btn-padding-x: 20px;
@@ -578,7 +579,7 @@ img {
                 padding-bottom: 0 !important;
             }
             @include responsive(xs-sm) {
-               padding-bottom: 30px !important;
+                padding-bottom: 30px !important;
             }
         }
         .accordion-collapse {
