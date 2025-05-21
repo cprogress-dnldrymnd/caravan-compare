@@ -11812,7 +11812,7 @@ form > .form-group:not(:last-child) {
 
 .login-with-holder .login-with {
   border: none;
-  padding: 10px; }
+  padding: 15px; }
   .login-with-holder .login-with svg {
     width: 24px;
     height: 24px;
