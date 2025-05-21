@@ -552,6 +552,14 @@ img {
         --bs-accordion-body-padding-x: 0;
         --bs-accordion-btn-padding-y: 0;
         --bs-accordion-btn-padding-x: 0;
+        .accordion-button {
+            @include responsive(md-lg) {
+                position: none;
+                @include after {
+                    display: none;
+                }
+            }
+        }
         .accordion-collapse {
             @include responsive(md-lg) {
                 display: block !important;

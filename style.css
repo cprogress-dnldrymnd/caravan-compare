@@ -11537,6 +11537,9 @@ img {
   --bs-accordion-btn-padding-y: 0;
   --bs-accordion-btn-padding-x: 0; }
   @media screen and (min-width: 992px) {
+    .accordion-style-3.accordion-style-3.accordion-style-3 .accordion .accordion-button {
+      position: none; } }
+  @media screen and (min-width: 992px) {
     .accordion-style-3.accordion-style-3.accordion-style-3 .accordion .accordion-collapse {
       display: block !important; } }
 
