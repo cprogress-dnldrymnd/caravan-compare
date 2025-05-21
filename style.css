@@ -12224,6 +12224,10 @@ hr {
 .full-height {
   min-height: 100vh; }
 
+@media screen and (min-width: 992px) {
+  .w-md-auto {
+    width: auto !important; } }
+
 body {
   font-family: "Onest", sans-serif;
   color: var(--text-color);
