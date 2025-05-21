@@ -11837,7 +11837,7 @@ form > .form-group:not(:last-child) {
 .separator-or {
   display: flex;
   align-items: center;
-  grid-area: 15px; }
+  gap: 15px; }
   .separator-or:before, .separator-or:after {
     content: "";
     height: 1px;

@@ -995,7 +995,7 @@ form {
 .separator-or {
     display: flex;
     align-items: center;
-    grid-area: 15px;
+    gap: 15px;
     @include before-after {
         content: "";
         height: 1px;
