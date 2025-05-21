@@ -11342,17 +11342,20 @@ select.form-control.form-control {
     .nav-tabs.swiper-wrapper .swiper-slide {
       width: auto; }
   @media screen and (max-width: 991px) {
-    .nav-tabs.nav-tabs-search-stocks .nav-link {
+    .nav-tabs.nav-tabs-search-stocks .nav-item .nav-link {
       padding-left: 25px;
       padding-right: 25px; } }
   @media screen and (max-width: 767px) {
-    .nav-tabs.nav-tabs-search-stocks .nav-link {
+    .nav-tabs.nav-tabs-search-stocks .nav-item .nav-link {
       padding-left: 20px;
       padding-right: 20px;
       gap: 10px !important; }
-      .nav-tabs.nav-tabs-search-stocks .nav-link svg {
+      .nav-tabs.nav-tabs-search-stocks .nav-item .nav-link svg {
         width: 25px;
         height: 25px; } }
+  @media screen and (max-width: 767px) {
+    .nav-tabs.nav-tabs-search-stocks .nav-item {
+      flex: 1 0 0%; } }
 
 img {
   max-width: 100%; }
