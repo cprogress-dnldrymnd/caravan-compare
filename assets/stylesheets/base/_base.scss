@@ -58,6 +58,17 @@ select {
         padding-right: 50px;
     }
 }
+.form-switch {
+    &:not(.form-switch) {
+        margin: 0;
+    }
+    .form-check-input {
+        &:checked {
+            background-color: #38c498;
+            border-color: #38c498;
+        }
+    }
+}
 /*
 .form-control-lg {
     font-size: 18px;
