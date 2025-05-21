@@ -1,0 +1,40 @@
+<!-- Save Search Modal -->
+<div class="modal fade" id="dealerLoginModal" tabindex="-1" aria-labelledby="dealerLoginModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content background-lightgray-5">
+            <div class="modal-body border-none pt-4 px-5 pb-5">
+                <div class="close-holder text-center mb-3">
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="logo-box mb-4">
+                    <a href="#" class="text-decoration-none d-flex gap-3 align-items-center">
+                        <span class="circle"></span>
+                        <span class="text">CompareCaravan</span>
+                    </a>
+                </div>
+                <h2 id="dealerLoginModalLabel" class="text-center mb-4">Save this search</h2>
+                <form action="">
+                    <div class="form-control-holder mb-3">
+                        <label class="mb-2 fs-25 fw-semibold" for="Search_Name">Search Name *</label>
+                        <input name="Search_Name" id="Search_Name"
+                            class="form-control form-control-lg background-transparent" placeholder="Enter name"
+                            required>
+                        <div id="Search_NameHelpBlock" class="form-text fs-12 opacity-half mt-2">
+                            0/30 characters used
+                        </div>
+                    </div>
+
+                    <div class="form-check mb-3">
+                        <input class="form-check-input" type="checkbox" value="" id="sendAlerts">
+                        <label class="form-check-label mt-1" for="sendAlerts">
+                            Send me alerts for this search
+                        </label>
+                    </div>
+                    <button type="submit" class="btn save-search btn-primary w-100 btn-lg w-100">
+                        Save search
+                    </button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
