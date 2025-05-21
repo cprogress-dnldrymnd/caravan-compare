@@ -555,6 +555,7 @@ img {
         .accordion-button {
             @include responsive(md-lg) {
                 position: none;
+                margin-bottom: 10px;
                 @include after {
                     display: none;
                 }
