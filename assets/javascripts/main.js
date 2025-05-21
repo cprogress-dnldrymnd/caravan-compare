@@ -188,15 +188,16 @@ function swiper_sliders() {
 
         breakpoints: {
             0: {
-                slidesPerView: 'auto',
-                spaceBetween: 12,
-                freeMode: true,
+                slidesPerView: 1,
+                spaceBetween: 20,
             },
 
+            768: {
+                slidesPerView: 2,
+            },
 
             992: {
                 slidesPerView: 3,
-                spaceBetween: 20,
             },
 
             1200: {
