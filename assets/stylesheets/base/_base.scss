@@ -609,8 +609,10 @@ span.icons {
     &.offcanvas-large {
         max-width: 1650px;
     }
-    &.offcanvas-close-button-style {
-        
+    .offcanvas-inner-header {
+        .btn-close {
+            left: 0;
+        }
     }
 }
 
