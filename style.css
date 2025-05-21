@@ -11789,6 +11789,10 @@ form > .form-group:not(:last-child) {
   max-width: 640px;
   margin-left: auto;
   margin-right: auto; }
+  .form--holder .form--inner {
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto; }
 
 @media (min-width: 1500px) {
   .container {
