@@ -594,6 +594,9 @@ span.icons {
         opacity: 1;
         padding: 0;
     }
+    &.offcanvas-xl {
+        max-width: 1650px;
+    }
 }
 
 .wpcf7.wpcf7 {
