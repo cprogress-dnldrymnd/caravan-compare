@@ -550,11 +550,11 @@ img {
         --bs-accordion-border-radius: 0;
         --bs-accordion-border-width: 0;
         --bs-accordion-body-padding-x: 0;
+        --bs-accordion-btn-padding-y: 0;
+        --bs-accordion-btn-padding-x: 0;
         .accordion-collapse {
             @include responsive(md-lg) {
-                .accordion-collapse {
-                    display: block !important;
-                }
+                display: block !important;
             }
         }
     }
