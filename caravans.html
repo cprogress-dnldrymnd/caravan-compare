@@ -91,7 +91,7 @@
         });
 
     setTimeout(function () {
-        fetch('template-parts/listing-grids/----saved-searches.html') // Path to the HTML file you want to insert
+        fetch('template-parts/listing-grids/----vehicle-listing-grid.html') // Path to the HTML file you want to insert
             .then(response => response.text())
             .then(data => {
                 jQuery('.saved-searches-insert').html(data);
@@ -99,6 +99,16 @@
             .catch(error => {
                 console.error('Error fetching the HTML file:', error);
                 document.getElementsByClassName('saved-searches-insert').innerHTML = '<p>Error loading content.</p>';
+            });
+
+            fetch('template-parts/listing-grids/----saved-searches.html') // Path to the HTML file you want to insert
+            .then(response => response.text())
+            .then(data => {
+                jQuery('.listing-grid-insert').html(data);
+            })
+            .catch(error => {
+                console.error('Error fetching the HTML file:', error);
+                document.getElementsByClassName('listing-grid-insert').innerHTML = '<p>Error loading content.</p>';
             });
     }, 200);
 </script>
