@@ -11542,6 +11542,9 @@ img {
       .accordion-style-3.accordion-style-3.accordion-style-3 .accordion .accordion-button:after {
         display: none; } }
   @media screen and (min-width: 992px) {
+    .accordion-style-3.accordion-style-3.accordion-style-3 .accordion .accordion-body {
+      padding-bottom: 0 !important; } }
+  @media screen and (min-width: 992px) {
     .accordion-style-3.accordion-style-3.accordion-style-3 .accordion .accordion-collapse {
       display: block !important; } }
 

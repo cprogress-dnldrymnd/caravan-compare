@@ -560,6 +560,11 @@ img {
                 }
             }
         }
+        .accordion-body {
+            @include responsive(md-lg) {
+                padding-bottom: 0 !important;
+            }
+        }
         .accordion-collapse {
             @include responsive(md-lg) {
                 display: block !important;
