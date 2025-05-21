@@ -11542,6 +11542,8 @@ img {
       margin-bottom: 10px; }
       .accordion-style-3.accordion-style-3.accordion-style-3 .accordion .accordion-button:after {
         display: none; } }
+  .accordion-style-3.accordion-style-3.accordion-style-3 .accordion .accordion-button:after {
+    filter: brightness(0) invert(1); }
   @media screen and (min-width: 992px) {
     .accordion-style-3.accordion-style-3.accordion-style-3 .accordion .accordion-body {
       padding-bottom: 0 !important; } }
@@ -11550,13 +11552,13 @@ img {
       display: block !important; } }
   @media screen and (max-width: 991px) {
     .accordion-style-3.accordion-style-3.accordion-style-3 .accordion .accordion-item {
-      border-bottom: 1px solid var(--bs-white); } }
+      border-bottom: 1px solid rgba(255, 255, 255, 0.35); } }
   @media screen and (max-width: 991px) {
     .accordion-style-3.accordion-style-3.accordion-style-3 .accordion {
       --bs-accordion-btn-padding-y: 16px; } }
   @media screen and (max-width: 991px) {
     .accordion-style-3.accordion-style-3.accordion-style-3 .accordion {
-      border-top: 1px solid var(--bs-white); } }
+      border-top: 1px solid rgba(255, 255, 255, 0.35); } }
 
 .swiper-button.swiper-button {
   --swiper-navigation-size: 20px;

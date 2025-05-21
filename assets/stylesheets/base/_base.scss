@@ -576,14 +576,14 @@ img {
         }
         .accordion-item {
             @include responsive(xs-sm) {
-                border-bottom: 1px solid var(--bs-white);
+                border-bottom: 1px solid rgba(255, 255, 255, 0.35);
             }
         }
         @include responsive(xs-sm) {
             --bs-accordion-btn-padding-y: 16px;
         }
         @include responsive(xs-sm) {
-            border-top: 1px solid var(--bs-white);
+            border-top: 1px solid rgba(255, 255, 255, 0.35);
         }
     }
 }
