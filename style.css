@@ -11164,9 +11164,9 @@ select.form-control.form-control {
   background-repeat: no-repeat;
   padding-right: 50px; }
 
-.form-switch:not(.form-switch) {
+.form-switch:not(.form-check) {
   padding: 0; }
-  .form-switch:not(.form-switch) .form-check-input {
+  .form-switch:not(.form-check) .form-check-input {
     margin: 0; }
 .form-switch .form-check-input:checked {
   background-color: #38c498;
