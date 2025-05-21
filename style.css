@@ -11548,6 +11548,9 @@ img {
   @media screen and (min-width: 992px) {
     .accordion-style-3.accordion-style-3.accordion-style-3 .accordion .accordion-collapse {
       display: block !important; } }
+  @media screen and (max-width: 991px) {
+    .accordion-style-3.accordion-style-3.accordion-style-3 .accordion {
+      --bs-accordion-btn-padding-y: 16px; } }
 
 .swiper-button.swiper-button {
   --swiper-navigation-size: 20px;

@@ -571,6 +571,9 @@ img {
                 display: block !important;
             }
         }
+        @include responsive(xs-sm) {
+            --bs-accordion-btn-padding-y: 16px;
+        }
     }
 }
 
