@@ -97,21 +97,24 @@
     --md-spacing: 80px;
     --lg-spacing: 100px;
     --xl-spacing: 120px;
-
     @include responsive(xs-sm) {
         --xs-spacing: 30px;
         --sm-spacing: 50px;
         --md-spacing: 70px;
+        --lg-spacing: 90px;
+        --xl-spacing: 110px;
+    }
+    @include responsive(xs) {
+        --sm-spacing: 40px;
+        --md-spacing: 60px;
         --lg-spacing: 80px;
         --xl-spacing: 100px;
     }
-
-    @include responsive(xs) {
-        --xs-spacing: 20px;
-        --sm-spacing: 25px;
-        --md-spacing: 40px;
-        --lg-spacing: 60px;
-        --xl-spacing: 80px;
+    @include responsive(mobile) {
+        --sm-spacing: 40px;
+        --md-spacing: 50px;
+        --lg-spacing: 70px;
+        --xl-spacing: 90px;
     }
 }
 
