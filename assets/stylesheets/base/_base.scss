@@ -998,5 +998,13 @@ form {
     grid-area: 15px;
     @include before-after {
         content: '';
+        height: 1px;
+        background-color: var(--bs-black);
+    opacity: 0.75;
+
     }
+}
+
+hr {
+    opacity: 0.75;
 }
