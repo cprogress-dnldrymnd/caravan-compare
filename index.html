@@ -292,76 +292,7 @@
                 </div>
                 <div class="tab-pane fade" id="Motorhomes-tab-pane" role="tabpanel" aria-labelledby="Motorhomes-tab"
                   tabindex="0">
-                  <form action="" class="form-holder">
-                    <div class="row align-items-end">
-                      <div class="col">
-                        <div class="form-control-holder"><label class="mb-2 fw-semibold" for="Type">Type</label><select
-                            name="Type" id="Type" class="form-control form-control-lg">
-                            <option value="">New or Used?</option>
-                            <option value="New">New</option>
-                            <option value="Used">Used</option>
-                            <option value="Both">Both</option>
-                          </select></div>
-                      </div>
-                      <div class="col">
-                        <div class="form-control-holder"><label class="mb-2 fw-semibold"
-                            for="Berths">Berths</label><select name="Berths" id="Berths"
-                            class="form-control form-control-lg">
-                            <option value="">How many berths?</option>
-                            <option value="All">All</option>
-                            <option value="2">2</option>
-                            <option value="3">3</option>
-                            <option value="4">4</option>
-                            <option value="5">5</option>
-                            <option value="6">6</option>
-                          </select></div>
-                      </div>
-                      <div class="col">
-                        <div class="form-control-holder"><label class="mb-2 fw-semibold" for="Make">Make</label><select
-                            name="Make" id="Make" class="form-control form-control-lg">
-                            <option value="">Select Make</option>
-                            <option value="Option 1">Option 1</option>
-                            <option value="Option 2">Option 2</option>
-                            <option value="Option 3">Option 3</option>
-                            <option value="Option 4">Option 4</option>
-                            <option value="Option 5">Option 5</option>
-                            <option value="Option 6"> Option6</option>
-                          </select></div>
-                      </div>
-                      <div class="col">
-                        <div class="form-control-holder"><label class="mb-2 fw-semibold"
-                            for="Model">Model</label><select name="Model" id="Model"
-                            class="form-control form-control-lg">
-                            <option value="">Select Model</option>
-                            <option value="Option 1">Option 1</option>
-                            <option value="Option 2">Option 2</option>
-                            <option value="Option 3">Option 3</option>
-                            <option value="Option 4">Option 4</option>
-                            <option value="Option 5">Option 5</option>
-                            <option value="Option 6"> Option6</option>
-                          </select></div>
-                      </div>
-                      <div class="col">
-                        <div class="form-control-holder"><label class="mb-2 fw-semibold"
-                            for="Price-Min">Price(min.)</label><select name="Price-Min" id="Price-Min"
-                            class="form-control form-control-lg">
-                            <option value="">Any</option>
-                          </select></div>
-                      </div>
-                      <div class="col">
-                        <div class="form-control-holder"><label class="mb-2 fw-semibold"
-                            for="Price-Max">Price(max.)</label><select name="Price-Max" id="Price-Max"
-                            class="form-control form-control-lg">
-                            <option value="">Any</option>
-                          </select></div>
-                      </div>
-                      <div class="col">
-                        <div class="button-box">
-                          <button type="submit" class="btn btn-primary btn-lg w-100">Search</button>
-                        </div>
-                      </div>
-                    </div>
-                  </form>
+                  <div class="vehicle-search-form-insert"></div>
                 </div>
                 <div class="tab-pane fade" id="Campervans-tab-pane" role="tabpanel" aria-labelledby="Campervans-tab"
                   tabindex="0">
@@ -1704,15 +1635,15 @@
 </html>
 
 <script>
-    fetch('template-parts/---listing-tab.html') // Path to the HTML file you want to insert
-      .then(response => response.text())
-      .then(data => {
-        jQuery('.listing-tab-insert').html(data);
-      })
-      .catch(error => {
-        console.error('Error fetching the HTML file:', error);
-        document.getElementsByClassName('listing-tab-insert').innerHTML = '<p>Error loading content.</p>';
-      });
+  fetch('template-parts/---listing-tab.html') // Path to the HTML file you want to insert
+    .then(response => response.text())
+    .then(data => {
+      jQuery('.listing-tab-insert').html(data);
+    })
+    .catch(error => {
+      console.error('Error fetching the HTML file:', error);
+      document.getElementsByClassName('listing-tab-insert').innerHTML = '<p>Error loading content.</p>';
+    });
 
   fetch('template-parts/---blogs.html') // Path to the HTML file you want to insert
     .then(response => response.text())
@@ -1722,6 +1653,17 @@
     .catch(error => {
       console.error('Error fetching the HTML file:', error);
       document.getElementById('blogs-insert').innerHTML = '<p>Error loading content.</p>';
+    });
+
+
+  fetch('template-parts/globals/-----vechicle-search.html') // Path to the HTML file you want to insert
+    .then(response => response.text())
+    .then(data => {
+      jQuery('.vehicle-search-form-insert').html(data);
+    })
+    .catch(error => {
+      console.error('Error fetching the HTML file:', error);
+      document.getElementById('vehicle-search-form-insert').innerHTML = '<p>Error loading content.</p>';
     });
 
   setTimeout(function () {
