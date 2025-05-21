@@ -11636,7 +11636,7 @@ span.icons {
   .sidebar > div:not(:last-child) {
     margin-bottom: 25px; }
   .sidebar.sidebar-style-2 > div {
-    border-bottom: 1px solid #D6D6D6;
+    border-bottom: 1px solid #d6d6d6;
     padding-bottom: 25px; }
 
 .menu-holder .menu li a {
@@ -11745,6 +11745,9 @@ form > .form-group:not(:last-child) {
   height: 150px;
   border-radius: 50%;
   object-fit: cover; }
+
+.hero-simple section.hero:before {
+  display: none; }
 
 @media (min-width: 1500px) {
   .container {
