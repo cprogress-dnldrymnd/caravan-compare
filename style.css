@@ -11531,7 +11531,11 @@ img {
 .accordion-style-3.accordion-style-3.accordion-style-3 .accordion {
   --bs-accordion-bg: transparent;
   --bs-accordion-inner-border-radius: 0;
-  --bs-accordion-border-radius: 0; }
+  --bs-accordion-border-radius: 0;
+  --bs-accordion-border-width: 0; }
+  @media screen and (min-width: 992px) {
+    .accordion-style-3.accordion-style-3.accordion-style-3 .accordion .accordion-collapse .accordion-collapse {
+      display: block !important; } }
 
 .swiper-button.swiper-button {
   --swiper-navigation-size: 20px;

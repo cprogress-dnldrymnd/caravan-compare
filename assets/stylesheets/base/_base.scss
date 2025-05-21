@@ -549,7 +549,14 @@ img {
         --bs-accordion-inner-border-radius: 0;
         --bs-accordion-border-radius: 0;
         --bs-accordion-border-width: 0;
-
+        --bs-accordion-body-padding-x: 0;
+        .accordion-collapse {
+            @include responsive(md-lg) {
+                .accordion-collapse {
+                    display: block !important;
+                }
+            }
+        }
     }
 }
 
