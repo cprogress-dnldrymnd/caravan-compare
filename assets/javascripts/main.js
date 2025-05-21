@@ -395,7 +395,7 @@ function swiper_sliders() {
 
         breakpoints: {
             0: {
-                slidesPerView: 0.9,
+                slidesPerView: 1,
                 spaceBetween: 12,
             },
 
@@ -411,4 +411,19 @@ function swiper_sliders() {
         },
 
     });
+
+    if (window.innerWidth < 992) {
+        jQuery('.swiper-on-mobile-js').addClass('swiper');
+        jQuery('.swiper-on-mobile-js > div').addClass('swiper-wrapper');
+        jQuery('.swiper-on-mobile-js > div > div').addClass('swiper-slide');
+
+        var swiper_on_mobile = new Swiper(".swiper-on-mobile-js", {
+            slidesPerView: 1,
+            spaceBetween: 12,
+            pagination: {
+                el: '.swiper-pagination',
+            },
+
+        });
+    }
 }
