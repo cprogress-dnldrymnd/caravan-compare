@@ -438,7 +438,12 @@ img {
     position: -webkit-sticky;
     top: 0;
 }
-
+.accordion {
+    --bs-accordion-active-bg: transparent;
+    .accordion-button {
+        box-shadow: none !important;
+    }
+}
 .accordion-style-1 {
     .accordion {
         background-color: var(--bs-white);
