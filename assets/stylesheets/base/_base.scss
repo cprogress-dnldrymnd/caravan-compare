@@ -577,6 +577,9 @@ img {
             @include responsive(md-lg) {
                 padding-bottom: 0 !important;
             }
+            @include responsive(xs-sm) {
+               padding-bottom: 30px !important;
+            }
         }
         .accordion-collapse {
             @include responsive(md-lg) {
