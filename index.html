@@ -753,23 +753,26 @@
               <div class="tab-content" id="myTabDeals-SwiperContent">
                 <div class="tab-pane fade active show" id="Deals-Caravans-tab-pane" role="tabpanel"
                   aria-labelledby="Deals-Caravans-tab" tabindex="0">
-                  <div id="listing-tab-insert"></div>
+                  <div class="listing-tab-insert"></div>
                 </div>
                 <div class="tab-pane fade" id="Deals-Motorhomes-tab-pane" role="tabpanel"
                   aria-labelledby="Deals-Motorhomes-tab" tabindex="0">
+                  <div class="listing-tab-insert"></div>
 
                 </div>
                 <div class="tab-pane fade" id="Deals-Campervans-tab-pane" role="tabpanel"
                   aria-labelledby="Deals-Campervans-tab" tabindex="0">
+                  <div class="listing-tab-insert"></div>
 
                 </div>
                 <div class="tab-pane fade" id="Deals-Static-Caravans-tab-pane" role="tabpanel"
                   aria-labelledby="Deals-Static-Caravans-tab" tabindex="0">
+                  <div class="listing-tab-insert"></div>
 
                 </div>
                 <div class="tab-pane fade" id="Deals-Holiday-Homes-tab-pane" role="tabpanel"
                   aria-labelledby="Deals-Holiday-Homes-tab" tabindex="0">
-
+                  <div class="listing-tab-insert"></div>
                 </div>
 
               </div>
@@ -1704,21 +1707,21 @@
   fetch('template-parts/---listing-tab.html') // Path to the HTML file you want to insert
     .then(response => response.text())
     .then(data => {
-      document.getElementById('listing-tab-insert').innerHTML = data;
+      document.getElementsByClassName('listing-tab-insert').innerHTML = data;
     })
     .catch(error => {
       console.error('Error fetching the HTML file:', error);
-      document.getElementById('listing-tab-insert').innerHTML = '<p>Error loading content.</p>';
+      document.getElementsByClassName('listing-tab-insert').innerHTML = '<p>Error loading content.</p>';
     });
 
   fetch('template-parts/---blogs.html') // Path to the HTML file you want to insert
     .then(response => response.text())
     .then(data => {
-      document.getElementById('blogs-insert').innerHTML = data;
+      document.getElementsByClassName('blogs-insert').innerHTML = data;
     })
     .catch(error => {
       console.error('Error fetching the HTML file:', error);
-      document.getElementById('blogs-insert').innerHTML = '<p>Error loading content.</p>';
+      document.getElementsByClassName('blogs-insert').innerHTML = '<p>Error loading content.</p>';
     });
 
   setTimeout(function () {
