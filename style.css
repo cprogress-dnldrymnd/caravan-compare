@@ -11785,6 +11785,11 @@ form > .form-group:not(:last-child) {
   --bs-modal-box-shadow: none;
   --bs-box-shadow-sm: none; }
 
+.form--holder {
+  max-width: 640px;
+  margin-left: auto;
+  margin-right: auto; }
+
 @media (min-width: 1500px) {
   .container {
     max-width: 1420px; } }

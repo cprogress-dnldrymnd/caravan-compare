@@ -927,3 +927,9 @@ form {
     --bs-modal-box-shadow: none;
     --bs-box-shadow-sm: none;
 }
+
+.form--holder {
+    max-width: 640px;
+    margin-left: auto;
+    margin-right: auto;
+}
