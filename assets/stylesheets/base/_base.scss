@@ -997,11 +997,10 @@ form {
     align-items: center;
     grid-area: 15px;
     @include before-after {
-        content: '';
+        content: "";
         height: 1px;
         background-color: var(--bs-black);
-    opacity: 0.75;
-
+        flex: 1 0 0%;
     }
 }
 

@@ -11839,9 +11839,10 @@ form > .form-group:not(:last-child) {
   align-items: center;
   grid-area: 15px; }
   .separator-or:before, .separator-or:after {
-    content: '';
+    content: "";
     height: 1px;
-    background-color: var(--bs-black); }
+    background-color: var(--bs-black);
+    flex: 1 0 0%; }
 
 hr {
   opacity: 0.75; }
