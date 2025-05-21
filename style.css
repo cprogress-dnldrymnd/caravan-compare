@@ -11354,6 +11354,10 @@ select.form-control.form-control {
       .nav-tabs.nav-tabs-search-stocks .nav-item .nav-link svg {
         width: 25px;
         height: 25px; } }
+  @media screen and (max-width: 575px) {
+    .nav-tabs.nav-tabs-search-stocks .nav-item .nav-link {
+      padding-left: 10px;
+      padding-right: 10px; } }
   @media screen and (max-width: 767px) {
     .nav-tabs.nav-tabs-search-stocks .nav-item {
       flex: 1 0 0%; } }

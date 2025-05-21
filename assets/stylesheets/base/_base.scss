@@ -304,6 +304,10 @@ select {
                         height: 25px;
                     }
                 }
+                @include responsive(mobile) {
+                    padding-left: 10px;
+                    padding-right: 10px;
+                }
             }
             @include responsive(xs) {
                 flex: 1 0 0%;
