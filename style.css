@@ -11528,6 +11528,9 @@ img {
   .accordion-style-2.accordion-style-2.accordion-style-2 .accordion-item:last-child {
     border-bottom: none; }
 
+.accordion-style-3.accordion-style-3.accordion-style-3 .accordion {
+  --bs-accordion-bg: transparent; }
+
 .swiper-button.swiper-button {
   --swiper-navigation-size: 20px;
   width: 56px;

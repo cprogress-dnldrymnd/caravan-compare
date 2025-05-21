@@ -544,7 +544,9 @@ img {
 }
 
 .accordion-style-3.accordion-style-3.accordion-style-3 {
-    
+    .accordion {
+        --bs-accordion-bg: transparent;
+    }
 }
 
 .swiper-button.swiper-button {
