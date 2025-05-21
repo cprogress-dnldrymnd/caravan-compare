@@ -300,7 +300,9 @@ function swiper_sliders() {
 
 
     var swiper_grid_slider_1 = new Swiper(".swiper-grid-slider-js-1", {
-
+        pagination: {
+            el: '.swiper-pagination',
+        },
         breakpoints: {
             0: {
                 slidesPerView: 'auto',
