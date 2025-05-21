@@ -11795,6 +11795,7 @@ form > .form-group:not(:last-child) {
     margin-right: auto; }
 
 .password-with-show-icon .show-password-button {
+  cursor: pointer;
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
