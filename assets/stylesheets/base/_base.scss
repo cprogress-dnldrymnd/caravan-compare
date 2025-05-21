@@ -1042,3 +1042,25 @@ hr {
         width: auto;
     }
 }
+
+.reviews {
+    .review--total {
+        @include responsive(xs-sm) {
+            font-size: 15px !important;
+        }
+    }
+    .review--logo {
+        @include responsive(xs-sm) {
+            height: 15px;
+        }
+    }
+}
+
+.review--stars {
+    @include responsive(xs-sm) {
+        svg {
+            height: 12px;
+            width: 12px;
+        }
+    }
+}

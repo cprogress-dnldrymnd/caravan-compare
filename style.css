@@ -11870,6 +11870,17 @@ hr {
   height: 20px;
   width: auto; }
 
+@media screen and (max-width: 991px) {
+  .reviews .review--total {
+    font-size: 15px !important; } }
+@media screen and (max-width: 991px) {
+  .reviews .review--logo {
+    height: 15px; } }
+
+@media screen and (max-width: 991px) {
+  .review--stars {
+    height: 15px; } }
+
 @media (min-width: 1500px) {
   .container {
     max-width: 1420px; } }
