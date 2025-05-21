@@ -11565,6 +11565,8 @@ span.icons {
     right: 20px;
     opacity: 1;
     padding: 0; }
+  .offcanvas.offcanvas.offcanvas-xl {
+    max-width: 1650px; }
 
 .wpcf7.wpcf7 p {
   margin-bottom: 0; }
