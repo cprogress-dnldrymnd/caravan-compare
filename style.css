@@ -11805,6 +11805,10 @@ form > .form-group:not(:last-child) {
   .password-with-show-icon .show-password-button svg {
     width: 20px;
     height: 20px; }
+  .password-with-show-icon .show-password-button.password---hidden .hide-password {
+    display: none; }
+  .password-with-show-icon .show-password-button.password---show .show-password {
+    display: none; }
 
 @media (min-width: 1500px) {
   .container {

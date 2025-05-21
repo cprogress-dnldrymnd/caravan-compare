@@ -952,5 +952,15 @@ form {
             width: 20px;
             height: 20px;
         }
+        &.password---hidden {
+            .hide-password {
+                display: none;
+            }
+        }
+        &.password---show {
+            .show-password {
+                display: none;
+            }
+        }
     }
 }
