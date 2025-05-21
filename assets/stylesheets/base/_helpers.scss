@@ -419,7 +419,7 @@
 }
 
 .w-md-auto {
-    @include responsive(md-lg) {
+    @include responsive(mobile-lg) {
         width: auto !important;
     }
 }
