@@ -98,11 +98,9 @@ function swiper_sliders() {
             0: {
                 slidesPerView: 'auto',
                 spaceBetween: 5,
-                centeredSlides: false,
             },
             992: {
                 spaceBetween: 20,
-                centeredSlides: true,
             },
 
         },
