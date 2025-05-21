@@ -11581,11 +11581,11 @@ span.icons {
   .offcanvas.offcanvas .offcanvas-inner-header .btn-close {
     left: 0;
     top: 50%;
-    -webkit-transform: translate(-100%, -50%);
-    -moz-transform: translate(-100%, -50%);
-    -ms-transform: translate(-100%, -50%);
-    -o-transform: translate(-100%, -50%);
-    transform: translate(-100%, -50%); }
+    -webkit-transform: translate(-120%, -50%);
+    -moz-transform: translate(-120%, -50%);
+    -ms-transform: translate(-120%, -50%);
+    -o-transform: translate(-120%, -50%);
+    transform: translate(-120%, -50%); }
 
 .wpcf7.wpcf7 p {
   margin-bottom: 0; }

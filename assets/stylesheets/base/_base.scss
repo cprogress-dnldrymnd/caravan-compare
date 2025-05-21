@@ -618,7 +618,7 @@ span.icons {
         .btn-close {
             left: 0;
             top: 50%;
-            @include transform(translate(-110%, -50%));
+            @include transform(translate(-120%, -50%));
         }
     }
 }
