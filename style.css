@@ -11348,7 +11348,8 @@ select.form-control.form-control {
   @media screen and (max-width: 767px) {
     .nav-tabs.nav-tabs-search-stocks .nav-link {
       padding-left: 20px;
-      padding-right: 20px; }
+      padding-right: 20px;
+      gap: 10px !important; }
       .nav-tabs.nav-tabs-search-stocks .nav-link svg {
         width: 25px;
         height: 25px; } }
