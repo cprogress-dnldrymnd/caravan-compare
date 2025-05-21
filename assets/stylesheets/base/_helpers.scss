@@ -373,15 +373,15 @@
 
 .p-5 {
     @include responsive(xs-sm) {
-        padding: 2rem;
+        padding: 2rem !important;
     }
     @include responsive(xs) {
-        padding: 1rem;
+        padding: 1rem !important;
     }
 }
 
 .p-4 {
     @include responsive(xs) {
-        padding: 1rem;
+        padding: 1rem !important;
     }
 }
