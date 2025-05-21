@@ -11955,15 +11955,20 @@ hr {
       --xs-spacing: 30px;
       --sm-spacing: 50px;
       --md-spacing: 70px;
-      --lg-spacing: 80px;
-      --xl-spacing: 100px; } }
+      --lg-spacing: 90px;
+      --xl-spacing: 110px; } }
   @media screen and (max-width: 767px) {
     :root {
-      --xs-spacing: 20px;
-      --sm-spacing: 25px;
-      --md-spacing: 40px;
-      --lg-spacing: 60px;
-      --xl-spacing: 80px; } }
+      --sm-spacing: 40px;
+      --md-spacing: 60px;
+      --lg-spacing: 80px;
+      --xl-spacing: 100px; } }
+  @media screen and (max-width: 575px) {
+    :root {
+      --sm-spacing: 40px;
+      --md-spacing: 50px;
+      --lg-spacing: 70px;
+      --xl-spacing: 90px; } }
 
 .xl-padding {
   padding: var(--xl-spacing); }
@@ -12196,14 +12201,14 @@ hr {
 
   .px-5 {
     padding-left: 25px !important;
-    padding-right: 30px !important; }
+    padding-right: 25px !important; }
 
   .py-5 {
-    padding-top: 30px !important;
-    padding-top: 30px !important; }
+    padding-top: 25px !important;
+    padding-top: 25px !important; }
 
   .p-5 {
-    padding: 30px !important; } }
+    padding: 25px !important; } }
 .full-height {
   min-height: 100vh; }
 
