@@ -326,15 +326,16 @@ function swiper_sliders() {
 
     });
     var swiper_grid_slider_2 = new Swiper(".swiper-grid-slider-js-2", {
-        slidesPerView: 'auto',
         freeMode: true,
 
         breakpoints: {
             0: {
-                spaceBetween: 12,
+                slidesPerView: 1,
+                spaceBetween: 20,
             },
 
             992: {
+                slidesPerView: 'auto',
                 spaceBetween: 20,
             },
         },
