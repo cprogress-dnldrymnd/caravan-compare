@@ -12114,6 +12114,9 @@ form > .form-group:not(:last-child) {
   .p-5 {
     padding: 30px !important; } }
 
+.full-height {
+  min-height: 100vh; }
+
 body {
   font-family: "Onest", sans-serif;
   color: var(--text-color);
@@ -12934,9 +12937,6 @@ section.newsletter {
 
 .blog--inner-footer {
   border-top: 1px solid #D6D6D6; }
-
-.form--section {
-  min-height: 100vh; }
 
 /*-----------------------------------------------------------------------------------*/
 /* Plugins
