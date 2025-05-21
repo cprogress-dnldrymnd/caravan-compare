@@ -91,22 +91,24 @@ function fancybox() {
 function swiper_sliders() {
 
 
-    var swiper_icon_lists = new Swiper(".swiper-icons-lists", {
-        slidesPerView: 'auto',
-        breakpoints: {
+    if (window.innerWidth > 991) {
+        var swiper_icon_lists = new Swiper(".swiper-icons-lists", {
+            slidesPerView: 'auto',
+            breakpoints: {
 
-            0: {
-                slidesPerView: 'auto',
-                spaceBetween: 5,
+                0: {
+                    slidesPerView: 'auto',
+                    spaceBetween: 5,
+                },
+                992: {
+                    spaceBetween: 20,
+                },
+
             },
-            992: {
-                spaceBetween: 20,
-            },
 
-        },
-      
-    });
+        });
 
+    }
     $key = 0;
     if (jQuery('.swiper-thumbnails').length > 0) {
 
