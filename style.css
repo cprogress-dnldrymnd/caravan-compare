@@ -12760,6 +12760,9 @@ section.search-stock-holder {
     --bs-border-radius: 10px; }
     section.search-stock-holder .tab-content-holder .tab-content--inner {
       border-top-left-radius: 0 !important; }
+      @media screen and (max-width: 767px) {
+        section.search-stock-holder .tab-content-holder .tab-content--inner {
+          border-top-right-radius: 0 !important; } }
   @media screen and (min-width: 992px) {
     section.search-stock-holder .advance-search {
       padding: 30px;

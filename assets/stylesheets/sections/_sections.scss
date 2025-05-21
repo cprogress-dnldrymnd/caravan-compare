@@ -411,6 +411,7 @@ section.search-stock-holder {
         .tab-content--inner {
             border-top-left-radius: 0 !important;
             @include responsive(xs) {
+                border-top-right-radius: 0 !important;
             }
         }
     }
