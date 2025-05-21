@@ -11756,6 +11756,10 @@ form > .form-group:not(:last-child) {
 .hero-simple section.hero:before {
   display: none; }
 
+.modal.modal {
+  --bs-modal-box-shadow: none;
+  --bs-box-shadow-sm: none; }
+
 @media (min-width: 1500px) {
   .container {
     max-width: 1420px; } }

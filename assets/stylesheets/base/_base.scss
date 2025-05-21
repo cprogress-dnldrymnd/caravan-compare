@@ -890,3 +890,8 @@ form {
         }
     }
 }
+
+.modal.modal {
+    --bs-modal-box-shadow: none;
+    --bs-box-shadow-sm: none;
+}
