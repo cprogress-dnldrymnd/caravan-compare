@@ -415,7 +415,7 @@ function swiper_sliders() {
     if (window.innerWidth < 992) {
         jQuery('.swiper-on-mobile-js').addClass('swiper');
         jQuery('.swiper-on-mobile-js > div').addClass('swiper-wrapper').removeClass('row g-sm h-100');
-        jQuery('.swiper-on-mobile-js > div > div').addClass('swiper-slide');
+        jQuery('.swiper-on-mobile-js > div > div').addClass('swiper-slide').removeClass('col-lg-6');
 
         var swiper_on_mobile = new Swiper(".swiper-on-mobile-js", {
             slidesPerView: 1,
