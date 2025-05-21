@@ -964,3 +964,15 @@ form {
         }
     }
 }
+
+.login-with-holder {
+    .login-with {
+        border: none;
+        &.google {
+            background-color: #4286f5;
+        }
+        &.apple {
+            background-color: #201f1f;
+        }
+    }
+}

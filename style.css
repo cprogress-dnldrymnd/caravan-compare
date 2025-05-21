@@ -11810,6 +11810,13 @@ form > .form-group:not(:last-child) {
   .password-with-show-icon .show-password-button.password---show .show-password {
     display: none; }
 
+.login-with-holder .login-with {
+  border: none; }
+  .login-with-holder .login-with.google {
+    background-color: #4286f5; }
+  .login-with-holder .login-with.apple {
+    background-color: #201f1f; }
+
 @media (min-width: 1500px) {
   .container {
     max-width: 1420px; } }
