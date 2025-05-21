@@ -12999,7 +12999,11 @@ section.newsletter {
     opacity: 0.5; }
 
 .blog--inner-footer {
-  border-top: 1px solid #D6D6D6; }
+  border-top: 1px solid #d6d6d6; }
+
+@media screen and (min-width: 992px) {
+  section.icon-lists .swiper-wrapper {
+    justify-content: center; } }
 
 /*-----------------------------------------------------------------------------------*/
 /* Plugins
