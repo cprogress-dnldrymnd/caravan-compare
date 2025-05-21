@@ -932,4 +932,9 @@ form {
     max-width: 640px;
     margin-left: auto;
     margin-right: auto;
+    .form--inner {
+        max-width: 500px;
+        margin-left: auto;
+        margin-right: auto;
+    }
 }
