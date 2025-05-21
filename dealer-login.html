@@ -33,9 +33,19 @@
 
                             <div class="form-control-holder mb-3">
                                 <label class="mb-2 fw-semibold" for="Password">Password</label>
-                                <input type="password" name="Password" id="Password"
-                                    class="form-control form-control-lg background-transparent"
-                                    placeholder="Enter password" required>
+                                <div class="password-with-show-icon position-relative">
+                                    <input type="password" name="Password" id="Password"
+                                        class="form-control form-control-lg background-transparent"
+                                        placeholder="Enter password" required>
+                                    <button class="show-password-button">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                            fill="currentColor" class="bi bi-eye-fill" viewBox="0 0 16 16">
+                                            <path d="M10.5 8a2.5 2.5 0 1 1-5 0 2.5 2.5 0 0 1 5 0" />
+                                            <path
+                                                d="M0 8s3-5.5 8-5.5S16 8 16 8s-3 5.5-8 5.5S0 8 0 8m8 3.5a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7" />
+                                        </svg>
+                                    </button>
+                                </div>
                             </div>
 
                             <button type="submit" class="btn save-search btn-primary w-100 btn-lg w-100">
