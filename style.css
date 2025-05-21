@@ -11878,8 +11878,9 @@ hr {
     height: 15px; } }
 
 @media screen and (max-width: 991px) {
-  .review--stars {
-    height: 15px; } }
+  .review--stars svg {
+    height: 12px;
+    width: 12px; } }
 
 @media (min-width: 1500px) {
   .container {
