@@ -968,8 +968,20 @@ form {
 .login-with-holder {
     .login-with {
         border: none;
+        padding: 15px;
+        svg {
+            width: 24px;
+            height: 24px;
+            top: 50%;
+            @include transform(translateY(-50%));
+        }
         &.google {
             background-color: #4286f5;
+            svg {
+                background-color: var(--bs-white);
+                padding: 2px;
+                border-radius: 2px;
+            }
         }
         &.apple {
             background-color: #201f1f;
