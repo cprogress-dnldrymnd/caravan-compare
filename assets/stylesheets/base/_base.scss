@@ -974,6 +974,8 @@ form {
             height: 24px;
             top: 50%;
             @include transform(translateY(-50%));
+            position: absolute;
+            left: 10px;
         }
         &.google {
             background-color: #4286f5;
