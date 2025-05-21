@@ -417,3 +417,9 @@
 .full-height {
     min-height: 100vh;
 }
+
+.w-md-auto {
+    @include responsive(md-lg) {
+        width: auto !important;
+    }
+}
