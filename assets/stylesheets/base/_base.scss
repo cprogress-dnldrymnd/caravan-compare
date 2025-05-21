@@ -616,9 +616,14 @@ span.icons {
     }
     .offcanvas-inner-header {
         .btn-close {
-            left: 0;
-            top: 50%;
-            @include transform(translate(-120%, -50%));
+            @include responsive(lg) {
+                left: 0;
+                top: 50%;
+                @include transform(translate(-120%, -50%));
+            }
+            @include responsive(xs-md) {
+                position: static;
+            }
         }
     }
 }
