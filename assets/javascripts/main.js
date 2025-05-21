@@ -1,12 +1,20 @@
 jQuery(document).ready(function () {
     templates();
     //fancybox();
+    password_input();
     setTimeout(function () {
         swiper_sliders();
         header();
     }, 1000);
 
 });
+function password_input() {
+    jQuery('.show-password-button').click(function (e) {
+        $input = jQuery(this).prev();
+        $input.attr('type', 'text');
+        e.preventDefault();
+    });
+}
 
 function templates() {
     fetch('template-parts/--topbar.html') // Path to the HTML file you want to insert
@@ -39,7 +47,7 @@ function templates() {
             document.getElementById('offcanvas-menu').innerHTML = '<p>Error loading content.</p>';
         });
 
-        fetch('template-parts/--footer.html') // Path to the HTML file you want to insert
+    fetch('template-parts/--footer.html') // Path to the HTML file you want to insert
         .then(response => response.text())
         .then(data => {
             document.getElementById('footer-insert').innerHTML = data;
@@ -349,7 +357,7 @@ function swiper_sliders() {
     });
 
 
-    
+
 
     var swiper_dealer_reviews = new Swiper(".swiper-dealer-reviews", {
         freeMode: true,
@@ -364,7 +372,7 @@ function swiper_sliders() {
                 slidesPerView: 2,
                 spaceBetween: 20,
             },
-          
+
         },
 
         pagination: {
