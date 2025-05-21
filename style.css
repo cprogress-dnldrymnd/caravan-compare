@@ -12096,14 +12096,10 @@ form > .form-group:not(:last-child) {
 
 @media screen and (max-width: 991px) {
   .p-5 {
-    padding: 2rem !important; } }
+    padding: 30px !important; } }
 @media screen and (max-width: 767px) {
   .p-5 {
-    padding: 1rem !important; } }
-
-@media screen and (max-width: 767px) {
-  .p-4 {
-    padding: 1rem !important; } }
+    padding: 20px !important; } }
 
 body {
   font-family: "Onest", sans-serif;

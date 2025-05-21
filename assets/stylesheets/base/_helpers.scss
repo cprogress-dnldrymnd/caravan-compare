@@ -373,15 +373,9 @@
 
 .p-5 {
     @include responsive(xs-sm) {
-        padding: 2rem !important;
+        padding: 30px !important;
     }
     @include responsive(xs) {
-        padding: 1rem !important;
-    }
-}
-
-.p-4 {
-    @include responsive(xs) {
-        padding: 1rem !important;
+        padding: 20px !important;
     }
 }
