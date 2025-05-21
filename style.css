@@ -12094,12 +12094,9 @@ form > .form-group:not(:last-child) {
     height: 20px;
     transform: rotate(-90deg); }
 
-@media screen and (max-width: 991px) {
-  .p-5 {
-    padding: 30px !important; } }
 @media screen and (max-width: 767px) {
   .p-5 {
-    padding: 20px !important; } }
+    padding: 30px !important; } }
 
 body {
   font-family: "Onest", sans-serif;

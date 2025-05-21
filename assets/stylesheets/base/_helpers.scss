@@ -372,10 +372,7 @@
 }
 
 .p-5 {
-    @include responsive(xs-sm) {
-        padding: 30px !important;
-    }
     @include responsive(xs) {
-        padding: 20px !important;
+        padding: 30px !important;
     }
 }
