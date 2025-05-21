@@ -11,13 +11,13 @@ jQuery(document).ready(function () {
 function password_input() {
     jQuery('.password---hidden').click(function (e) {
         $input = jQuery(this).prev();
-        $input.attr('type', 'password');
+        $input.attr('type', 'text');
         jQuery(this).addClass('password---show').removeClass('password---hidden');
         e.preventDefault();
     });
     jQuery('.password---show').click(function (e) {
         $input = jQuery(this).prev();
-        $input.attr('type', 'text');
+        $input.attr('type', 'password');
         jQuery(this).addClass('password---hidden').removeClass('password---show');
         e.preventDefault();
     });
