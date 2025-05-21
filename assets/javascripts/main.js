@@ -48,6 +48,17 @@ function templates() {
             console.error('Error fetching the HTML file:', error);
             document.getElementById('footer-insert').innerHTML = '<p>Error loading content.</p>';
         });
+
+
+    fetch('template-parts/modals/--dealer-login.html') // Path to the HTML file you want to insert
+        .then(response => response.text())
+        .then(data => {
+            document.getElementById('dealer-login-insert').innerHTML = data;
+        })
+        .catch(error => {
+            console.error('Error fetching the HTML file:', error);
+            document.getElementById('dealer-login-insert').innerHTML = '<p>Error loading content.</p>';
+        });
 }
 
 function header() {
@@ -349,7 +360,7 @@ function swiper_sliders() {
     });
 
 
-    
+
 
     var swiper_dealer_reviews = new Swiper(".swiper-dealer-reviews", {
         freeMode: true,
@@ -364,7 +375,7 @@ function swiper_sliders() {
                 slidesPerView: 2,
                 spaceBetween: 20,
             },
-          
+
         },
 
         pagination: {

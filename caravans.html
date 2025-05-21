@@ -44,6 +44,7 @@
     <div id="offcanvas-menu"></div>
     <div id="save-search-modal"></div>
     <div id="offcanvas-save-searches"></div>
+    <div id="dealer-login-insert"></div>
     <script src="https://code.jquery.com/jquery-3.7.1.min.js"
         integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
 
@@ -89,7 +90,6 @@
             console.error('Error fetching the HTML file:', error);
             document.getElementById('offcanvas-save-searches').innerHTML = '<p>Error loading content.</p>';
         });
-
 
     setTimeout(function () {
         fetch('template-parts/listing-grids/----saved-searches.html') // Path to the HTML file you want to insert
