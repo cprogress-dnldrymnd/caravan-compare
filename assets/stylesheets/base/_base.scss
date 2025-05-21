@@ -608,10 +608,17 @@ span.icons {
     }
     &.offcanvas-large {
         max-width: 1650px;
+        .offcanvas--inner {
+            max-width: 1400px;
+            margin-left: auto;
+            margin-right: auto;
+        }
     }
     .offcanvas-inner-header {
         .btn-close {
             left: 0;
+            top: 50%;
+            @include transform(translate(-110%, -50%));
         }
     }
 }
