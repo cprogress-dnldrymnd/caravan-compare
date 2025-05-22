@@ -11968,6 +11968,19 @@ hr {
 .fancybox__container.fancybox__container {
   z-index: 99999; }
 
+.search-items ul {
+  gap: 7px; }
+  .search-items ul li {
+    display: flex;
+    gap: 7px; }
+.search-items .search-items--main li:not(:last-child):after {
+  content: "";
+  width: 3px;
+  height: 3px;
+  border-radius: 50%;
+  display: inline-block;
+  background-color: currentColor; }
+
 @media (min-width: 1500px) {
   .container {
     max-width: 1420px; } }
