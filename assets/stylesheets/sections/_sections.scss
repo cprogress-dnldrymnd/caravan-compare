@@ -638,6 +638,12 @@ section.forms {
             flex-wrap: wrap;
             li {
                 width: calc(50% - 0.5rem);
+                a {
+                    @include responsive(small-lg) {
+                        flex-direction: column;
+                        align-items: flex-start !important;
+                    }
+                }
             }
         }
     }

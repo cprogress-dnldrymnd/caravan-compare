@@ -12570,6 +12570,10 @@ h5, .h5 {
 .compare svg {
   width: 34px;
   height: 28px; }
+  @media (min-width: 1200px) and (max-width: 1399px) {
+    .compare svg {
+      width: 25px;
+      height: 20px; } }
 @media (min-width: 1200px) and (max-width: 1399px) {
   .compare {
     font-size: 16px; } }
@@ -13049,6 +13053,9 @@ section.forms .container > .row > .col-lg-6:not(:last-child) {
     flex-wrap: wrap; }
     .dealer-contact.dealer-contact-v2 ul li {
       width: calc(50% - 0.5rem); }
+      @media (min-width: 1200px) and (max-width: 1399px) {
+        .dealer-contact.dealer-contact-v2 ul li a {
+          flex-direction: column; } }
 
 body.hero-has-image section.hero {
   --image-margin: 80px; }
