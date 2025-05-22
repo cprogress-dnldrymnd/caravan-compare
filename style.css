@@ -13269,6 +13269,10 @@ section.newsletter {
     justify-content: center;
     gap: 20px; } }
 
+@media (max-width: 1499px) and (min-width: 992px) {
+  section.dealer-listing .listing-grid-holder .row > div {
+    width: 50%; } }
+
 /*-----------------------------------------------------------------------------------*/
 /* Plugins
 /*-----------------------------------------------------------------------------------*/

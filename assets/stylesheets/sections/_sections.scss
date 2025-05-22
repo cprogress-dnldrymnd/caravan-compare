@@ -830,3 +830,16 @@ section.icon-lists {
         }
     }
 }
+
+
+section.dealer-listing {
+    @media(max-width: 1499px) and (min-width: 992px) {
+        .listing-grid-holder {
+            .row {
+                > div {
+                    width: 50%;
+                }
+            }
+        }
+    }
+}
