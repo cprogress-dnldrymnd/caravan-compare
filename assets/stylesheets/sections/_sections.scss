@@ -645,8 +645,12 @@ section.forms {
     }
 }
 
+body.hero-has-image {
+    section.hero {
+        --image-margin: 80px;
+    }
+}
 section.hero {
-    --image-margin: 80px;
     padding-top: calc(var(--header-height) + var(--top-bar-height));
     margin-bottom: var(--image-margin);
     position: relative;

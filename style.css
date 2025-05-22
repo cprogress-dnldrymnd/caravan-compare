@@ -13037,8 +13037,10 @@ section.forms .container > .row > .col-lg-6:not(:last-child) {
     .dealer-contact.dealer-contact-v2 ul li {
       width: calc(50% - 0.5rem); }
 
+body.hero-has-image section.hero {
+  --image-margin: 80px; }
+
 section.hero {
-  --image-margin: 80px;
   padding-top: calc(var(--header-height) + var(--top-bar-height));
   margin-bottom: var(--image-margin);
   position: relative; }
