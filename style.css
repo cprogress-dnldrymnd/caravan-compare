@@ -13287,7 +13287,7 @@ section.newsletter {
     gap: 5px !important; } }
 
 @media (max-width: 1499px) and (min-width: 992px) {
-  .listing-grid-holder-responsive .listing-grid-holder > .row > div {
+  .listing-grid-holder-responsive > .row > div {
     width: 50%; } }
 
 /*-----------------------------------------------------------------------------------*/

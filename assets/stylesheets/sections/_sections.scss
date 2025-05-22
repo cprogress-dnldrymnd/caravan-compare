@@ -858,11 +858,9 @@ section.dealer-listing {
 
 .listing-grid-holder-responsive {
     @media (max-width: 1499px) and (min-width: 992px) {
-        .listing-grid-holder {
-            > .row {
-                > div {
-                    width: 50%;
-                }
+        > .row {
+            > div {
+                width: 50%;
             }
         }
     }
