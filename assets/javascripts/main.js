@@ -35,37 +35,11 @@ function password_input() {
 }
 
 function templates() {
-    fetch___template('template-parts/--topbar.html', '#top-bar-insert')
+    fetch___template('template-parts/--topbar.html', '#top-bar-insert');
+    fetch___template('template-parts/--header.html', '#header-insert');
+    fetch___template('template-parts/offcanvas/--offcanvas-menu.html', '#offcanvas-menu');
+    fetch___template('template-parts/--footer.html', '#footer-insert');
 
-    fetch('template-parts/--header.html') // Path to the HTML file you want to insert
-        .then(response => response.text())
-        .then(data => {
-            document.getElementById('header-insert').innerHTML = data;
-        })
-        .catch(error => {
-            console.error('Error fetching the HTML file:', error);
-            document.getElementById('header-insert').innerHTML = '<p>Error loading content.</p>';
-        });
-
-    fetch('template-parts/offcanvas/--offcanvas-menu.html') // Path to the HTML file you want to insert
-        .then(response => response.text())
-        .then(data => {
-            document.getElementById('offcanvas-menu').innerHTML = data;
-        })
-        .catch(error => {
-            console.error('Error fetching the HTML file:', error);
-            document.getElementById('offcanvas-menu').innerHTML = '<p>Error loading content.</p>';
-        });
-
-    fetch('template-parts/--footer.html') // Path to the HTML file you want to insert
-        .then(response => response.text())
-        .then(data => {
-            document.getElementById('footer-insert').innerHTML = data;
-        })
-        .catch(error => {
-            console.error('Error fetching the HTML file:', error);
-            document.getElementById('footer-insert').innerHTML = '<p>Error loading content.</p>';
-        });
 }
 
 function header() {
