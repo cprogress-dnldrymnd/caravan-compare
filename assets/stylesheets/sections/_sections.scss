@@ -697,7 +697,9 @@ section.listing-single {
     .listing--single-right {
         .listing--single--right-inner {
             padding: 30px 30px 120px;
-            height: 100vh;
+            @include responsive(md-lg) {
+                height: 100vh;
+            }
         }
     }
     .nav-tabs-holder {
