@@ -8,6 +8,18 @@ jQuery(document).ready(function () {
     }, 1000);
 
 });
+
+function fetch___template($location, $element) {
+    fetch($location) // Path to the HTML file you want to insert
+        .then(response => response.text())
+        .then(data => {
+            jQuery($element).html(data);
+        })
+        .catch(error => {
+            console.error('Error fetching the HTML file:', error);
+            jQuery($element).html('<p>Error loading content.</p>');
+        });
+}
 function password_input() {
     jQuery(document).on('click', ".password---hidden", function () {
         $input = jQuery(this).prev();
@@ -23,15 +35,7 @@ function password_input() {
 }
 
 function templates() {
-    fetch('template-parts/--topbar.html') // Path to the HTML file you want to insert
-        .then(response => response.text())
-        .then(data => {
-            jQuery('#top-bar-insert').html(data);
-        })
-        .catch(error => {
-            console.error('Error fetching the HTML file:', error);
-            document.getElementById('top-bar-insert').innerHTML = '<p>Error loading content.</p>';
-        });
+    fetch___template('template-parts/--topbar.html', '#top-bar-insert')
 
     fetch('template-parts/--header.html') // Path to the HTML file you want to insert
         .then(response => response.text())
