@@ -11644,7 +11644,8 @@ span.icons {
     @media screen and (max-width: 575px) {
       .offcanvas.offcanvas .btn-close.btn-close {
         width: 20px;
-        height: 20px; } }
+        height: 20px;
+        background-size: 20px; } }
   @media screen and (min-width: 1200px) {
     .offcanvas.offcanvas .offcanvas-inner-header .btn-close {
       left: 0;
