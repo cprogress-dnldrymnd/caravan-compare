@@ -11972,6 +11972,7 @@ hr {
   gap: 7px; }
   .search-items ul li {
     display: flex;
+    align-items: center;
     gap: 7px; }
 .search-items .search-items--main li:not(:last-child):after {
   content: "";
