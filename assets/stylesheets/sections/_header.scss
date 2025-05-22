@@ -156,16 +156,16 @@
     }
 }
 .navbar-nav {
-.dropdown-menu {
-    @include responsive(md-lg) {
-        position: absolute;
+    .dropdown-menu {
+        @include responsive(md-lg) {
+            position: absolute;
+        }
+        @include responsive(xs-sm) {
+            position: relative !important;
+            margin: 0 !important;
+            transform: none !important;
+        }
     }
-    @include responsive(xs-sm) {
-        position: relative !important;
-        margin: 0 !important;
-        transform: none !important;
-    }
-}
 }
 .header-light {
     #main-header {
@@ -227,5 +227,10 @@
     @include responsive(xs-sm) {
         margin-bottom: 3rem !important;
         gap: 10px !important;
+        .nav-link.dropdown-toggle {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
     }
 }
