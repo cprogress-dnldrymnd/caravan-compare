@@ -13,7 +13,7 @@ jQuery(document).ready(function () {
 
 function menu_responsive() {
     if (window.innerWidth < 992) {
-        jQuery('#main-navbar').insertAfter('#offCanvasMenu + .button-box');
+        jQuery('#main-navbar').insertAfter('#offCanvasMenu .button-box');
     }
 }
 
