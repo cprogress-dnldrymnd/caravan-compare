@@ -51,46 +51,23 @@
 }
 
 .menu-burger {
+    --burger-width: 37px;
+    --burger-height: 28px;
+    --bar-height: 4px;
     border: none;
     background-color: transparent;
     padding: 0;
     position: relative;
     color: currentColor;
     outline: none;
-    --burger-width: 37px;
-    --burger-height: 28px;
-    --bar-height: 4px;
-    .icon .menu,
-    .icon .menu::before,
-    .icon .menu::after {
-        background-color: currentColor;
-        content: "";
-        display: block;
+    height: var(--burger-height);
+    width: var(--burger-width);
+    flex-direction: column;
+    justify-content: space-between;
+    .bar {
         height: var(--bar-height);
-        position: absolute;
-        transition:
-            background ease 0.3s,
-            top ease 0.3s 0.3s,
-            transform ease 0.3s;
-        width: var( --burger-width);
-    }
-    .icon {
-        cursor: pointer;
+        width: var(--burger-width);
         display: block;
-        height: var(--burger-height);
-        width: var( --burger-width);
-        position: relative;
-
-        .menu {
-            left: 0;
-            top: 8px;
-            @include before {
-                top: -8px;
-            }
-            @include after {
-                top: 8px;
-            }
-        }
     }
 }
 
