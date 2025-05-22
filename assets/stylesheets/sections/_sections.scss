@@ -857,7 +857,9 @@ section.dealer-listing {
         ul {
             li {
                 @include responsive(md) {
+                    flex-direction: column;
                     align-items: start !important;
+                    gap: 5px !important;
                 }
             }
         }
