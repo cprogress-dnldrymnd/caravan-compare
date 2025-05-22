@@ -12291,6 +12291,9 @@ hr {
   .w-md-auto {
     width: auto !important; } }
 
+.bring-to-front {
+  z-index: 99999; }
+
 body {
   font-family: "Onest", sans-serif;
   color: var(--text-color);
