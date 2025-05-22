@@ -11968,6 +11968,10 @@ hr {
 .fancybox__container.fancybox__container {
   z-index: 99999; }
 
+@media screen and (max-width: 575px) {
+  .vehicle-search-mobile .vehicle-search-mobile--inner {
+    padding: 10px !important; } }
+
 .search-items ul {
   gap: 7px; }
   .search-items ul li {
