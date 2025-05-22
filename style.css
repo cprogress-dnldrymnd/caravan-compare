@@ -12593,6 +12593,14 @@ h5, .h5 {
     height: var(--bar-height);
     width: var(--burger-width);
     display: block; }
+  @media screen and (max-width: 1199px) {
+    .menu-burger {
+      width: 25px;
+      height: 20px; } }
+  @media screen and (max-width: 991px) {
+    .menu-burger {
+      width: 25px;
+      height: 20px; } }
 
 .compare .count {
   width: 22px;

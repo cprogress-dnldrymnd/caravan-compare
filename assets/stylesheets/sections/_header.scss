@@ -62,12 +62,20 @@
     outline: none;
     height: var(--burger-height);
     width: var(--burger-width);
-    
+
     .bar {
         background-color: currentColor;
         height: var(--bar-height);
         width: var(--burger-width);
         display: block;
+    }
+    @include responsive(xs-md) {
+        width: 30px;
+        height: 25px;
+    }
+    @include responsive(xs-sm) {
+        width: 25px;
+        height: 20px;
     }
 }
 
