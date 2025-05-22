@@ -12580,6 +12580,9 @@ h5, .h5 {
 @media (min-width: 1200px) and (max-width: 1399px) {
   .compare {
     font-size: 16px; } }
+@media (min-width: 992px) and (max-width: 1199px) {
+  .compare {
+    font-size: 14px; } }
 
 #main-header .logo-box a {
   color: inherit; }
