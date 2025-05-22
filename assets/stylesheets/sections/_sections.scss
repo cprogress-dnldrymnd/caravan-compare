@@ -434,6 +434,9 @@ section.search-stock-holder {
         z-index: -1;
         top: var(--offset);
     }
+    @include responsive(mobile) {
+        --offset: 50px;;
+    }
 }
 
 .swiper-grid-slider {
@@ -647,7 +650,6 @@ section.forms {
                     width: 100%;
                 }
             }
-           
         }
     }
 }
