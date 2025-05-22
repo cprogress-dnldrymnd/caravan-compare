@@ -13281,7 +13281,7 @@ section.newsletter {
     font-size: 16px; } }
 @media (min-width: 992px) and (max-width: 1199px) {
   section.dealer-listing .dealer-opening-hours ul li {
-    font-size: 16px; } }
+    align-items: start !important; } }
 
 /*-----------------------------------------------------------------------------------*/
 /* Plugins
