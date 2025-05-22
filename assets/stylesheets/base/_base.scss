@@ -617,7 +617,7 @@ img {
     @include responsive(mobile) {
         width: 24px;
         height: 24px;
-        @include after  {
+        @include after {
             --swiper-navigation-size: 10px;
         }
     }
@@ -683,12 +683,12 @@ span.icons {
             margin-left: auto;
             margin-right: auto;
         }
+        @include responsive(mobile) {
+            padding: 40px 20px 20px;
+        }
     }
 
     .btn-close.btn-close {
-        width: 43px;
-        height: 37px;
-        background-size: 25px;
         width: 43px;
         height: 37px;
         background-size: 25px;
@@ -697,6 +697,11 @@ span.icons {
         right: 20px;
         opacity: 1;
         padding: 0;
+        @include responsive(mobile) {
+            width: 20px;
+            height: 20px;
+            background-size: 20px;
+        }
     }
     .offcanvas-inner-header {
         .btn-close {
@@ -1128,7 +1133,6 @@ hr {
     opacity: 0.75;
 }
 
-
 .trustpilot {
     svg {
         height: 20px;
@@ -1169,7 +1173,6 @@ hr {
     }
 }
 
-
-.fancybox__container.fancybox__container{
+.fancybox__container.fancybox__container {
     z-index: 99999;
 }
