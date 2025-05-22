@@ -879,6 +879,7 @@ span.icons {
 .breadcrumbs {
     ul {
         display: flex;
+        flex-wrap: wrap;
         gap: 20px;
         li {
             display: flex;
@@ -886,6 +887,9 @@ span.icons {
             align-items: center;
             a {
                 color: var(--text-color);
+                @include responsive(mobile) {
+                    font-size: 14px;
+                }
             }
             @include not-last-child {
                 @include after {
