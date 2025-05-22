@@ -1177,6 +1177,13 @@ hr {
     z-index: 99999;
 }
 
+.vehicle-search-mobile {
+    .vehicle-search-mobile--inner {
+        @include responsive(mobile) {
+            padding: 10px !important;;
+        }
+    }
+}
 .search-items {
     ul {
         gap: 7px;
@@ -1190,7 +1197,6 @@ hr {
                     border-radius: 50%;
                     display: inline-block;
                     background-color: currentColor;
-
                 }
             }
         }
