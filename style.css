@@ -12008,6 +12008,9 @@ hr {
   .search-items .search-items--sub {
     font-size: 10px; } }
 
+#VehicleSearchModal .modal-dialog {
+  max-width: 100%; }
+
 @media (min-width: 1500px) {
   .container {
     max-width: 1420px; } }
