@@ -13055,7 +13055,8 @@ section.forms .container > .row > .col-lg-6:not(:last-child) {
       width: calc(50% - 0.5rem); }
       @media (min-width: 1200px) and (max-width: 1399px) {
         .dealer-contact.dealer-contact-v2 ul li a {
-          flex-direction: column; } }
+          flex-direction: column;
+          align-items: flex-start !important; } }
 
 body.hero-has-image section.hero {
   --image-margin: 80px; }

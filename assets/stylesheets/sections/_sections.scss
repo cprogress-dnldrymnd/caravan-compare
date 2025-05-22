@@ -269,7 +269,6 @@
                 &.active {
                     background-color: var(--text-color);
                     color: var(--bs-white);
-             
                 }
                 @include responsive(mobile) {
                     font-size: 10px;
@@ -644,6 +643,9 @@ section.forms {
                         align-items: flex-start !important;
                     }
                 }
+            }
+            @include responsive(mobile) {
+                width: 100%;
             }
         }
     }
