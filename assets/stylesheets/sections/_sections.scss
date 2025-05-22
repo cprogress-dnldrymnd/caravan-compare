@@ -643,10 +643,11 @@ section.forms {
                         align-items: flex-start !important;
                     }
                 }
+                @include responsive(mobile) {
+                    width: 100%;
+                }
             }
-            @include responsive(mobile) {
-                width: 100%;
-            }
+           
         }
     }
 }
