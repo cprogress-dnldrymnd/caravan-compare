@@ -11632,12 +11632,6 @@ span.icons {
     right: 20px;
     opacity: 1;
     padding: 0; }
-  .offcanvas.offcanvas.offcanvas-large {
-    max-width: 1650px; }
-    .offcanvas.offcanvas.offcanvas-large .offcanvas--inner {
-      max-width: 1400px;
-      margin-left: auto;
-      margin-right: auto; }
   @media screen and (min-width: 1200px) {
     .offcanvas.offcanvas .offcanvas-inner-header .btn-close {
       left: 0;
@@ -11650,6 +11644,25 @@ span.icons {
   @media screen and (max-width: 1199px) {
     .offcanvas.offcanvas .offcanvas-inner-header .btn-close {
       position: static; } }
+  .offcanvas.offcanvas.offcanvas-large {
+    max-width: 1650px; }
+    .offcanvas.offcanvas.offcanvas-large .offcanvas--inner {
+      max-width: 1400px;
+      margin-left: auto;
+      margin-right: auto; }
+  @media screen and (min-width: 992px) {
+    .offcanvas.offcanvas.offcanvas-visible-desktop {
+      max-width: 100%;
+      position: static;
+      transform: none;
+      visibility: visible;
+      opacity: 1;
+      border: none; }
+      .offcanvas.offcanvas.offcanvas-visible-desktop .offcanvas-body {
+        padding: 0;
+        background-color: transparent; }
+        .offcanvas.offcanvas.offcanvas-visible-desktop .offcanvas-body .btn-close {
+          display: none; } }
 
 .wpcf7.wpcf7 p {
   margin-bottom: 0; }

@@ -688,14 +688,6 @@ span.icons {
         opacity: 1;
         padding: 0;
     }
-    &.offcanvas-large {
-        max-width: 1650px;
-        .offcanvas--inner {
-            max-width: 1400px;
-            margin-left: auto;
-            margin-right: auto;
-        }
-    }
     .offcanvas-inner-header {
         .btn-close {
             @include responsive(lg) {
@@ -705,6 +697,32 @@ span.icons {
             }
             @include responsive(xs-md) {
                 position: static;
+            }
+        }
+    }
+    &.offcanvas-large {
+        max-width: 1650px;
+        .offcanvas--inner {
+            max-width: 1400px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+    }
+
+    &.offcanvas-visible-desktop {
+        @include responsive(md-lg) {
+            max-width: 100%;
+            position: static;
+            transform: none;
+            visibility: visible;
+            opacity: 1;
+            border: none;
+            .offcanvas-body {
+                padding: 0;
+                background-color: transparent;
+                .btn-close {
+                    display: none;
+                }
             }
         }
     }
@@ -894,7 +912,6 @@ span.icons {
                     content: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-right" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708"/></svg>');
                 }
             }
-           
         }
         @include responsive(mobile) {
             --gap: 10px;
