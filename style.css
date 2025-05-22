@@ -13167,10 +13167,8 @@ section.hero {
     z-index: 2; }
   section.hero .hero-title-image .image-box img {
     position: relative;
-    bottom: calc(var(--image-margin) - (var(--image-margin) * 2)); }
-    @media screen and (min-width: 992px) {
-      section.hero .hero-title-image .image-box img {
-        margin-top: calc(var(--image-margin) - (var(--image-margin) * 2)); } }
+    bottom: calc(var(--image-margin) - (var(--image-margin) * 2));
+    margin-top: calc(var(--image-margin) - (var(--image-margin) * 2)); }
   section.hero .hero-title-image h1:last-child, section.hero .hero-title-image .h1:last-child {
     margin-bottom: 0 !important; }
   section.hero:before {
