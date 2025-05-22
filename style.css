@@ -12971,6 +12971,9 @@ section.hero-slider .swiper-hero .swiper-pagination-holder {
   z-index: 1;
   left: 0;
   right: 0; }
+  @media screen and (max-width: 575px) {
+    section.hero-slider .swiper-hero .swiper-pagination-holder {
+      bottom: 80px; } }
 section.hero-slider .background-image:after {
   z-index: 2;
   content: "";
