@@ -12570,6 +12570,9 @@ h5, .h5 {
 .compare svg {
   width: 34px;
   height: 28px; }
+@media (min-width: 1200px) and (max-width: 1399px) {
+  .compare {
+    font-size: 16px; } }
 
 #main-header .logo-box a {
   color: inherit; }
