@@ -802,6 +802,7 @@ section.icon-lists {
         a {
             @include responsive(mobile) {
                 font-size: 12px;
+                padding: 15px !important;
                 svg {
                     width: 30px;
                     height: 30px;
@@ -809,7 +810,9 @@ section.icon-lists {
             }
             @include responsive(xxs) {
                 font-size: 10px;
-                  svg {
+                padding: 10px !important;
+
+                svg {
                     width: 25px;
                     height: 25px;
                 }

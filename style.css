@@ -13237,13 +13237,15 @@ section.newsletter {
 
 @media screen and (max-width: 575px) {
   section.icon-lists .swiper-wrapper a {
-    font-size: 12px; }
+    font-size: 12px;
+    padding: 15px !important; }
     section.icon-lists .swiper-wrapper a svg {
       width: 30px;
       height: 30px; } }
 @media screen and (max-width: 480px) {
   section.icon-lists .swiper-wrapper a {
-    font-size: 10px; }
+    font-size: 10px;
+    padding: 10px !important; }
     section.icon-lists .swiper-wrapper a svg {
       width: 25px;
       height: 25px; } }
