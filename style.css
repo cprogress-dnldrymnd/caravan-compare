@@ -11321,7 +11321,6 @@ select.form-control.form-control {
     overflow: hidden; }
     .nav-tabs.nav-tabs-style-3 .nav-link {
       padding: 10px 20px;
-      min-width: 200px;
       flex: 1 0 0%;
       display: flex;
       align-items: center;
@@ -11329,13 +11328,17 @@ select.form-control.form-control {
       color: var(--text-color);
       justify-content: center;
       background-color: var(--transparent);
-      border: none; }
+      border: none;
+      white-space: nowrap; }
       .nav-tabs.nav-tabs-style-3 .nav-link svg {
         width: 20px;
         height: 20px; }
       .nav-tabs.nav-tabs-style-3 .nav-link.active {
         background-color: var(--text-color);
         color: var(--bs-white); }
+      @media screen and (min-width: 992px) {
+        .nav-tabs.nav-tabs-style-3 .nav-link {
+          min-width: 200px; } }
   .nav-tabs.swiper-wrapper {
     gap: 0;
     flex-wrap: nowrap; }

@@ -259,7 +259,6 @@ select {
         overflow: hidden;
         .nav-link {
             padding: 10px 20px;
-            min-width: 200px;
             flex: 1 0 0%;
             display: flex;
             align-items: center;
@@ -268,6 +267,7 @@ select {
             justify-content: center;
             background-color: var(--transparent);
             border: none;
+            white-space: nowrap;
             svg {
                 width: 20px;
                 height: 20px;
@@ -275,6 +275,9 @@ select {
             &.active {
                 background-color: var(--text-color);
                 color: var(--bs-white);
+            }
+            @include responsive(md-lg) {
+                min-width: 200px;
             }
         }
     }
@@ -1150,8 +1153,6 @@ hr {
         }
     }
 }
-
-
 
 .btn-with-icon {
     display: inline-flex;
