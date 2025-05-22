@@ -13057,6 +13057,9 @@ section.forms .container > .row > .col-lg-6:not(:last-child) {
         .dealer-contact.dealer-contact-v2 ul li a {
           flex-direction: column;
           align-items: flex-start !important; } }
+    @media screen and (max-width: 575px) {
+      .dealer-contact.dealer-contact-v2 ul {
+        width: 100%; } }
 
 body.hero-has-image section.hero {
   --image-margin: 80px; }
