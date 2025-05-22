@@ -6,6 +6,7 @@ jQuery(document).ready(function () {
     setTimeout(function () {
         swiper_sliders();
         header();
+        menu_responsive();
     }, 1000);
 
 });
