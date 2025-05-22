@@ -1504,6 +1504,7 @@
   </main>
   <div id="footer-insert"></div>
   <div id="offcanvas-menu"></div>
+  <div id="vehicle-search-mobile-modal"></div>
 
   <script src="https://code.jquery.com/jquery-3.7.1.min.js"
     integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
@@ -1521,8 +1522,10 @@
 </html>
 
 <script>
+  fetch___template('template-parts/modals/--vehicle-search-mobile.html', '#vehicle-search-mobile-modal');
   fetch___template('template-parts/---blogs.html', '#blogs-insert');
   fetch___template('template-parts/---listing-tab.html', '.listing-tab-insert');
+  fetch___template('template-parts/globals/-----vechicle-search.html', '.vehicle-search-form-insert');
   fetch___template('template-parts/globals/-----vechicle-search.html', '.vehicle-search-form-insert');
   setTimeout(function () {
     fetch___template('template-parts/listing-grids/----blog-large.html', '.blog-grid-large-insert');
