@@ -12595,8 +12595,8 @@ h5, .h5 {
     display: block; }
   @media screen and (max-width: 1199px) {
     .menu-burger {
-      width: 25px;
-      height: 20px; } }
+      width: 30px;
+      height: 25px; } }
   @media screen and (max-width: 991px) {
     .menu-burger {
       width: 25px;
