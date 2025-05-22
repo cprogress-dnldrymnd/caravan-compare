@@ -26,7 +26,7 @@ function templates() {
     fetch('template-parts/--topbar.html') // Path to the HTML file you want to insert
         .then(response => response.text())
         .then(data => {
-            document.getElementById('top-bar-insert').innerHTML = data;
+            jQuery('#top-bar-insert').html(data);
         })
         .catch(error => {
             console.error('Error fetching the HTML file:', error);
