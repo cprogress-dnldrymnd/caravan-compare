@@ -11963,6 +11963,9 @@ hr {
     height: 14px;
     width: auto; }
 
+.fancybox__container.fancybox__container {
+  z-index: 99999; }
+
 @media (min-width: 1500px) {
   .container {
     max-width: 1420px; } }

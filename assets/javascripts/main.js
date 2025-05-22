@@ -2,12 +2,19 @@ jQuery(document).ready(function () {
     templates();
     fancybox();
     password_input();
+    menu_responsive();
     setTimeout(function () {
         swiper_sliders();
         header();
     }, 1000);
 
 });
+
+function menu_responsive() {
+    if (window.innerWidth < 992) {
+        jQuery('#main-navbar').insertAfter('#offCanvasMenu + .button-box');
+    }
+}
 
 function fetch___template($location, $element) {
     fetch($location) // Path to the HTML file you want to insert
