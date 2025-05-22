@@ -678,6 +678,9 @@ section.hero {
                 position: relative;
                 bottom: calc(var(--image-margin) - (var(--image-margin) * 2));
                 margin-top: calc(var(--image-margin) - (var(--image-margin) * 2));
+                @include responsive(md-lg) {
+                    margin-top: calc(calc(var(--image-margin) - (var(--image-margin) * 2)) * 2);
+                }
             }
         }
         h1 {
