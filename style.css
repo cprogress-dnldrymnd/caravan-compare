@@ -11131,7 +11131,7 @@ body {
     .btn {
       --bs-btn-font-size: 15px;
       --bs-btn-padding-x: 16px; } }
-  .btn:hover:not(.btn), .btn:active:not(.btn), .btn:focus:not(.btn) {
+  .btn:hover:not(.btn-no-hover), .btn:active:not(.btn-no-hover), .btn:focus:not(.btn-no-hover) {
     -webkit-transform: translateY(-5px);
     -moz-transform: translateY(-5px);
     -ms-transform: translateY(-5px);

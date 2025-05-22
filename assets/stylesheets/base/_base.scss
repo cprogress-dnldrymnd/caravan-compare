@@ -14,7 +14,7 @@ body {
         --bs-btn-padding-x: 16px;
     }
     @include on-event {
-        &:not(.btn ){
+        &:not(.btn-no-hover) {
             @include transform(translateY(-5px));
         }
     }
