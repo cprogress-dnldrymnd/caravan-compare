@@ -152,6 +152,10 @@
             @include responsive(md-lg) {
                 position: absolute;
             }
+            @include responsive(xs-sm) {
+                position: relative !important;
+                margin: 0 !important;
+            }
         }
     }
     .g-5 {

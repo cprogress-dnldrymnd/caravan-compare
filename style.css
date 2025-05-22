@@ -12603,6 +12603,9 @@ h5, .h5 {
   @media screen and (min-width: 992px) {
     #main-header .navbar-nav .dropdown-menu {
       position: absolute; } }
+  @media screen and (max-width: 991px) {
+    #main-header .navbar-nav .dropdown-menu {
+      position: relative !important; } }
 @media (min-width: 992px) and (max-width: 1199px) {
   #main-header .g-5 {
     gap: 20px !important; } }
