@@ -13279,6 +13279,9 @@ section.newsletter {
 @media (min-width: 992px) and (max-width: 1199px) {
   section.dealer-listing .sidebar-dealer .fs-20 {
     font-size: 16px; } }
+@media (min-width: 992px) and (max-width: 1199px) {
+  section.dealer-listing .dealer-opening-hours ul li {
+    font-size: 16px; } }
 
 /*-----------------------------------------------------------------------------------*/
 /* Plugins

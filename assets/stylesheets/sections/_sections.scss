@@ -853,4 +853,13 @@ section.dealer-listing {
             }
         }
     }
+    .dealer-opening-hours {
+        ul {
+            li {
+                @include responsive(md) {
+                    align-items: start !important;
+                }
+            }
+        };
+    }
 }
