@@ -366,6 +366,9 @@ section.hero-slider {
             .container--inner {
                 max-width: 675px;
             }
+            @include responsive(mobile) {
+                padding-bottom: 120px;
+            }
         }
 
         .container {
@@ -378,6 +381,9 @@ section.hero-slider {
             z-index: 1;
             left: 0;
             right: 0;
+            @include responsive(mobile) {
+                bottom: 80px;
+            }
         }
     }
     .background-image {

@@ -12960,6 +12960,9 @@ section.hero-slider .swiper-hero .swiper-slide--inner {
   padding-bottom: 240px; }
   section.hero-slider .swiper-hero .swiper-slide--inner .container--inner {
     max-width: 675px; }
+  @media screen and (max-width: 575px) {
+    section.hero-slider .swiper-hero .swiper-slide--inner {
+      padding-bottom: 120px; } }
 section.hero-slider .swiper-hero .container {
   z-index: 2; }
 section.hero-slider .swiper-hero .swiper-pagination-holder {
