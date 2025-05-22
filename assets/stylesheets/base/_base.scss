@@ -311,6 +311,16 @@ select {
                 @include responsive(mobile) {
                     padding-left: 10px;
                     padding-right: 10px;
+                    font-size: 12px;
+                }
+                @include responsive(xxs) {
+                    padding-left: 5px;
+                    padding-right: 5px;
+                    font-size: 10px;
+                    svg {
+                        width: 15px;
+                        height: 15px;
+                    }
                 }
             }
             @include responsive(xs) {
@@ -1180,7 +1190,7 @@ hr {
 .vehicle-search-mobile {
     .vehicle-search-mobile--inner {
         @include responsive(mobile) {
-            padding: 10px !important;;
+            padding: 10px !important;
         }
     }
 }

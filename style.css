@@ -11360,7 +11360,13 @@ select.form-control.form-control {
   @media screen and (max-width: 575px) {
     .nav-tabs.nav-tabs-search-stocks .nav-item .nav-link {
       padding-left: 10px;
-      padding-right: 10px; } }
+      padding-right: 10px;
+      font-size: 12px; } }
+  @media screen and (max-width: 480px) {
+    .nav-tabs.nav-tabs-search-stocks .nav-item .nav-link {
+      padding-left: 5px;
+      padding-right: 5px;
+      font-size: 10px; } }
   @media screen and (max-width: 767px) {
     .nav-tabs.nav-tabs-search-stocks .nav-item {
       flex: 1 0 0%; } }
