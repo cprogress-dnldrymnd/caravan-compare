@@ -659,6 +659,11 @@ section.hero {
                 margin-bottom: calc(var(--image-margin) - (var(--image-margin) * 2));
             }
         }
+        h1 {
+            @include last-child {
+                margin-bottom: 0 !important;
+            }
+        }
     }
 
     @include before {
