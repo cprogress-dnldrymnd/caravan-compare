@@ -273,8 +273,12 @@
 <script>
     fetch___template('template-parts/---listing-tab.html', '#listing-tab-insert');
     fetch___template('template-parts/---blogs.html', '#blogs-insert');
-    fetch___template('template-parts/listing-grids/----vehicle-listing-grid-slider.html', '.listing-grid-slider-insert');
 
 
+    setTimeout(function () {
+        fetch___template('template-parts/listing-grids/----blog-large.html', '.blog-grid-large-insert');
+        fetch___template('template-parts/listing-grids/----blog.html', '.blog-grid-insert');
+        fetch___template('template-parts/listing-grids/----vehicle-listing-grid-slider.html', '.listing-grid-slider-insert');
+    }, 200);
 
 </script>
