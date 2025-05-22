@@ -12577,38 +12577,23 @@ h5, .h5 {
     text-decoration: none; }
 
 .menu-burger {
+  --burger-width: 37px;
+  --burger-height: 28px;
+  --bar-height: 4px;
   border: none;
   background-color: transparent;
   padding: 0;
   position: relative;
   color: currentColor;
   outline: none;
-  --burger-width: 37px;
-  --burger-height: 28px;
-  --bar-height: 4px; }
-  .menu-burger .icon .menu,
-  .menu-burger .icon .menu::before,
-  .menu-burger .icon .menu::after {
-    background-color: currentColor;
-    content: "";
-    display: block;
+  height: var(--burger-height);
+  width: var(--burger-width);
+  flex-direction: column;
+  justify-content: space-between; }
+  .menu-burger .bar {
     height: var(--bar-height);
-    position: absolute;
-    transition: background ease 0.3s, top ease 0.3s 0.3s, transform ease 0.3s;
-    width: var(--burger-width); }
-  .menu-burger .icon {
-    cursor: pointer;
-    display: block;
-    height: var(--burger-height);
     width: var(--burger-width);
-    position: relative; }
-    .menu-burger .icon .menu {
-      left: 0;
-      top: 8px; }
-      .menu-burger .icon .menu:before {
-        top: -8px; }
-      .menu-burger .icon .menu:after {
-        top: 8px; }
+    display: block; }
 
 .compare .count {
   width: 22px;
