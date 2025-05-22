@@ -11585,6 +11585,10 @@ img {
   align-items: center;
   justify-content: center;
   color: var(--text-color); }
+  @media screen and (max-width: 575px) {
+    .swiper-button.swiper-button {
+      width: 24px;
+      height: 24px; } }
 
 .icon-list {
   gap: 28px; }

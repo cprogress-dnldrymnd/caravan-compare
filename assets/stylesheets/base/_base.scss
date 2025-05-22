@@ -614,6 +614,13 @@ img {
     align-items: center;
     justify-content: center;
     color: var(--text-color);
+    @include responsive(mobile) {
+        width: 24px;
+        height: 24px;
+        @include after  {
+            --swiper-navigation-size: 10px;
+        }
+    }
 }
 
 .icon-list {
