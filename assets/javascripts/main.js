@@ -1,6 +1,5 @@
 jQuery(document).ready(function () {
     templates();
-    fancybox();
     password_input();
     menu_responsive();
     setTimeout(function () {
@@ -62,17 +61,6 @@ function header() {
     }
 }
 
-function fancybox() {
-    Fancybox.bind("[data-fancybox]", {
-        // Your custom options
-    });
-
-    jQuery('.zoom').click(function (e) {
-        jQuery(this).next().find('.swiper-slide-active a').addClass('sdsdss');
-        jQuery(this).next().find('.swiper-slide-active a').trigger('click');
-        e.preventDefault();
-    });
-}
 
 function swiper_sliders() {
 
