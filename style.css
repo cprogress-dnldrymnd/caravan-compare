@@ -13282,7 +13282,8 @@ section.newsletter {
 @media (min-width: 992px) and (max-width: 1199px) {
   section.dealer-listing .dealer-opening-hours ul li {
     flex-direction: column;
-    align-items: start !important; } }
+    align-items: start !important;
+    gap: 5px !important; } }
 
 /*-----------------------------------------------------------------------------------*/
 /* Plugins
