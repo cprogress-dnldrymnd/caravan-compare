@@ -58,13 +58,15 @@
     color: currentColor;
     outline: none;
     --burger-width: 37px;
+    --burger-height: 28px;
+    --bar-height: 4px;
     .icon .menu,
     .icon .menu::before,
     .icon .menu::after {
         background-color: currentColor;
         content: "";
         display: block;
-        height: 3px;
+        height: var(--bar-height);
         position: absolute;
         transition:
             background ease 0.3s,
@@ -75,7 +77,7 @@
     .icon {
         cursor: pointer;
         display: block;
-        height: 19px;
+        height: var(--burger-height);
         width: var( --burger-width);
         position: relative;
 
