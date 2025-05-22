@@ -729,23 +729,24 @@ section.listing-single {
         }
     }
 }
-
-.listing-pricing {
-    margin-left: -30px;
-    margin-right: -30px;
-    position: fixed;
-    bottom: 0;
-    right: auto;
-    width: 33.33333333%;
-    padding: 24px;
-    .price {
-        font-size: 50px;
-        font-weight: 500;
-        @include responsive(xs-sm) {
-            font-size: 40px;
-        }
-        @include responsive(xs) {
-            font-size: 30px;
+@include responsive(md-lg) {
+    .listing-pricing {
+        margin-left: -30px;
+        margin-right: -30px;
+        position: fixed;
+        bottom: 0;
+        right: auto;
+        width: 33.33333333%;
+        padding: 24px;
+        .price {
+            font-size: 50px;
+            font-weight: 500;
+            @include responsive(xs-sm) {
+                font-size: 40px;
+            }
+            @include responsive(xs) {
+                font-size: 30px;
+            }
         }
     }
 }
