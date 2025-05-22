@@ -1150,3 +1150,16 @@ hr {
         }
     }
 }
+
+
+
+.btn-with-icon {
+    display: inline-flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    svg {
+        height: 14px;
+        width: auto;
+    }
+}

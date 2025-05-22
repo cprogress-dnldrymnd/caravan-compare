@@ -11945,6 +11945,15 @@ hr {
     height: 12px;
     width: 12px; } }
 
+.btn-with-icon {
+  display: inline-flex;
+  gap: 10px;
+  align-items: center;
+  justify-content: center; }
+  .btn-with-icon svg {
+    height: 14px;
+    width: auto; }
+
 @media (min-width: 1500px) {
   .container {
     max-width: 1420px; } }
