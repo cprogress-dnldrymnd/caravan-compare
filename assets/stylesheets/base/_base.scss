@@ -13,11 +13,6 @@ body {
         --bs-btn-font-size: 15px;
         --bs-btn-padding-x: 16px;
     }
-    @include on-event {
-        &:not(.btn-no-hover) {
-            @include transform(translateY(-5px));
-        }
-    }
 }
 
 .btn-lg {
@@ -107,8 +102,8 @@ select {
     --bs-btn-bg: var(--pink-color);
     --bs-btn-border-color: var(--pink-color);
     --bs-btn-hover-color: var(--bs-white);
-    --bs-btn-hover-bg: var(--pink-color);
-    --bs-btn-hover-border-color: var(--pink-color);
+    --bs-btn-hover-bg: var(--text-color);
+    --bs-btn-hover-border-color: var(--text-color);
     --bs-btn-focus-shadow-rgb: 49, 132, 253;
     --bs-btn-active-color: var(--bs-white);
     --bs-btn-active-bg: var(--pink-color);
