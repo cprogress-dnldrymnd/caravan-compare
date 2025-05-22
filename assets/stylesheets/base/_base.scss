@@ -8,13 +8,15 @@ body {
     --bs-btn-padding-x: 20px;
     --bs-btn-padding-y: 12px;
     --bs-btn-border-radius: 5px;
-
+    @include transition(400ms);
     @include responsive(xs-sm) {
         --bs-btn-font-size: 15px;
         --bs-btn-padding-x: 16px;
     }
     @include on-event {
-        @include transform(translateY(-5px));
+        &:not(.btn ){
+            @include transform(translateY(-5px));
+        }
     }
 }
 

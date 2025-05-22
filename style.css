@@ -11121,7 +11121,12 @@ body {
   --bs-btn-font-size: 20px;
   --bs-btn-padding-x: 20px;
   --bs-btn-padding-y: 12px;
-  --bs-btn-border-radius: 5px; }
+  --bs-btn-border-radius: 5px;
+  -webkit-transition: 400ms;
+  -moz-transition: 400ms;
+  -ms-transition: 400ms;
+  -o-transition: 400ms;
+  transition: 400ms; }
   @media screen and (max-width: 991px) {
     .btn {
       --bs-btn-font-size: 15px;
