@@ -12582,6 +12582,10 @@ h5, .h5 {
   --bs-nav-link-hover-color: inherit; }
   #main-header .navbar-nav .nav-link {
     --bs-navbar-active-color: inherit; }
+  @media (min-width: 1200px) and (max-width: 1399px) {
+    #main-header .navbar-nav {
+      gap: 15px !important;
+      font-size: 16px; } }
 
 .header-light #main-header {
   color: var(--bs-white); }
