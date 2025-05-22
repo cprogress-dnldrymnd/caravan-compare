@@ -12582,7 +12582,8 @@ h5, .h5 {
   padding: 0;
   position: relative;
   color: currentColor;
-  outline: none; }
+  outline: none;
+  --burger-width: 37px; }
   .menu-burger .icon .menu,
   .menu-burger .icon .menu::before,
   .menu-burger .icon .menu::after {
@@ -12592,12 +12593,12 @@ h5, .h5 {
     height: 3px;
     position: absolute;
     transition: background ease 0.3s, top ease 0.3s 0.3s, transform ease 0.3s;
-    width: 25px; }
+    width: var(--burger-width); }
   .menu-burger .icon {
     cursor: pointer;
     display: block;
     height: 19px;
-    width: 25px;
+    width: var(--burger-width);
     position: relative; }
     .menu-burger .icon .menu {
       left: 0;
