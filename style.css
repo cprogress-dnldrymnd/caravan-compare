@@ -12610,7 +12610,8 @@ h5, .h5 {
 @media screen and (max-width: 991px) {
   .navbar-nav .dropdown-menu {
     position: relative !important;
-    margin: 0 !important; } }
+    margin: 0 !important;
+    transform: none !important; } }
 
 .header-light #main-header {
   color: var(--bs-white); }
