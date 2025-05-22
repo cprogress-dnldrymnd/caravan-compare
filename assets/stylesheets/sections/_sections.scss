@@ -833,16 +833,6 @@ section.icon-lists {
 }
 
 section.dealer-listing {
-    @media (max-width: 1499px) and (min-width: 992px) {
-        .listing-grid-holder {
-            > .row {
-                > div {
-                    width: 50%;
-                }
-            }
-        }
-    }
-
     .sidebar-dealer {
         .fs-20 {
             @media (max-width: 1499px) and (min-width: 992px) {
@@ -860,6 +850,18 @@ section.dealer-listing {
                     flex-direction: column;
                     align-items: start !important;
                     gap: 5px !important;
+                }
+            }
+        }
+    }
+}
+
+.listing-grid-holder-responsive {
+    @media (max-width: 1499px) and (min-width: 992px) {
+        .listing-grid-holder {
+            > .row {
+                > div {
+                    width: 50%;
                 }
             }
         }
