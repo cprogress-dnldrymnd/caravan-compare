@@ -11126,6 +11126,12 @@ body {
     .btn {
       --bs-btn-font-size: 15px;
       --bs-btn-padding-x: 16px; } }
+  .btn:hover, .btn:active, .btn:focus {
+    -webkit-transform: translateY(-5px);
+    -moz-transform: translateY(-5px);
+    -ms-transform: translateY(-5px);
+    -o-transform: translateY(-5px);
+    transform: translateY(-5px); }
 
 .btn-lg, .btn-group-lg > .btn {
   --bs-btn-padding-y: 14px;
