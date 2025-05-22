@@ -148,6 +148,11 @@
             gap: 12px !important;
             font-size: 14px;
         }
+        .dropdown-menu {
+            @include responsive(md-lg) {
+                position: absolute;
+            }
+        }
     }
     .g-5 {
         @include responsive(md) {
@@ -208,5 +213,12 @@
         a:not(.btn) {
             color: inherit;
         }
+    }
+}
+
+#main-navbar {
+    @include responsive(xs-sm) {
+        margin-bottom: 3rem !important;
+        gap: 10px !important;
     }
 }

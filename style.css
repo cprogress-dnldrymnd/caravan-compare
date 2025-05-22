@@ -11935,9 +11935,6 @@ form > .form-group:not(:last-child) {
 hr {
   opacity: 0.75; }
 
-.navbar-nav .dropdown-menu {
-  position: absolute; }
-
 .trustpilot svg {
   height: 20px;
   width: auto; }
@@ -12603,6 +12600,9 @@ h5, .h5 {
     #main-header .navbar-nav {
       gap: 12px !important;
       font-size: 14px; } }
+  @media screen and (min-width: 992px) {
+    #main-header .navbar-nav .dropdown-menu {
+      position: absolute; } }
 @media (min-width: 992px) and (max-width: 1199px) {
   #main-header .g-5 {
     gap: 20px !important; } }
@@ -12636,6 +12636,11 @@ h5, .h5 {
   .hero-background-pink section.hero a:not(.btn),
   .hero-background-dark-color-2 section.hero a:not(.btn) {
     color: inherit; }
+
+@media screen and (max-width: 991px) {
+  #main-navbar {
+    margin-bottom: 3rem !important;
+    gap: 10px !important; } }
 
 footer hr {
   opacity: 0.5;
