@@ -435,7 +435,7 @@ section.search-stock-holder {
         top: var(--offset);
     }
     @include responsive(mobile) {
-        --offset: 50px;;
+        --offset: 50px;
     }
 }
 
@@ -799,6 +799,22 @@ section.newsletter {
 
 section.icon-lists {
     .swiper-wrapper {
+        a {
+            @include responsive(mobile) {
+                font-size: 12px;
+                svg {
+                    width: 30px;
+                    height: 30px;
+                }
+            }
+            @include responsive(xxs) {
+                font-size: 10px;
+                  svg {
+                    width: 25px;
+                    height: 25px;
+                }
+            }
+        }
         @include responsive(xl) {
             justify-content: center;
             gap: 20px;

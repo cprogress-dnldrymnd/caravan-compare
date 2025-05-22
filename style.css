@@ -13000,6 +13000,9 @@ section.search-stock-holder {
     background-color: var(--lightgray-color-2);
     z-index: -1;
     top: var(--offset); }
+  @media screen and (max-width: 575px) {
+    section.search-stock-holder {
+      --offset: 50px; } }
 
 .swiper-grid-slider .grid-section--inner .image-box {
   --padding: 37%; }
@@ -13232,6 +13235,18 @@ section.newsletter {
 .blog--inner-footer {
   border-top: 1px solid #d6d6d6; }
 
+@media screen and (max-width: 575px) {
+  section.icon-lists .swiper-wrapper a {
+    font-size: 12px; }
+    section.icon-lists .swiper-wrapper a svg {
+      width: 30px;
+      height: 30px; } }
+@media screen and (max-width: 480px) {
+  section.icon-lists .swiper-wrapper a {
+    font-size: 10px; }
+    section.icon-lists .swiper-wrapper a svg {
+      width: 25px;
+      height: 25px; } }
 @media screen and (min-width: 1400px) {
   section.icon-lists .swiper-wrapper {
     justify-content: center;
