@@ -11131,7 +11131,7 @@ body {
     .btn {
       --bs-btn-font-size: 15px;
       --bs-btn-padding-x: 16px; } }
-  .btn:hover, .btn:active, .btn:focus {
+  .btn:hover:not(.btn), .btn:active:not(.btn), .btn:focus:not(.btn) {
     -webkit-transform: translateY(-5px);
     -moz-transform: translateY(-5px);
     -ms-transform: translateY(-5px);
@@ -11252,18 +11252,18 @@ select.form-control.form-control {
   --bs-btn-disabled-border-color: var(--teal-color); }
 
 .btn-yellow {
-  --bs-btn-color: var(--bs-black);
+  --bs-btn-color: var(--text-color);
   --bs-btn-bg: var(--yellow-color);
   --bs-btn-border-color: var(--yellow-color);
-  --bs-btn-hover-color: var(--bs-white);
+  --bs-btn-hover-color: var(--text-color);
   --bs-btn-hover-bg: var(--yellow-color);
   --bs-btn-hover-border-color: var(--yellow-color);
   --bs-btn-focus-shadow-rgb: 49, 132, 253;
-  --bs-btn-active-color: var(--bs-white);
+  --bs-btn-active-color: var(--text-color);
   --bs-btn-active-bg: var(--yellow-color);
   --bs-btn-active-border-color: var(--yellow-color);
   --bs-btn-active-shadow: none;
-  --bs-btn-disabled-color: var(--bs-white);
+  --bs-btn-disabled-color: var(--text-color);
   --bs-btn-disabled-bg: var(--yellow-color);
   --bs-btn-disabled-border-color: var(--yellow-color); }
 
