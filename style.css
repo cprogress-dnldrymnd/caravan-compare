@@ -12587,10 +12587,9 @@ h5, .h5 {
   color: currentColor;
   outline: none;
   height: var(--burger-height);
-  width: var(--burger-width);
-  flex-direction: column;
-  justify-content: space-between; }
+  width: var(--burger-width); }
   .menu-burger .bar {
+    background-color: currentColor;
     height: var(--bar-height);
     width: var(--burger-width);
     display: block; }
