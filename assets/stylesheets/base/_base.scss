@@ -900,6 +900,10 @@ span.icons {
             --gap: 10px;
             font-size: 14px;
         }
+        @include responsive(xss) {
+            --gap: 5;
+            font-size: 12px;
+        }
     }
 }
 
