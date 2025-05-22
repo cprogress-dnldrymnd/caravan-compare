@@ -11353,7 +11353,8 @@ select.form-control.form-control {
       padding-left: 20px;
       padding-right: 20px;
       gap: 10px !important;
-      width: 100%; }
+      width: 100%;
+      justify-content: center !important; }
       .nav-tabs.nav-tabs-search-stocks .nav-item .nav-link svg {
         width: 25px;
         height: 25px; } }
@@ -11366,7 +11367,11 @@ select.form-control.form-control {
     .nav-tabs.nav-tabs-search-stocks .nav-item .nav-link {
       padding-left: 5px;
       padding-right: 5px;
-      font-size: 10px; } }
+      font-size: 10px;
+      gap: 5px !important; }
+      .nav-tabs.nav-tabs-search-stocks .nav-item .nav-link svg {
+        width: 15px;
+        height: 15px; } }
   @media screen and (max-width: 767px) {
     .nav-tabs.nav-tabs-search-stocks .nav-item {
       flex: 1 0 0%; } }
