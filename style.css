@@ -11974,13 +11974,23 @@ hr {
     display: flex;
     align-items: center;
     gap: 7px; }
+    .search-items ul li:not(:last-child):after {
+      content: "";
+      border-radius: 50%;
+      display: inline-block;
+      background-color: currentColor; }
 .search-items .search-items--main li:not(:last-child):after {
-  content: "";
   width: 3px;
-  height: 3px;
-  border-radius: 50%;
-  display: inline-block;
-  background-color: currentColor; }
+  height: 3px; }
+@media screen and (max-width: 575px) {
+  .search-items .search-items--main {
+    font-size: 12px; } }
+.search-items .search-items--sub li:after {
+  width: 3px;
+  height: 3px; }
+@media screen and (max-width: 575px) {
+  .search-items .search-items--sub {
+    font-size: 10px; } }
 
 @media (min-width: 1500px) {
   .container {
