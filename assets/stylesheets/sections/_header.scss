@@ -149,6 +149,11 @@
             font-size: 14px;
         }
     }
+    .g-5 {
+        @include responsive(md) {
+            gap: 20px !important;
+        }
+    }
 }
 .header-light {
     #main-header {
