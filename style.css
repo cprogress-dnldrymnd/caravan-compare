@@ -12706,8 +12706,10 @@ h5, .h5 {
       justify-content: space-between;
       align-items: center; } }
 
-.top-bar {
-  background-color: var(--primary); }
+.top-bar a {
+  color: inherit; }
+.top-bar:not(.top-bar-dark) {
+  background-color: var(--pink-color); }
 
 footer hr {
   opacity: 0.5;
