@@ -675,7 +675,8 @@ section.hero {
     .hero-title-image {
         .image-box {
             img {
-                margin-bottom: calc(var(--image-margin) - (var(--image-margin) * 2));
+                position: relative;
+                bottom: calc(var(--image-margin) - (var(--image-margin) * 2));
             }
         }
         h1 {
