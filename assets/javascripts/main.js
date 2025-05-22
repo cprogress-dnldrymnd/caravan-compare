@@ -1,6 +1,6 @@
 jQuery(document).ready(function () {
     templates();
-    //fancybox();
+    fancybox();
     password_input();
     setTimeout(function () {
         swiper_sliders();
