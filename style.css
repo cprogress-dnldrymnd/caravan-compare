@@ -12706,6 +12706,9 @@ h5, .h5 {
       justify-content: space-between;
       align-items: center; } }
 
+.top-bar {
+  background-color: var(--primary); }
+
 footer hr {
   opacity: 0.5;
   margin-top: var(--md-spacing);
