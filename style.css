@@ -13088,12 +13088,6 @@ section.listing-single .nav-tabs-holder {
   justify-content: space-between; }
 
 .listing-pricing {
-  margin-left: -30px;
-  margin-right: -30px;
-  position: fixed;
-  bottom: 0;
-  right: auto;
-  width: 33.33333333%;
   padding: 24px; }
   .listing-pricing .price {
     font-size: 50px;
@@ -13104,6 +13098,14 @@ section.listing-single .nav-tabs-holder {
     @media screen and (max-width: 767px) {
       .listing-pricing .price {
         font-size: 30px; } }
+  @media (min-width: 1600px) {
+    .listing-pricing {
+      margin-left: -30px;
+      margin-right: -30px;
+      position: fixed;
+      bottom: 0;
+      right: auto;
+      width: 33.33333333%; } }
 
 .dealer-reviews-slider--inner {
   border-top-left-radius: 0 !important; }
