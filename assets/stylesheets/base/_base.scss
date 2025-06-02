@@ -1252,3 +1252,19 @@ hr {
         transform: translateY(calc(100% + 20px));
     }
 }
+
+.swiper-grid-slider {
+    .swiper-slide {
+        height: auto;
+        .grid-section--inner {
+            display: flex;
+            flex-direction: column;
+            .content-box {
+                flex-grow: 1;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+            }
+        }
+    }
+}
