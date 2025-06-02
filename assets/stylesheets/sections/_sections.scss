@@ -421,9 +421,9 @@ section.search-stock-holder {
 
     .advance-search {
         @include responsive(md-lg) {
-            padding: 30px;
+            padding: 20px;
             border-top: 1px solid #e0e0e0;
-            margin-top: 30px !important;
+            margin-top: 20px !important;
             margin-left: -1.5rem !important;
             margin-right: -1.5rem !important;
         }
