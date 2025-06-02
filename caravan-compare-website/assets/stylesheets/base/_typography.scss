@@ -1,0 +1,150 @@
+body {
+    font-family: "Onest", sans-serif;
+    color: var(--text-color);
+    font-size: 18px;
+    line-height: 1.2;
+
+    @include responsive(xs-sm) {
+        font-size: 17px;
+    }
+
+    @include responsive(xs) {
+        font-size: 16px;
+    }
+}
+
+@include headings {
+    font-weight: 600;
+    line-height: 1.2;
+}
+
+p {
+    @include responsive(mobile) {
+        line-height: 1.1;
+    }
+}
+
+p:last-child {
+    margin-bottom: 0 !important;
+}
+
+a {
+    color: var(--pink-color);
+
+    @include on-event {
+        color: var(--accent-color);
+    }
+}
+
+h1,
+.h1 {
+    font-size: 60px;
+
+    @include responsive(xs-sm) {
+        font-size: 50px;
+    }
+
+    @include responsive(xs) {
+        font-size: 45px;
+    }
+
+    @include responsive(mobile) {
+        font-size: 35px;
+    }
+}
+
+h2,
+.h2 {
+    font-size: 43px;
+
+    @include responsive(xs-sm) {
+        font-size: 35px;
+    }
+
+    @include responsive(xs) {
+        font-size: 30px;
+    }
+
+    @include responsive(mobile) {
+        font-size: 27px;
+    }
+
+    @include responsive(xxs) {
+        font-size: 24px;
+    }
+}
+
+h3,
+.h3 {
+    font-size: 29px;
+
+    @include responsive(mobile) {
+        font-size: 25px;
+    }
+}
+
+h4 {
+    font-size: 25px;
+}
+
+h5 {
+    font-size: 20px;
+}
+
+.font-sm {
+    font-size: 1rem;
+}
+
+.fs-35 {
+    font-size: 35px;
+}
+
+.fs-32 {
+    font-size: 32px;
+}
+.fs-22 {
+    font-size: 22px;
+}
+.fs-23 {
+    font-size: 23px;
+}
+.fs-24 {
+    font-size: 24px;
+}
+.fs-25 {
+    font-size: 25px;
+}
+.fs-20 {
+    font-size: 20px;
+}
+.fs-18 {
+    font-size: 18px;
+}
+
+.fs-16 {
+    font-size: 16px;
+}
+.fs-15 {
+    font-size: 15px;
+}
+.fs-14 {
+    font-size: 14px;
+}
+
+.fs-13 {
+    font-size: 13px;
+}
+
+.fs-12 {
+    font-size: 12px;
+}
+
+.fs-7 {
+    font-size: 7px;
+}
+
+@include responsive(mobile) {
+    .fs-14-mobile {
+        font-size: 14px;
+    }
+}

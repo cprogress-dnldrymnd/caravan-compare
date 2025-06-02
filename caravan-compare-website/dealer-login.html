@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dealer Login</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <main id="main" class="background-lightgray-2">
+        <section class="form--section full-height dealer-login d-flex align-items-center lg-padding-top lg-padding-bottom">
+            <div class="container">
+                <div class="form--holder p-5 background-white rounded-2  dealer-login-inner box-shadow">
+                    <div class="form--inner">
+                        <div class="logo-box mb-4 text-center">
+                            <a href="#" class="text-decoration-none d-inline-flex gap-3 align-items-center text-color">
+                                <span class="circle"></span>
+                                <span class="text">CompareCaravan</span>
+                            </a>
+                        </div>
+                        <h2 class="text-center mb-2">Sign in</h2>
+                        <p class="text-center fw-semibold">to continue to your Compare dealer account</p>
+                        <form action="" class="mt-5">
+                            <div class="form-control-holder mb-3">
+                                <label class="mb-2 fw-semibold" for="Email">Email</label>
+                                <input type="email" name="Email" id="Email"
+                                    class="form-control form-control-lg background-transparent"
+                                    placeholder="Enter email address" required>
+                            </div>
+
+                            <div class="form-control-holder mb-3">
+                                <label class="mb-2 fw-semibold" for="Password">Password</label>
+                                <div class="password-with-show-icon position-relative">
+                                    <input type="password" name="Password" id="Password"
+                                        class="form-control form-control-lg background-transparent"
+                                        placeholder="Enter password" required>
+                                    <span class="show-password-button password---hidden">
+                                        <svg class="show-password" xmlns="http://www.w3.org/2000/svg" width="16"
+                                            height="16" fill="currentColor" class="bi bi-eye-fill" viewBox="0 0 16 16">
+                                            <path d="M10.5 8a2.5 2.5 0 1 1-5 0 2.5 2.5 0 0 1 5 0" />
+                                            <path
+                                                d="M0 8s3-5.5 8-5.5S16 8 16 8s-3 5.5-8 5.5S0 8 0 8m8 3.5a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7" />
+                                        </svg>
+                                        <svg class="hide-password" xmlns="http://www.w3.org/2000/svg" width="16"
+                                            height="16" fill="currentColor" class="bi bi-eye-slash-fill"
+                                            viewBox="0 0 16 16">
+                                            <path
+                                                d="m10.79 12.912-1.614-1.615a3.5 3.5 0 0 1-4.474-4.474l-2.06-2.06C.938 6.278 0 8 0 8s3 5.5 8 5.5a7 7 0 0 0 2.79-.588M5.21 3.088A7 7 0 0 1 8 2.5c5 0 8 5.5 8 5.5s-.939 1.721-2.641 3.238l-2.062-2.062a3.5 3.5 0 0 0-4.474-4.474z" />
+                                            <path
+                                                d="M5.525 7.646a2.5 2.5 0 0 0 2.829 2.829zm4.95.708-2.829-2.83a2.5 2.5 0 0 1 2.829 2.829zm3.171 6-12-12 .708-.708 12 12z" />
+                                        </svg>
+                                    </span>
+                                </div>
+                            </div>
+
+                            <button type="submit" class="btn save-search btn-primary w-100 btn-lg w-100">
+                                Log in
+                            </button>
+
+                            <div class="forgot-password-holder text-center mt-4">
+                                <a href="#" class="btn btn-link p-0 forgot-password fs-18 text-color">Forgot password?</a>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="./assets/javascripts/main.js"></script>
+
+</body>
+
+</html>
