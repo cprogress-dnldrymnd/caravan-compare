@@ -12726,6 +12726,9 @@ body.top-bar-count .compare .count {
 .top-bar a {
   color: inherit; }
 
+.header-dark .logo-box a {
+  color: var(--text-color); }
+
 footer hr {
   opacity: 0.5;
   margin-top: var(--md-spacing);

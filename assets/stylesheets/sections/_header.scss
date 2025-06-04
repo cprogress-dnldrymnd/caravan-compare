@@ -242,3 +242,9 @@ body {
         color: inherit;
     }
 }
+
+.header-dark {
+    .logo-box a {
+        color: var(--text-color);
+    }
+}
