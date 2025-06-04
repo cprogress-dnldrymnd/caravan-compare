@@ -12726,7 +12726,7 @@ body.top-bar-count .compare .count {
 .top-bar a {
   color: inherit; }
 
-.header-dark .logo-box a {
+.header-dark .logo-box a svg {
   color: var(--text-color); }
 
 footer hr {
