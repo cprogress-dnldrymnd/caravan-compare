@@ -12033,6 +12033,9 @@ hr {
       flex-direction: column;
       justify-content: space-between; }
 
+.logo-box svg {
+  overflow: visible; }
+
 @media (min-width: 1500px) {
   .container {
     max-width: 1420px; } }
