@@ -34,6 +34,10 @@ body {
 }
 .edit-btn {
     border: 1px solid var(--pink-color);
+    @include on-event {
+        background-color: var(--pink-color);
+        color: var(--bs-white);
+    }
 }
 .btn-sm {
     --bs-btn-padding-y: 7px;
