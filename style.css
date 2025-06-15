@@ -11054,6 +11054,7 @@ button.swiper-pagination-bullet {
   --lightgray-color-3: #f9f9f9;
   --lightgray-color-4: #f6f6f6;
   --lightgray-color-5: #f8f8f4;
+  --lightgray-color-6: #C4C4C454;
   --bs-border-radius: 5px;
   --bs-border-color: #cdcdcd;
   --bs-border-radius-xl: 20px;
@@ -13343,6 +13344,11 @@ section.newsletter {
 @media (max-width: 1499px) and (min-width: 992px) {
   .listing-grid-holder-responsive > .row > div {
     width: 50%; } }
+
+.connected-accounts li:not(:last-child) {
+  border-bottom: 1px solid var(--lightgray-color-6);
+  padding-bottom: 27px;
+  margin-bottom: 27px; }
 
 /*-----------------------------------------------------------------------------------*/
 /* Plugins
