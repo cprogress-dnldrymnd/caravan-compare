@@ -32,6 +32,12 @@ body {
         --bs-btn-padding-x: 18px;
     }
 }
+.btn-sm {
+    --bs-btn-padding-y: 10px;
+    --bs-btn-padding-x: 23px;
+    --bs-btn-font-size: 16px;
+    --bs-border-radius-lg: 20px;
+}
 .btn-light {
     --bs-border-color: var(--text-color);
 }
