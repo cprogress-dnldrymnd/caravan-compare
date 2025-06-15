@@ -1274,3 +1274,16 @@ hr {
         overflow: visible;
     }
 }
+
+.content-box {
+    h3 {
+        @include responsive(mobile-lg) {
+            font-size: 26px;
+        }
+    }
+    > * {
+        @include not-last-child {
+            margin-bottom: 40px;
+        }
+    }
+}

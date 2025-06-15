@@ -12036,6 +12036,12 @@ hr {
 .logo-box svg {
   overflow: visible; }
 
+@media (min-width: 576px) {
+  .content-box h3, .content-box .h3 {
+    font-size: 26px; } }
+.content-box > *:not(:last-child) {
+  margin-bottom: 40px; }
+
 @media (min-width: 1500px) {
   .container {
     max-width: 1420px; } }
