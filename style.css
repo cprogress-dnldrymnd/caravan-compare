@@ -11152,7 +11152,8 @@ body {
   border: 1px solid var(--pink-color); }
   .edit-btn:hover, .edit-btn:active, .edit-btn:focus {
     background-color: var(--pink-color);
-    color: var(--bs-white); }
+    color: var(--bs-white);
+    border: 1px solid var(--pink-color); }
 
 .btn-sm, .btn-group-sm > .btn {
   --bs-btn-padding-y: 7px;
