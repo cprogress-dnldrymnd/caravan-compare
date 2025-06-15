@@ -873,7 +873,7 @@ section.dealer-listing {
     }
 }
 
-.connected-accounts {
+.list-style--1 {
     li {
         @include not-last-child {
             border-bottom: 1px solid var(--lightgray-color-6);

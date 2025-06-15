@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Personal details</title>
+    <title>Preferences</title>
     <link rel="stylesheet" href="style.css">
 </head>
 
@@ -18,7 +18,7 @@
                     <ul class="list-inline">
                         <li><a href="/">Home</a></li>
                         <li><a href="./my-account.html">My Account</a></li>
-                        <li><span>Personal details</span></li>
+                        <li><span>Preferences</span></li>
                     </ul>
                 </div>
                 <div class="hero-title-image md-margin-top">
@@ -33,7 +33,7 @@
                                 </svg>
                                 Go back to your account
                             </a>
-                            <h1 class="mb-4">Personal details</h1>
+                            <h1 class="mb-4">Preferences</h1>
                         </div>
                     </div>
                 </div>
@@ -43,66 +43,22 @@
             <div class="container">
                 <div class="my-account--boxes flex-column d-flex gap-5">
                     <div class="my-account--inner">
-                        <h3 class="fs-24 mb-4">Sign in details</h3>
                         <div class="row g-3 g-lg-5">
                             <div class="col-md-6 col-lg-4">
+                                <h3 class="fs-24 mb-4">Offers, vehicle reviews and competitions</h3>
+
                                 <div
                                     class="my-account--box text-color rounded d-block background-lightgray-5 p-4 h-100">
-                                    <ul class="list-inline d-flex flex-column gap-3 text-black-70 mb-4">
-                                        <li>Email: <span class="fw-semibold">
-                                                test@digitallydisruptive.co.uk</span></li>
-                                        <li>Password: <span class="fw-semibold">********</span></li>
-                                    </ul>
-                                    <a href="#"
-                                        class="btn btn-light btn-sm edit-btn fw-semibold d-inline-block text-pink">Edit</a>
-                                </div>
-                            </div>
-                            <div class="col-md-6 col-lg-4">
-                                <div
-                                    class="my-account--box text-color rounded d-block background-lightgray-5 p-4 h-100">
-                                    <ul class="list-inline d-flex flex-column gap-3 text-black-70 mb-4">
-                                        <li>Name: <span class="fw-semibold">Disruptive</span></li>
-                                        <li>Display name: <span class="fw-semibold">Disruptive</span></li>
-                                    </ul>
-                                    <a href="#"
-                                        class="btn btn-light btn-sm edit-btn fw-semibold d-inline-block text-pink">Edit</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="my-account--inner">
-                        <h3 class="fs-24 mb-4">Connected accounts</h3>
-                        <div class="row g-3 g-lg-5">
-                            <div class="col-md-6 col-lg-4">
-                                <div
-                                    class="my-account--box text-color rounded d-block background-lightgray-5 p-4 h-100">
-                                    <p class="text-black-70 mb-4">These are other accounts you have connected to your Compare
-                                        Caravan account </p>
-                                    <ul class="connected-accounts list-inline text-black-70 mb-4 fw-semibold">
+                                    <p class="text-black-70 mb-4">Stay in the loop with everything you need to know
+                                        about buying, selling and owning a vehicle. </p>
+                                    <ul class="list-style--1 list-inline text-black-70 mb-4 fw-semibold">
                                         <li class="d-flex align-items-center justify-content-between gap-3">
-                                            <span class="text-black-70 d-flex align-items-center gap-3">
-                                                <svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 0 24 24"
-                                                    width="24">
-                                                    <path
-                                                        d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z"
-                                                        fill="#4285F4"></path>
-                                                    <path
-                                                        d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z"
-                                                        fill="#34A853"></path>
-                                                    <path
-                                                        d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.07H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.93l2.85-2.22.81-.62z"
-                                                        fill="#FBBC05"></path>
-                                                    <path
-                                                        d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.07l3.66 2.84c.87-2.6 3.3-4.53 6.16-4.53z"
-                                                        fill="#EA4335"></path>
-                                                    <path d="M1 1h22v22H1z" fill="none"></path>
-                                                </svg>
-                                                Google
-                                            </span>
-                                            <a href="#"
-                                                class="btn btn-light btn-sm edit-btn fw-semibold d-inline-block text-pink">
-                                                Disconnect
-                                            </a>
+                                            <div class="form-switch d-flex align-items-center gap-2 justify-content-between">
+                                                <label class="form-check-label fs-15"
+                                                    for="Email_notifications">Email notifications</label>
+                                                <input class="form-check-input" type="checkbox" role="switch"
+                                                    id="Email_notifications">
+                                            </div>
                                         </li>
                                         <li class="d-flex align-items-center justify-content-between gap-3">
                                             <span class="text-black-70 d-flex align-items-center gap-3">

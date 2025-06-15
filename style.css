@@ -13345,7 +13345,7 @@ section.newsletter {
   .listing-grid-holder-responsive > .row > div {
     width: 50%; } }
 
-.connected-accounts li:not(:last-child) {
+.list-style--1 li:not(:last-child) {
   border-bottom: 1px solid var(--lightgray-color-6);
   padding-bottom: 27px;
   margin-bottom: 27px; }
