@@ -13350,6 +13350,11 @@ section.newsletter {
   padding-bottom: 27px;
   margin-bottom: 27px; }
 
+.list-style--2 li:not(:last-child) {
+  border-bottom: 1px solid var(--lightgray-color-6);
+  padding-bottom: 18px;
+  margin-bottom: 18px; }
+
 /*-----------------------------------------------------------------------------------*/
 /* Plugins
 /*-----------------------------------------------------------------------------------*/
