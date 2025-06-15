@@ -52,6 +52,11 @@ body {
     --bs-btn-hover-bg: var(--bs-black) !important;
     --bs-btn-hover-border-color: var(--bs-black) !important;
     --bs-btn-hover-color: var(--bs-white) !important;
+    &.bg-white {
+        @include on-event {
+            background-color: var(--bs-black) !important;
+        }
+    }
 }
 
 .form-control {

@@ -11168,6 +11168,8 @@ body {
   --bs-btn-hover-bg: var(--bs-black) !important;
   --bs-btn-hover-border-color: var(--bs-black) !important;
   --bs-btn-hover-color: var(--bs-white) !important; }
+  .btn-light.bg-white:hover, .btn-light.bg-white:active, .btn-light.bg-white:focus {
+    background-color: var(--bs-black) !important; }
 
 .form-control {
   font-size: 18px;
