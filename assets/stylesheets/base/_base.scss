@@ -48,6 +48,7 @@ body {
 }
 .btn-light {
     --bs-border-color: var(--text-color);
+    --bs-btn-bg: transparent;
 }
 
 .form-control {
