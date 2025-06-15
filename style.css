@@ -11148,11 +11148,14 @@ body {
       --bs-btn-padding-y: 12px;
       --bs-btn-padding-x: 18px; } }
 
+.edit-btn {
+  border: 1px solid var(--pink-color); }
+
 .btn-sm, .btn-group-sm > .btn {
-  --bs-btn-padding-y: 10px;
+  --bs-btn-padding-y: 7px;
   --bs-btn-padding-x: 23px;
   --bs-btn-font-size: 16px;
-  --bs-border-radius-lg: 20px; }
+  --bs-btn-border-radius: 50px; }
 
 .btn-light {
   --bs-border-color: var(--text-color); }
