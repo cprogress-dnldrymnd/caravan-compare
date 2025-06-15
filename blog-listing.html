@@ -250,80 +250,19 @@
 
 </html>
 <script>
-    fetch('template-parts/---blogs.html') // Path to the HTML file you want to insert
-        .then(response => response.text())
-        .then(data => {
-            jQuery('.blogs-insert').html(data);
-        })
-        .catch(error => {
-            console.error('Error fetching the HTML file:', error);
-            jQuery('.blogs-insert').html('<p>Error loading content.</p>');
 
-        });
+    fetch___template('template-parts/---blogs.html', '.blogs-insert');
+    fetch___template('template-parts/---videos.html', '.videos-insert');
+    fetch___template('template-parts/--newsletter.html', '.newsletter-insert');
+    fetch___template('template-parts/globals/-----socials.html', '.socials-insert');
 
-    fetch('template-parts/---videos.html') // Path to the HTML file you want to insert
-        .then(response => response.text())
-        .then(data => {
-            jQuery('.videos-insert').html(data);
-        })
-        .catch(error => {
-            console.error('Error fetching the HTML file:', error);
-            jQuery('.blogs-insert').html('<p>Error loading content.</p>');
-
-        });
-    fetch('template-parts/--newsletter.html') // Path to the HTML file you want to insert
-        .then(response => response.text())
-        .then(data => {
-            jQuery('.newsletter-insert').html(data);
-        })
-        .catch(error => {
-            console.error('Error fetching the HTML file:', error);
-            jQuery('.newsletter-insert').html('<p>Error loading content.</p>');
-
-        });
-
-    fetch('template-parts/globals/-----socials.html') // Path to the HTML file you want to insert
-        .then(response => response.text())
-        .then(data => {
-            jQuery('.socials-insert').html(data);
-        })
-        .catch(error => {
-            console.error('Error fetching the HTML file:', error);
-            jQuery('.socials-insert').html('<p>Error loading content.</p>');
-
-        });
-
-    setTimeout(function () {
-        fetch('template-parts/listing-grids/----blog.html') // Path to the HTML file you want to insert
-            .then(response => response.text())
-            .then(data => {
-                jQuery('.blog-grid-insert').html(data);
-            })
-            .catch(error => {
-                console.error('Error fetching the HTML file:', error);
-                document.getElementsByClassName('blog-grid-insert').innerHTML = '<p>Error loading content.</p>';
-            });
 
 
 
-        fetch('template-parts/listing-grids/----blog-large.html') // Path to the HTML file you want to insert
-            .then(response => response.text())
-            .then(data => {
-                jQuery('.blog-grid-large-insert').html(data);
-            })
-            .catch(error => {
-                console.error('Error fetching the HTML file:', error);
-                document.getElementsByClassName('blog-grid-large-insert').innerHTML = '<p>Error loading content.</p>';
-            });
+    setTimeout(function () {
+        fetch___template('template-parts/listing-grids/----blog.html', '.blog-grid-insert');
+        fetch___template('template-parts/listing-grids/----blog-large.html', '.blog-grid-large-insert');
+        fetch___template('template-parts/listing-grids/----video.html', '.video-grid-insert');
 
-        fetch('template-parts/listing-grids/----video.html') // Path to the HTML file you want to insert
-            .then(response => response.text())
-            .then(data => {
-                jQuery('.video-grid-insert').html(data);
-            })
-            .catch(error => {
-                console.error('Error fetching the HTML file:', error);
-                document.getElementsByClassName('video-grid-insert').innerHTML = '<p>Error loading content.</p>';
-            });
     }, 200);
 </script>
