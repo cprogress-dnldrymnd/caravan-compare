@@ -11167,7 +11167,7 @@ body {
   --bs-btn-bg: transparent;
   --bs-btn-hover-bg: var(--bs-black) !important;
   --bs-btn-hover-border-color: var(--bs-black) !important;
-  --bs-btn-hover-color: var(--bs-white)!important; }
+  --bs-btn-hover-color: var(--bs-white) !important; }
 
 .form-control {
   font-size: 18px;
