@@ -795,11 +795,14 @@ section.newsletter {
     }
 }
 
-.blog-navigation {
+.navigation--holder {
     a {
         color: var(--text-color);
         @include on-event {
             opacity: 0.5;
+        }
+        &.link-active {
+            color: var(--pint-color);
         }
     }
 }

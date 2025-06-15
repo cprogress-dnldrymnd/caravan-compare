@@ -13282,10 +13282,12 @@ section.newsletter {
     width: 50px;
     height: 50px; }
 
-.blog-navigation a {
+.navigation--holder a {
   color: var(--text-color); }
-  .blog-navigation a:hover, .blog-navigation a:active, .blog-navigation a:focus {
+  .navigation--holder a:hover, .navigation--holder a:active, .navigation--holder a:focus {
     opacity: 0.5; }
+  .navigation--holder a.link-active {
+    color: var(--pin); }
 
 .blog--inner-footer {
   border-top: 1px solid #d6d6d6; }
