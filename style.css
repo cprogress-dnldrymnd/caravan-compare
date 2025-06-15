@@ -13287,7 +13287,7 @@ section.newsletter {
   .navigation--holder a:hover, .navigation--holder a:active, .navigation--holder a:focus {
     opacity: 0.5; }
   .navigation--holder a.link-active {
-    color: var(--pint-color); }
+    color: var(--pink-color); }
 
 .blog--inner-footer {
   border-top: 1px solid #d6d6d6; }
