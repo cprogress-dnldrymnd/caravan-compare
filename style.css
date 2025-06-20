@@ -11365,6 +11365,21 @@ select.form-control.form-control {
       @media screen and (min-width: 992px) {
         .nav-tabs.nav-tabs-style-3 .nav-link {
           min-width: 200px; } }
+  .nav-tabs.nav-tabs-style-4 {
+    border-radius: 5px;
+    overflow: hidden; }
+    .nav-tabs.nav-tabs-style-4 .nav-item {
+      flex: 1 0 0%; }
+    .nav-tabs.nav-tabs-style-4 .nav-link.nav-link {
+      border-radius: 5px;
+      background-color: var(--bs-white);
+      color: var(--black-70);
+      font-size: 22px;
+      padding: 12px 25px;
+      width: 100%; }
+      .nav-tabs.nav-tabs-style-4 .nav-link.nav-link.active {
+        background-color: var(--bs-black);
+        color: var(--bs-white); }
   .nav-tabs.swiper-wrapper {
     gap: 0;
     flex-wrap: nowrap; }

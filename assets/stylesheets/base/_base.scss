@@ -304,6 +304,25 @@ select {
             }
         }
     }
+    &.nav-tabs-style-4 {
+        border-radius: 5px;
+        overflow: hidden;
+        .nav-item {
+            flex: 1 0 0%;
+        }
+        .nav-link.nav-link.nav-link {
+            border-radius: 5px;
+            background-color: var(--bs-white);
+            color: var(--black-70);
+            font-size: 22px;
+            padding: 12px 25px;
+            width: 100%;
+            &.active {
+                background-color: var(--bs-black);
+                color: var(--bs-white);
+            }
+        }
+    }
 
     &.swiper-wrapper {
         gap: 0;
