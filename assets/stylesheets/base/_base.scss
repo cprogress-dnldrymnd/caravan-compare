@@ -1337,8 +1337,13 @@ hr {
 .custom-radio-inputs {
     input {
         display: none;
+        &:checked {
+            & + label {
+                background-color: var(--pink-color);
+            }
+        }
     }
     label {
-        background-color: var(--lightgray-color-5);
+        cursor: pointer;
     }
 }

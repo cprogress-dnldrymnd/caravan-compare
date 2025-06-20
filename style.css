@@ -12083,8 +12083,8 @@ hr {
 
 .custom-radio-inputs input {
   display: none; }
-.custom-radio-inputs label {
-  background-color: var(--lightgray-color-5); }
+  .custom-radio-inputs input:checked + label {
+    background-color: var(--pink-color); }
 
 @media (min-width: 1500px) {
   .container {
@@ -13384,8 +13384,9 @@ section.newsletter {
   padding-bottom: 18px;
   margin-bottom: 18px; }
 
-section.sell-vehicle-form .form-control {
-  --bs-body-bg: var(--lightgray-color-5); }
+section.sell-vehicle-form .form-control.form-control {
+  --bs-body-bg: var(--lightgray-color-5);
+  border: none; }
 
 /*-----------------------------------------------------------------------------------*/
 /* Plugins
