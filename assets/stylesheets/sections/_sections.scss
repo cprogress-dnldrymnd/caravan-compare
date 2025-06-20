@@ -883,8 +883,6 @@ section.dealer-listing {
     }
 }
 
-
-
 .list-style--2 {
     li {
         @include not-last-child {
@@ -892,5 +890,11 @@ section.dealer-listing {
             padding-bottom: 18px;
             margin-bottom: 18px;
         }
+    }
+}
+
+section.sell-vehicle-form {
+    .form-control {
+        --bs-body-bg: var(--lightgray-color-5);
     }
 }

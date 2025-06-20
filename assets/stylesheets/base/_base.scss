@@ -308,7 +308,6 @@ select {
         border-radius: 5px;
         overflow: hidden;
         background-color: var(--bs-white);
-        border: none;
         .nav-item {
             flex: 1 0 0%;
         }
@@ -320,6 +319,8 @@ select {
             padding: 12px 25px;
             width: 100%;
             justify-content: center;
+            border: none;
+
             &.active {
                 background-color: var(--bs-black);
                 color: var(--bs-white);
@@ -1330,5 +1331,14 @@ hr {
         @include not-last-child {
             margin-bottom: 40px;
         }
+    }
+}
+
+.custom-radio-inputs {
+    input {
+        display: none;
+    }
+    label {
+        background-color: var(--lightgray-color-5);
     }
 }
