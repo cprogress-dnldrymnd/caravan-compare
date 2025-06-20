@@ -11367,7 +11367,9 @@ select.form-control.form-control {
           min-width: 200px; } }
   .nav-tabs.nav-tabs-style-4 {
     border-radius: 5px;
-    overflow: hidden; }
+    overflow: hidden;
+    background-color: var(--bs-white);
+    border: none; }
     .nav-tabs.nav-tabs-style-4 .nav-item {
       flex: 1 0 0%; }
     .nav-tabs.nav-tabs-style-4 .nav-link.nav-link.nav-link {
