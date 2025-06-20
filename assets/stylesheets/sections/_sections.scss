@@ -898,6 +898,9 @@ section.sell-vehicle-form {
         --bs-body-bg: var(--lightgray-color-5);
         border: none;
     }
+    .nav-link {
+        pointer-events: none;
+    }
     .sell-vehicle-form-holder {
         &.hide-go-back {
             #sell-vehicle-previous-step {
@@ -999,6 +1002,9 @@ section.sell-vehicle-form {
     }
     .finalise-advert-box {
         background-color: var(--lightgray-color-5);
+        .logo-box {
+            max-width: 120px;
+        }
     }
 }
 

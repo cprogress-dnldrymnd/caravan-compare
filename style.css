@@ -13471,6 +13471,8 @@ section.sell-vehicle-form .advert-description textarea {
   height: 168px; }
 section.sell-vehicle-form .finalise-advert-box {
   background-color: var(--lightgray-color-5); }
+  section.sell-vehicle-form .finalise-advert-box .logo-box {
+    max-width: 120px; }
 
 .list-style--3 {
   max-width: 430px; }
