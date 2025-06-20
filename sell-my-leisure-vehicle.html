@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Saved Listing</title>
+    <title>Sell Leisure Vehicle</title>
     <link rel="stylesheet" href="style.css">
 </head>
 
@@ -54,96 +54,647 @@
             </div>
         </div>
     </header>
-    <main id="main" class="background-lightgray-2">
+    <main id="main" class="background-lightgray-2 sm-padding-bottom">
         <section class="sell-vehicle-form py-4">
-            <div class="container">
-                <ul class="nav nav-tabs nav-tabs-style-4 flex-nowrap flex-lg-wrap nav-tabs-search-stocks"
-                    id="myTab-SellVehicle" role="tablist">
-                    <li class="nav-item" role="presentation">
-                        <button class="nav-link d-flex align-items-center gap-3 h-100 active" id="Vehicle-Details-tab"
-                            data-bs-toggle="tab" data-bs-target="#Vehicle-Details-tab-pane" type="button" role="tab"
-                            aria-controls="Vehicle-Details-tab-pane" aria-selected="true">
-                            <span>Vehicle Details</span>
-                        </button>
-                    </li>
-                    <li class="nav-item" role="presentation">
-                        <button class="nav-link d-flex align-items-center gap-3 h-100" id="Vehicle-Price-tab"
-                            data-bs-toggle="tab" data-bs-target="#Vehicle-Price-tab-pane" type="button" role="tab"
-                            aria-controls="Vehicle-Price-tab-pane" aria-selected="false" tabindex="-1">
-                            <span>Vehicle Price</span>
-                        </button>
-                    </li>
-                    <li class="nav-item" role="presentation">
-                        <button class="nav-link d-flex align-items-center gap-3 h-100" id="Advert-Details-tab"
-                            data-bs-toggle="tab" data-bs-target="#Advert-Details-tab-pane" type="button" role="tab"
-                            aria-controls="Advert-Details-tab-pane" aria-selected="false" tabindex="-1">
-                            <span>Advert Details</span>
-                        </button>
-                    </li>
-                    <li class="nav-item" role="presentation">
-                        <button class="nav-link d-flex align-items-center gap-3 h-100" id="Vehicle-Photos-tab"
-                            data-bs-toggle="tab" data-bs-target="#Vehicle-Photos-tab-pane" type="button" role="tab"
-                            aria-controls="Vehicle-Photos-tab-pane" aria-selected="false" tabindex="-1">
-                            <span>Vehicle Photos</span>
-                        </button>
-                    </li>
+            <form action="" class="sell-vehicle-form-holder hide-go-back">
+                <div class="container">
+                    <ul class="nav nav-tabs nav-tabs-style-4 flex-nowrap flex-lg-wrap nav-tabs-search-stocks"
+                        id="myTab-SellVehicle" role="tablist">
+                        <li class="nav-item" role="presentation" step="1">
+                            <button class="nav-link d-flex align-items-center gap-3 h-100 active"
+                                id="Vehicle-Details-tab" data-bs-toggle="tab" data-bs-target="#Vehicle-Details-tab-pane"
+                                type="button" role="tab" aria-controls="Vehicle-Details-tab-pane" aria-selected="true">
+                                <span>Vehicle Details</span>
+                            </button>
+                        </li>
+                        <li class="nav-item" role="presentation" step="2">
+                            <button class="nav-link d-flex align-items-center gap-3 h-100" id="Vehicle-Price-tab"
+                                data-bs-toggle="tab" data-bs-target="#Vehicle-Price-tab-pane" type="button" role="tab"
+                                aria-controls="Vehicle-Price-tab-pane" aria-selected="false" tabindex="-1">
+                                <span>Vehicle Price</span>
+                            </button>
+                        </li>
+                        <li class="nav-item" role="presentation" step="3">
+                            <button class="nav-link d-flex align-items-center gap-3 h-100" id="Advert-Details-tab"
+                                data-bs-toggle="tab" data-bs-target="#Advert-Details-tab-pane" type="button" role="tab"
+                                aria-controls="Advert-Details-tab-pane" aria-selected="false" tabindex="-1">
+                                <span>Advert Details</span>
+                            </button>
+                        </li>
+                        <li class="nav-item" role="presentation" step="4">
+                            <button class="nav-link d-flex align-items-center gap-3 h-100" id="Vehicle-Photos-tab"
+                                data-bs-toggle="tab" data-bs-target="#Vehicle-Photos-tab-pane" type="button" role="tab"
+                                aria-controls="Vehicle-Photos-tab-pane" aria-selected="false" tabindex="-1">
+                                <span>Vehicle Photos</span>
+                            </button>
+                        </li>
 
-                    </li>
-                    <li class="nav-item" role="presentation">
-                        <button class="nav-link d-flex align-items-center gap-3 h-100" id="Advert-Preview-tab"
-                            data-bs-toggle="tab" data-bs-target="#Advert-Preview-tab-pane" type="button" role="tab"
-                            aria-controls="Advert-Preview-tab-pane" aria-selected="false" tabindex="-1">
-                            <span>Advert Preview</span>
-                        </button>
-                    </li>
+                        </li>
+                        <li class="nav-item" role="presentation" step="5">
+                            <button class="nav-link d-flex align-items-center gap-3 h-100" id="Advert-Preview-tab"
+                                data-bs-toggle="tab" data-bs-target="#Advert-Preview-tab-pane" type="button" role="tab"
+                                aria-controls="Advert-Preview-tab-pane" aria-selected="false" tabindex="-1">
+                                <span>Advert Preview</span>
+                            </button>
+                        </li>
 
 
-                </ul>
-            </div>
-            <div class="container small-container">
+                    </ul>
+                </div>
+
                 <div class="tab-content md-margin-top" id="myTab-SellVehicleContent-SellVehicle">
                     <div class="tab-pane fade show active" id="Vehicle-Details-tab-pane" role="tabpanel"
                         aria-labelledby="Vehicle-Details-tab" tabindex="0">
-                        <h2 class="text-center sm-margin-bottom">Enter your vehicle details</h2>
-                        <div class="form-group">
-                            <div class="form-control-holder">
-                                <h3 class="mb-3 fw-semibold fs-24">Vehicle Type</h3>
-                                <div class="row g-3 custom-radio-inputs">
-                                    <div class="col-4">
-                                        <input type="radio" name="Vehicle-Type" id="Caravan">
-                                        <label for="Caravan" class="form-control text-center fw-semibold">Caravan</label>
-                                    </div>
-                                    <div class="col-4">
-                                        <input type="radio" name="Vehicle-Type" id="Motorhome">
-                                        <label for="Motorhome" class="form-control text-center fw-semibold">Motorhome</label>
-                                    </div>
-                                    <div class="col-4">
-                                        <input type="radio" name="Vehicle-Type" id="Campervan">
-                                        <label for="Campervan" class="form-control text-center fw-semibold">Campervan</label>
+                        <div class="container small-container">
+                            <h2 class="text-center sm-margin-bottom">Enter your vehicle details</h2>
+                            <div class="form-group d-flex flex-column gap-5">
+                                <div class="form-control-holder">
+                                    <h3 class="mb-3 fw-semibold fs-24">Vehicle Type</h3>
+                                    <div class="row g-3 custom-radio-inputs">
+                                        <div class="col-4">
+                                            <input type="radio" name="Vehicle-Type" id="Caravan">
+                                            <label for="Caravan"
+                                                class="form-control text-center fw-semibold">Caravan</label>
+                                        </div>
+                                        <div class="col-4">
+                                            <input type="radio" name="Vehicle-Type" id="Motorhome">
+                                            <label for="Motorhome"
+                                                class="form-control text-center fw-semibold">Motorhome</label>
+                                        </div>
+                                        <div class="col-4">
+                                            <input type="radio" name="Vehicle-Type" id="Campervan">
+                                            <label for="Campervan"
+                                                class="form-control text-center fw-semibold">Campervan</label>
+                                        </div>
                                     </div>
                                 </div>
+                                <div class="form-control-holder">
+                                    <div class="row g-3">
+                                        <div class="col-lg-6">
+                                            <h3 class="mb-3 fw-semibold fs-24">Make*</h3>
+                                            <select name="Make" id="Make" class="form-control form-control-lg">
+                                                <option value="">Any Make</option>
+                                                <option value="1">Option 1</option>
+                                                <option value="2">Option 2</option>
+                                                <option value="3">Option 3</option>
+                                                <option value="4">Option 4</option>
+                                                <option value="5">Option 5</option>
+                                                <option value="6">Option 6</option>
+                                            </select>
+                                        </div>
+                                        <div class="col-lg-6">
+                                            <h3 class="mb-3 fw-semibold fs-24">Model*</h3>
+
+                                            <select name="Model" id="Model" class="form-control form-control-lg">
+                                                <option value="">All models</option>
+                                                <option value="1">Option 1</option>
+                                                <option value="2">Option 2</option>
+                                                <option value="3">Option 3</option>
+                                                <option value="4">Option 4</option>
+                                                <option value="5">Option 5</option>
+                                                <option value="6">Option 6</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="form-control-holder">
+                                    <div class="row g-3">
+                                        <div class="col-lg-6">
+                                            <h3 class="mb-3 fw-semibold fs-24">Derivative*</h3>
+                                            <input type="text" name="Derivative" id="Derivative"
+                                                class="form-control form-control-lg" placeholder="Enter Derivative">
+
+                                        </div>
+                                        <div class="col-lg-6">
+                                            <h3 class="mb-3 fw-semibold fs-24">Year*</h3>
+                                            <select name="Model" id="Model" class="form-control form-control-lg">
+                                                <option value="">Please select</option>
+                                                <option value="1">Option 1</option>
+                                                <option value="2">Option 2</option>
+                                                <option value="3">Option 3</option>
+                                                <option value="4">Option 4</option>
+                                                <option value="5">Option 5</option>
+                                                <option value="6">Option 6</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="form-control-holder">
+                                    <h3 class="mb-3 fw-semibold fs-24">Technical Details</h3>
+                                    <div id="technical-details-holder" class="d-flex flex-column gap-2 ">
+
+                                    </div>
+                                    <a href="#" id="add-technical-details" class="fs-16 fw-semibold d-inline-block">
+                                        Add technical details
+                                    </a>
+
+                                </div>
+                                <div class="form-control-holder">
+                                    <h3 class="mb-3 fw-semibold fs-24">Interior Features</h3>
+                                    <div class="row g-3" id="interior-features-holder">
+                                        <div class="col-lg-6">
+                                            <input type="text" name="Interior-Features[]"
+                                                class="form-control form-control-lg" placeholder="Enter feature">
+                                        </div>
+                                        <div class="col-lg-6">
+                                            <input type="text" name="Interior-Features[]"
+                                                class="form-control form-control-lg" placeholder="Enter feature">
+                                        </div>
+                                        <div class="col-lg-6">
+                                            <input type="text" name="Interior-Features[]"
+                                                class="form-control form-control-lg" placeholder="Enter feature">
+                                        </div>
+                                        <div class="col-lg-6">
+                                            <input type="text" name="Interior-Features[]"
+                                                class="form-control form-control-lg" placeholder="Enter feature">
+                                        </div>
+                                    </div>
+                                    <a href="#" id="add-more-interior-features"
+                                        class="fs-16 fw-semibold d-inline-block mt-4">
+                                        Add more features
+                                    </a>
+                                </div>
+                                <div class="form-control-holder">
+                                    <h3 class="mb-3 fw-semibold fs-24">Exterior Features</h3>
+                                    <div class="row g-3" id="Exterior-features-holder">
+                                        <div class="col-lg-6">
+                                            <input type="text" name="Exterior-Features[]"
+                                                class="form-control form-control-lg" placeholder="Enter feature">
+                                        </div>
+                                        <div class="col-lg-6">
+                                            <input type="text" name="Exterior-Features[]"
+                                                class="form-control form-control-lg" placeholder="Enter feature">
+                                        </div>
+                                        <div class="col-lg-6">
+                                            <input type="text" name="Exterior-Features[]"
+                                                class="form-control form-control-lg" placeholder="Enter feature">
+                                        </div>
+                                        <div class="col-lg-6">
+                                            <input type="text" name="Exterior-Features[]"
+                                                class="form-control form-control-lg" placeholder="Enter feature">
+                                        </div>
+                                    </div>
+                                    <a href="#" id="add-more-exterior-features"
+                                        class="fs-16 fw-semibold d-inline-block mt-4">
+                                        Add more features
+                                    </a>
+
+                                </div>
+                                <div class="form-control-holder">
+                                    <h3 class="mb-3 fw-semibold fs-24">Warranty</h3>
+                                    <input type="text" name="Derivative" id="Derivative"
+                                        class="form-control form-control-lg" placeholder="Enter warranty details">
+
+                                </div>
+
                             </div>
                         </div>
                     </div>
                     <div class="tab-pane fade" id="Vehicle-Price-tab-pane" role="tabpanel"
                         aria-labelledby="Vehicle-Price-tab" tabindex="0">
-                        2
+                        <div class="container small-container">
+                            <h2 class="text-center sm-margin-bottom">Enter your vehicle details</h2>
+                            <div class="form-group d-flex flex-column gap-5">
+                                <div class="form-control-holder">
+                                    <h3 class="mb-3 fw-semibold fs-24">Add a price to your advert</h3>
+                                    <div
+                                        class="pricing--box text-color rounded d-block background-lightgray-5 p-4 h-100">
+                                        <div class="d-flex gap-3 align-items-center justify-content-between mb-4">
+                                            <div class="price-box text-pink fw-semibold fs-28">
+                                                £<span class="price-text">30,000</span><input
+                                                    class="price-input text-pink fw-semibold fs-28" type="number"
+                                                    value="30000" name="sell-vehicle-price" id="sell-vehicle-price">
+                                            </div>
+                                            <a href="#"
+                                                class="btn btn-light btn-sm edit-btn fw-semibold d-inline-block text-pink"
+                                                id="edit-price">Edit Price</a>
+                                        </div>
+
+                                        <div class="notice d-flex gap-3 text-black-70">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22"
+                                                viewBox="0 0 22 22">
+                                                <g id="Complete" transform="translate(0.655 1)" opacity="0.7">
+                                                    <g id="info-circle" transform="translate(0)">
+                                                        <g id="Group_1142" data-name="Group 1142">
+                                                            <g id="Group_1176" data-name="Group 1176">
+                                                                <circle id="_--Circle" data-name="--Circle" cx="10"
+                                                                    cy="10" r="10" transform="translate(0.345)"
+                                                                    fill="none" stroke="#000" stroke-linecap="round"
+                                                                    stroke-linejoin="round" stroke-width="2" />
+                                                                <line id="Line_126" data-name="Line 126" y2="4"
+                                                                    transform="translate(10.345 10)" fill="none"
+                                                                    stroke="#000" stroke-linecap="round"
+                                                                    stroke-linejoin="round" stroke-width="2" />
+                                                                <line id="Line_127" data-name="Line 127"
+                                                                    transform="translate(10.345 6)" fill="none"
+                                                                    stroke="#000" stroke-linecap="round"
+                                                                    stroke-linejoin="round" stroke-width="2" />
+                                                            </g>
+                                                        </g>
+                                                    </g>
+                                                </g>
+                                            </svg>
+                                            We'll also display a monthly finance price on qualifying vehicles
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                     <div class="tab-pane fade" id="Advert-Details-tab-pane" role="tabpanel"
                         aria-labelledby="Advert-Details-tab" tabindex="0">
-                        3
+                        <div class="container small-container">
+                            <h2 class="text-center sm-margin-bottom">Add an attention grabber and description to your
+                                advert</h2>
+                            <div class="form-group d-flex flex-column gap-5">
+                                <div class="form-control-holder">
+                                    <h3 class="mb-3 fw-semibold fs-24">Attention grabber</h3>
+                                    <div
+                                        class="pricing--box text-color rounded d-block background-lightgray-5 p-4 h-100">
+                                        <div class="notice d-flex gap-3 mb-4 text-black-70">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22"
+                                                viewBox="0 0 22 22">
+                                                <g id="Complete" transform="translate(0.655 1)" opacity="0.7">
+                                                    <g id="info-circle" transform="translate(0)">
+                                                        <g id="Group_1142" data-name="Group 1142">
+                                                            <g id="Group_1176" data-name="Group 1176">
+                                                                <circle id="_--Circle" data-name="--Circle" cx="10"
+                                                                    cy="10" r="10" transform="translate(0.345)"
+                                                                    fill="none" stroke="#000" stroke-linecap="round"
+                                                                    stroke-linejoin="round" stroke-width="2" />
+                                                                <line id="Line_126" data-name="Line 126" y2="4"
+                                                                    transform="translate(10.345 10)" fill="none"
+                                                                    stroke="#000" stroke-linecap="round"
+                                                                    stroke-linejoin="round" stroke-width="2" />
+                                                                <line id="Line_127" data-name="Line 127"
+                                                                    transform="translate(10.345 6)" fill="none"
+                                                                    stroke="#000" stroke-linecap="round"
+                                                                    stroke-linejoin="round" stroke-width="2" />
+                                                            </g>
+                                                        </g>
+                                                    </g>
+                                                </g>
+                                            </svg>
+                                            Add a quick attention grabber to your listing. (e.g. full service history,
+                                            low mileage, 1 owner).
+                                        </div>
+                                        <input type="text" name="Attention-Grabber" id="Attention-Grabber"
+                                            class="form-control form-control-lg border character-count-input"
+                                            maxlength="2500">
+                                        <div class="character-count-holder text-end fs-14 text-black-70 mt-2">
+                                            <span class="character-count "><span class="count">0</span> / <span
+                                                    class="max">2500</span> characters</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="form-control-holder">
+                                    <h3 class="mb-3 fw-semibold fs-24">Advert description</h3>
+                                    <div
+                                        class="pricing--box text-color rounded d-block background-lightgray-5 p-4 h-100">
+                                        <div class="notice d-flex gap-3 mb-4 text-black-70">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22"
+                                                viewBox="0 0 22 22">
+                                                <g id="Complete" transform="translate(0.655 1)" opacity="0.7">
+                                                    <g id="info-circle" transform="translate(0)">
+                                                        <g id="Group_1142" data-name="Group 1142">
+                                                            <g id="Group_1176" data-name="Group 1176">
+                                                                <circle id="_--Circle" data-name="--Circle" cx="10"
+                                                                    cy="10" r="10" transform="translate(0.345)"
+                                                                    fill="none" stroke="#000" stroke-linecap="round"
+                                                                    stroke-linejoin="round" stroke-width="2" />
+                                                                <line id="Line_126" data-name="Line 126" y2="4"
+                                                                    transform="translate(10.345 10)" fill="none"
+                                                                    stroke="#000" stroke-linecap="round"
+                                                                    stroke-linejoin="round" stroke-width="2" />
+                                                                <line id="Line_127" data-name="Line 127"
+                                                                    transform="translate(10.345 6)" fill="none"
+                                                                    stroke="#000" stroke-linecap="round"
+                                                                    stroke-linejoin="round" stroke-width="2" />
+                                                            </g>
+                                                        </g>
+                                                    </g>
+                                                </g>
+                                            </svg>
+                                            The vehicle description field will be displayed on your advert. Tell buyers
+                                            in further detail what's unique about your leisure vehicle, for example:
+                                        </div>
+                                        <ul class="text-black-70">
+                                            <li>The condition of your vehicle</li>
+                                            <li>The history of your vehicle </li>
+                                            <li>Expand on some of the optional specification that comes with your
+                                                vehicle</li>
+                                        </ul>
+                                        <textarea name="Attention-Grabber" id="Attention-Grabber"
+                                            class="form-control form-control-lg border character-count-input"
+                                            maxlength="2500"></textarea>
+                                        <div class="character-count-holder text-end fs-14 text-black-70 mt-2">
+                                            <span class="character-count "><span class="count">0</span> / <span
+                                                    class="max">2500</span> characters</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                     <div class="tab-pane fade" id="Vehicle-Photos-tab-pane" role="tabpanel"
                         aria-labelledby="Vehicle-Photos-tab" tabindex="0">
-                        4
+                        <div class="container small-container">
+                            <h2 class="text-center sm-margin-bottom">
+                                Add your advert photos
+                            </h2>
+                            <div class="form-group d-flex flex-column gap-5">
+                                <div class="form-control-holder">
+                                    <h3 class="mb-3 fw-semibold fs-24">Upload photos</h3>
+                                    <div
+                                        class="pricing--box text-color rounded d-block background-lightgray-5 p-4 h-100">
+                                        <div class="notice d-flex gap-3 mb-4 text-black-70">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22"
+                                                viewBox="0 0 22 22">
+                                                <g id="Complete" transform="translate(0.655 1)" opacity="0.7">
+                                                    <g id="info-circle" transform="translate(0)">
+                                                        <g id="Group_1142" data-name="Group 1142">
+                                                            <g id="Group_1176" data-name="Group 1176">
+                                                                <circle id="_--Circle" data-name="--Circle" cx="10"
+                                                                    cy="10" r="10" transform="translate(0.345)"
+                                                                    fill="none" stroke="#000" stroke-linecap="round"
+                                                                    stroke-linejoin="round" stroke-width="2" />
+                                                                <line id="Line_126" data-name="Line 126" y2="4"
+                                                                    transform="translate(10.345 10)" fill="none"
+                                                                    stroke="#000" stroke-linecap="round"
+                                                                    stroke-linejoin="round" stroke-width="2" />
+                                                                <line id="Line_127" data-name="Line 127"
+                                                                    transform="translate(10.345 6)" fill="none"
+                                                                    stroke="#000" stroke-linecap="round"
+                                                                    stroke-linejoin="round" stroke-width="2" />
+                                                            </g>
+                                                        </g>
+                                                    </g>
+                                                </g>
+                                            </svg>
+                                            Buyers expect to see a minimum of 20 images on an advert. For best results,
+                                            take photos in landscape. The image should be wider than it is high.
+                                            Re-order your photos into the order you want them to display.
+                                        </div>
+                                        <div class="upload-photos">
+                                            <div class="row g-2">
+                                                <div class="col-lg-3">
+                                                    <div class="upload-photo-box h-100">
+                                                        <div class="remove">
+                                                            <svg xmlns="http://www.w3.org/2000/svg" id="Page-1"
+                                                                width="25.763" height="25.763"
+                                                                viewBox="0 0 25.763 25.763">
+                                                                <g id="Icon-Set-Filled">
+                                                                    <path id="cross-circle"
+                                                                        d="M587.436,1105.3a.807.807,0,0,1-1.139,1.144l-3.41-3.414-3.434,3.438a.813.813,0,0,1-1.148-1.151l3.435-3.437-3.411-3.406a.807.807,0,0,1,1.138-1.143l3.411,3.414,3.46-3.462a.813.813,0,1,1,1.147,1.152l-3.46,3.462,3.411,3.406Zm-4.554-16.3a12.882,12.882,0,1,0,12.882,12.882A12.88,12.88,0,0,0,582.882,1089Z"
+                                                                        transform="translate(-570 -1089)"
+                                                                        fill-rule="evenodd" opacity="0.7" />
+                                                                </g>
+                                                            </svg>
+                                                        </div>
+                                                        <div class="uploaded-image">
+                                                            <img src="./images/uploaded-image.png" alt="">
+                                                        </div>
+                                                        <span class="tag">Main image</span>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-3">
+                                                    <div class="upload-photo-box h-100">
+                                                        <button
+                                                            class="upload-photo d-flex flex-column gap-4 text-center justify-content-end align-items-center">
+                                                            <svg xmlns="http://www.w3.org/2000/svg" width="56.094"
+                                                                height="42.82" viewBox="0 0 56.094 42.82">
+                                                                <path id="photo-svgrepo-com"
+                                                                    d="M57.889,14.32V42.7a4.352,4.352,0,0,1-4.34,4.34H6.135A4.352,4.352,0,0,1,1.8,42.7V14.32a4.352,4.352,0,0,1,4.34-4.34h11.3V8.558a4.352,4.352,0,0,1,4.34-4.34H37.912a4.352,4.352,0,0,1,4.34,4.34V9.979h11.3a4.352,4.352,0,0,1,4.34,4.34ZM43.139,28.508a13.3,13.3,0,1,0-13.3,13.3,13.3,13.3,0,0,0,13.3-13.3Zm-6.964-6.337a8.957,8.957,0,1,1-6.333-2.62,8.957,8.957,0,0,1,6.333,2.62Zm-2.5-12.7A2.172,2.172,0,1,0,35.845,7.3,2.172,2.172,0,0,0,33.672,9.473Z"
+                                                                    transform="translate(-1.795 -4.218)"
+                                                                    fill="#f2007d" />
+                                                            </svg>
+                                                            <span
+                                                                class="fs-20 border text-pink fw-semibold w-100">Upload</span>
+                                                        </button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="help-text text-end fs-14 text-black-70 mt-2">
+                                            1 photo added (max file size 15mb)
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
                     </div>
                     <div class="tab-pane fade" id="Advert-Preview-tab-pane" role="tabpanel"
                         aria-labelledby="Advert-Preview-tab" tabindex="0">
-                        5
-                    </div>
+                        <div class="container">
+                            <h2 class="text-center sm-margin-bottom">
+                                Confirm your advert
+                            </h2>
 
+                            <div class="row g-3">
+                                <div class="col-lg-8">
+                                    <div class="finalise-advert-box p-4 pb-5">
+                                        <h3 class="mb-3 fw-semibold fs-24">Finalise your details</h3>
+                                        <div class="upload-photos upload-box-with-cam">
+                                            <div class="row g-2">
+                                                <div class="col-lg-4">
+                                                    <div class="upload-photo-box h-100">
+                                                        <div class="camera fs-16 d-flex gap-2 align-items-center">
+                                                            <svg xmlns="http://www.w3.org/2000/svg" width="25.342"
+                                                                height="19.345" viewBox="0 0 25.342 19.345">
+                                                                <path id="photo-svgrepo-com"
+                                                                    d="M27.137,8.782V21.6a1.966,1.966,0,0,1-1.961,1.961H3.756A1.966,1.966,0,0,1,1.795,21.6V8.782A1.966,1.966,0,0,1,3.756,6.821h5.1V6.179A1.966,1.966,0,0,1,10.82,4.218h7.291a1.966,1.966,0,0,1,1.961,1.961v.642h5.1a1.966,1.966,0,0,1,1.961,1.961Zm-6.664,6.41A6.008,6.008,0,1,0,14.466,21.2a6.008,6.008,0,0,0,6.008-6.008Zm-3.146-2.863a4.047,4.047,0,1,1-2.861-1.184,4.047,4.047,0,0,1,2.861,1.184ZM16.2,6.592a.981.981,0,1,0,.981-.98A.981.981,0,0,0,16.2,6.592Z"
+                                                                    transform="translate(-1.795 -4.218)"
+                                                                    fill="#f8f8f4" />
+                                                            </svg>
+                                                            <span class="text-white">6</span>
+                                                        </div>
+                                                        <div class="uploaded-image">
+                                                            <img src="./images/uploaded-image.png" alt="">
+                                                        </div>
+                                                        <span class="tag">Main image</span>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-4">
+                                                    <div class="upload-photo-box h-100">
+                                                        <div class="uploaded-image">
+                                                            <img src="./images/uploaded-image.png" alt="">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-4">
+                                                    <div class="upload-photo-box h-100">
+                                                        <div class="uploaded-image">
+                                                            <img src="./images/uploaded-image.png" alt="">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="add-more-photos-holder mt-4">
+                                                    <a href="#"
+                                                        class="btn btn-light btn-sm edit-btn fw-semibold d-inline-block text-pink"
+                                                        id="add-more-photos">Add more photos</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="pricing mt-5">
+                                            <div class="price-box text-pink fw-semibold fs-28 mb-2">
+                                                £<span class="price-text">30,000</span><input
+                                                    class="price-input text-pink fw-semibold fs-28" type="number"
+                                                    value="30000" name="sell-vehicle-price" id="sell-vehicle-price">
+                                            </div>
+                                            <p class="text-black-70">
+                                                We'll also display a monthly finance price on qualifying vehicles
+                                            </p>
+                                        </div>
+
+
+                                        <div class="vehicle-type mt-4">
+                                            <h3 class="mb-2 fw-semibold fs-24">Swift Elegance (2010)</h3>
+                                            <a href="#"
+                                                class="btn btn-light btn-sm edit-btn fw-semibold d-inline-block text-pink"
+                                                id="edit-vehicle-type">Edit vehicle details</a>
+                                        </div>
+
+                                        <div class="attention-grab mt-4">
+                                            <p class="fs-18 text-black-70 mb-2">
+                                                1 OWNER FROM NEW!
+                                            </p>
+                                            <a href="#"
+                                                class="btn btn-light btn-sm edit-btn fw-semibold d-inline-block text-pink"
+                                                id="edit-vehicle-type">Edit attention grabber</a>
+                                        </div>
+                                        <hr class="hr-style-1">
+                                        <div class="technical-details">
+                                            <h3 class="mb-2 fw-semibold fs-24">Technical Details</h3>
+                                            <div class="list-style--3 mb-3">
+                                                <ul class="list-inline p-0 m-0">
+                                                    <li class="d-flex justify-content-between align-items-center">
+                                                        <span class="text-black-70">Bedrooms</span>
+                                                        <span>4</span>
+                                                    </li>
+                                                    <li class="d-flex justify-content-between align-items-center">
+                                                        <span class="text-black-70">Berth</span>
+                                                        <span>4</span>
+                                                    </li>
+                                                    <li class="d-flex justify-content-between align-items-center">
+                                                        <span class="text-black-70">Dimensions</span>
+                                                        <span>L:12.00m x W:4.00m</span>
+                                                    </li>
+                                                    <li class="d-flex justify-content-between align-items-center">
+                                                        <span class="text-black-70">Axle configuration</span>
+                                                        <span>Single</span>
+                                                    </li>
+                                                    <li class="d-flex justify-content-between align-items-center">
+                                                        <span class="text-black-70">Year</span>
+                                                        <span>2010</span>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                            <a href="#"
+                                                class="btn btn-light btn-sm edit-btn fw-semibold d-inline-block text-pink"
+                                                id="edit-technical-details">Edit technical details</a>
+                                        </div>
+                                        <hr class="hr-style-1">
+
+                                        <div class="advert-description mt-4">
+                                            <h3 class="mb-2 fw-semibold fs-24">Advert Description</h3>
+                                            <textarea readonly name="Advert-Description-Value"
+                                                id="Advert-Description-Value"
+                                                class="mb-3 form-control form-control-lg border character-count-input"
+                                                maxlength="2500">This is my vehicle description</textarea>
+                                            <a href="#"
+                                                class="btn btn-light btn-sm edit-btn fw-semibold d-inline-block text-pink"
+                                                id="edit-AdvertDescription">Edit advert description</a>
+                                        </div>
+                                        <hr class="hr-style-1">
+
+                                        <div class="interior-features">
+                                            <h3 class="mb-2 fw-semibold fs-24">Interior Features</h3>
+                                            <div class="list-style--3 mb-3">
+                                                <ul class="list-inline p-0 m-0">
+                                                    <li>
+                                                        Lorem ipsum dolor sit
+                                                    </li>
+                                                    <li>
+                                                        Lorem ipsum dolor sit
+                                                    </li>
+                                                    <li>
+                                                        Lorem ipsum dolor sit
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                            <a href="#"
+                                                class="btn btn-light btn-sm edit-btn fw-semibold d-inline-block text-pink"
+                                                id="Edit-interior-features">Edit interior features</a>
+                                        </div>
+                                        <hr class="hr-style-1">
+
+                                        <div class="exterior-features">
+                                            <h3 class="mb-2 fw-semibold fs-24">Exterior Features</h3>
+                                            <div class="list-style--3 mb-3">
+                                                <ul class="list-inline p-0 m-0">
+                                                    <li>
+                                                        Lorem ipsum dolor sit
+                                                    </li>
+                                                    <li>
+                                                        Lorem ipsum dolor sit
+                                                    </li>
+                                                    <li>
+                                                        Lorem ipsum dolor sit
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                            <a href="#"
+                                                class="btn btn-light btn-sm edit-btn fw-semibold d-inline-block text-pink"
+                                                id="Edit-exterior-features">Edit exterior features</a>
+                                        </div>
+                                        <hr class="hr-style-1">
+
+                                        <div class="advert-description mt-4">
+                                            <h3 class="mb-2 fw-semibold fs-24">Warranty</h3>
+                                            <textarea readonly name="Warranty-Value" id="Warranty-Value"
+                                                class="mb-3 form-control form-control-lg border character-count-input"
+                                                maxlength="2500">This is my vehicle description</textarea>
+                                            <a href="#"
+                                                class="btn btn-light btn-sm edit-btn fw-semibold d-inline-block text-pink"
+                                                id="edit-AdvertDescription">Edit advert description</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4">
+                                    <div class="col-lg-8">
+                                        <div class="finalise-advert-box p-4 pb-5">
+                                            <h2 class="fs-32">Preview</h2>
+                                            <div id="listing-grid-insert"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
                 </div>
-            </div>
+
+                <div class="container small-container tab-navigation-buttons-holder">
+                    <div class="tab-navigation-buttons mt-5 pt-5 border-top">
+                        <div class="row g-3">
+                            <div class="col-6">
+                                <button class="btn btn-bordered border text-pink btn-lg"
+                                    id="sell-vehicle-previous-step">
+                                    Go back
+                                </button>
+                            </div>
+                            <div class="col-6 text-end">
+                                <button class="btn btn-primary btn-lg" id="sell-vehicle-next-step">
+                                    Continue
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </form>
         </section>
     </main>
     <script src="https://code.jquery.com/jquery-3.7.1.min.js"
@@ -156,7 +707,10 @@
         src="https://newglossopaVehicle-Details.theprogressteam.co.uk/wp-content/themes/glossop-Vehicle-Details/assets/vendors/swiper/js/swiper-bundle.min.js?ver=6.8.1"
         id="swiper-js"></script>
     <script type="text/javascript" src="./assets/javascripts/main.js"></script>
+    <script>
+        fetch___template('template-parts/listing-grids/----vehicle-listing-grid.html', '#listing-grid-insert');
 
+    </script>
 </body>
 
 </html>

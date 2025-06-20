@@ -2,6 +2,7 @@ jQuery(document).ready(function () {
     templates();
     password_input();
     menu_responsive();
+    sell_leisure_vehicle_form();
     setTimeout(function () {
         swiper_sliders();
         header();
@@ -9,6 +10,81 @@ jQuery(document).ready(function () {
     }, 1000);
 
 });
+
+function sell_leisure_vehicle_form() {
+    jQuery('#add-technical-details').click(function (e) {
+        $input = jQuery('<input type="text" name="TechnicalDetails[]" class="form-control form-control-lg" placeholder="Enter Technical Details">');
+        $input.appendTo('#technical-details-holder');
+        jQuery('#technical-details-holder').addClass('mb-4');
+        e.preventDefault();
+    });
+    jQuery('#add-more-interior-features').click(function (e) {
+        $input = jQuery('<div class="col-lg-6"><input type="text" name="Interior-Features[]" class="form-control form-control-lg" placeholder="Enter feature"></div>');
+        $input.appendTo('#interior-features-holder');
+        e.preventDefault();
+    });
+
+    jQuery('#add-more-exterior-features').click(function (e) {
+        $input = jQuery('<div class="col-lg-6"><input type="text" name="Exterior-Features[]" class="form-control form-control-lg" placeholder="Enter feature"></div>');
+        $input.appendTo('#Exterior-features-holder');
+        e.preventDefault();
+    });
+
+    jQuery('#sell-vehicle-next-step').click(function (e) {
+        $step = jQuery('#myTab-SellVehicle .nav-link.active').parent().next().attr('step');
+
+        if ($step == '5') {
+            jQuery('.sell-vehicle-form-holder').addClass('hide-navigations');
+        } else {
+            jQuery('.sell-vehicle-form-holder').removeClass('hide-navigations');
+        }
+        jQuery('#myTab-SellVehicle .nav-link.active').parent().next().find('.nav-link').click();
+        jQuery('.sell-vehicle-form-holder').removeClass('hide-go-back');
+        e.preventDefault();
+    });
+    jQuery('#sell-vehicle-previous-step').click(function (e) {
+        $step = jQuery('#myTab-SellVehicle .nav-link.active').parent().prev().attr('step');
+        if ($step == '1') {
+            jQuery('.sell-vehicle-form-holder').addClass('hide-go-back');
+        }
+        jQuery('.sell-vehicle-form-holder').removeClass('hide-navigations');
+
+        jQuery('#myTab-SellVehicle .nav-link.active').parent().prev().find('.nav-link').click();
+
+        e.preventDefault();
+    });
+
+    jQuery('#edit-price').click(function (e) {
+        $text = jQuery(this).text();
+        if ($text == 'Edit Price') {
+            jQuery('.price-box').addClass('editing');
+            jQuery(this).text('Save Price');
+            jQuery('#sell-vehicle-price').focus()
+        } else {
+            $val = jQuery('#sell-vehicle-price').val();
+            jQuery('.price-box').removeClass('editing');
+            jQuery(this).text('Edit Price');
+            jQuery('.price-text').text($val);
+        }
+        e.preventDefault();
+    });
+
+    jQuery('.character-count-input').on('keyup', function () {
+        // 'this' refers to the specific input field that triggered the event.
+        // Get the current value of the input field.
+        var text = jQuery(this).val();
+
+        // Get the length of the text (character count).
+        var charCount = text.length;
+        console.log(charCount);
+        // Find the closest parent 'input-group' div to the current input,
+        // then find the 'span' element with the class 'count' within that group.
+        // Update its text with the calculated character count.
+        jQuery(this).next().find('.count').text(charCount);
+    });
+
+
+}
 
 function menu_responsive() {
     if (window.innerWidth < 992) {

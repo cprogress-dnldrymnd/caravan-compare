@@ -1340,10 +1340,20 @@ hr {
         &:checked {
             & + label {
                 background-color: var(--pink-color);
+                color: var(--bs-white);
             }
         }
     }
     label {
         cursor: pointer;
+        border-radius: 5px;
+        @include transition(400ms);
     }
+}
+
+.hr-style-1 {
+    margin-top: 32px;
+    margin-bottom: 32px;
+    border-color: var(--lightgray-color-7);
+    opacity: 1;
 }

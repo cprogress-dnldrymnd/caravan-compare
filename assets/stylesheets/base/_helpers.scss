@@ -199,6 +199,7 @@
 
 .text-pink {
     color: var(--pink-color);
+    border-color: var(--pink-color) !important;
 }
 .text-black-70 {
     color: var(--black-70);
@@ -428,7 +429,6 @@
         width: auto !important;
     }
 }
-
 
 .bring-to-front {
     z-index: 99999;
