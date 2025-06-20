@@ -12813,6 +12813,9 @@ footer hr {
   margin-top: var(--md-spacing);
   margin-bottom: 0; }
 
+.review--footer img {
+  max-height: 20px; }
+
 .listing-grid {
   -webkit-box-shadow: 0px 15px 30px #00000008;
   -moz-box-shadow: 0px 15px 30px #00000008;
@@ -13407,6 +13410,8 @@ section.newsletter {
 section.sell-vehicle-form .form-control.form-control {
   --bs-body-bg: var(--lightgray-color-5);
   border: none; }
+section.sell-vehicle-form .nav-link {
+  pointer-events: none; }
 section.sell-vehicle-form .sell-vehicle-form-holder.hide-go-back #sell-vehicle-previous-step {
   display: none; }
 section.sell-vehicle-form .sell-vehicle-form-holder.hide-navigations .tab-navigation-buttons-holder {
