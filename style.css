@@ -12696,8 +12696,8 @@ h5, .h5 {
       --burger-height: 25px; } }
   @media screen and (max-width: 991px) {
     .menu-burger {
-      width: 25px;
-      height: 20px; } }
+      --burger-width: 25px;
+      --burger-height: 20px; } }
 
 .compare .count {
   width: 22px;
