@@ -70,12 +70,12 @@
         display: block;
     }
     @include responsive(xs-md) {
-        width: 30px;
-        height: 25px;
+        --burger-width: 30px;
+        --burger-height: 25px;
     }
     @include responsive(xs-sm) {
-        width: 25px;
-        height: 20px;
+        --burger-width: 25px;
+        --burger-height: 20px;
     }
 }
 
@@ -244,7 +244,7 @@ body {
 }
 
 .header-dark {
-    .logo-box a svg{
+    .logo-box a svg {
         color: var(--text-color);
     }
 }
