@@ -322,9 +322,9 @@
         background-repeat: no-repeat;
         @include transform(scale(1.05));
     }
-    &.bg-decor-contain {
+    &.bg-decor-cover {
         @include before {
-            background-size: contain;
+            background-size: cover;
         }
     }
     &.bg-decor-1 {
