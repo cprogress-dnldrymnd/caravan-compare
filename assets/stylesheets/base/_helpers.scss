@@ -308,6 +308,7 @@
 .background-gradient-orange {
     background: transparent linear-gradient(180deg, #eeeee9 0%, #f58c72 100%) 0% 0% no-repeat;
 }
+
 .bg-decor {
     @include before {
         content: "";
@@ -320,6 +321,11 @@
         background-position: center;
         background-repeat: no-repeat;
         @include transform(scale(1.05));
+    }
+    &.bg-decor-contain {
+        @include before {
+            background-size: contain;
+        }
     }
     &.bg-decor-1 {
         @include before {

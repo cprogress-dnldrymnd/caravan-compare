@@ -12359,6 +12359,9 @@ hr {
 .background-gradient-orange {
   background: transparent linear-gradient(180deg, #eeeee9 0%, #f58c72 100%) 0% 0% no-repeat; }
 
+.bg-decor-contain:before {
+  background-size: contain; }
+
 .bg-decor:before {
   content: "";
   position: absolute;
