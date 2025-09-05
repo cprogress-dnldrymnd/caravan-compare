@@ -36,7 +36,7 @@
                     <div class="my-account--inner">
                         <h3 class="fs-24 mb-4">Buying guides</h3>
                         <div class="row g-3 g-lg-5">
-                            <div class="col-sm-6 col-lg-3">
+                            <div class="col-sm-6 col-lg-4">
                                 <a class="my-account--box text-color rounded d-block background-lightgray-5 px-4 pt-4 sm-padding-bottom text-decoration-none h-100"
                                     href="#">
                                     <h5 class="fs-20 fw-semibold mb-3">Buying a leisure vehicle online</h5>
@@ -45,7 +45,7 @@
                                     </div>
                                 </a>
                             </div>
-                            <div class="col-sm-6 col-lg-3">
+                            <div class="col-sm-6 col-lg-4">
                                 <a class="my-account--box text-color rounded d-block background-lightgray-5 px-4 pt-4 sm-padding-bottom text-decoration-none h-100"
                                     href="#">
                                     <h5 class="fs-20 fw-semibold mb-3 icon-decor">Saved leisure vehicles</h5>
@@ -54,25 +54,25 @@
                                     </div>
                                 </a>
                             </div>
-                            <div class="col-sm-6 col-lg-3">
-                                <a data-bs-toggle="modal" data-bs-target="#savedSearchModal"
-                                    class="my-account--box text-color rounded d-block background-lightgray-5 px-4 pt-4 sm-padding-bottom text-decoration-none h-100"
-                                    href="#">
-                                    <h5 class="fs-20 fw-semibold mb-3 icon-decor">Saved searches</h5>
-                                    <div class="desc opacity-75">
-                                        <p>View and manage your saved searches</p>
-                                    </div>
-                                </a>
-                            </div>
-                            <div class="col-sm-6 col-lg-3">
+                            <div class="col-sm-6 col-lg-4">
                                 <a class="my-account--box text-color rounded d-block background-lightgray-5 px-4 pt-4 sm-padding-bottom text-decoration-none h-100"
                                     href="#">
-                                    <h5 class="fs-20 fw-semibold mb-3 icon-decor">My enquiries</h5>
+                                    <h5 class="fs-20 fw-semibold mb-3 icon-decor">Safety advice</h5>
                                     <div class="desc opacity-75">
-                                        <p>View and manage your enquiries</p>
+                                        <p>Learn how to have a safe and pleasant buying experience.</p>
                                     </div>
                                 </a>
                             </div>
+                              <div class="col-sm-6 col-lg-4">
+                                <a class="my-account--box text-color rounded d-block background-lightgray-5 px-4 pt-4 sm-padding-bottom text-decoration-none h-100"
+                                    href="#">
+                                    <h5 class="fs-20 fw-semibold mb-3 icon-decor">Test driving a used leisure vehicle</h5>
+                                    <div class="desc opacity-75">
+                                        <p>Know what to look out for when test driving a used leisure vehicle.</p>
+                                    </div>
+                                </a>
+                            </div>
+                            
                         </div>
                     </div>
                     <div class="my-account--inner">
@@ -145,16 +145,3 @@
 </body>
 
 </html>
-<script>
-
-    fetch('template-parts/modals/--save-search.html') // Path to the HTML file you want to insert
-        .then(response => response.text())
-        .then(data => {
-            document.getElementById('save-search-modal').innerHTML = data;
-        })
-        .catch(error => {
-            console.error('Error fetching the HTML file:', error);
-            document.getElementById('save-search-modal').innerHTML = '<p>Error loading content.</p>';
-        });
-
-</script>
