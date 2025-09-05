@@ -12465,9 +12465,6 @@ hr {
 .bring-to-front {
   z-index: 99999; }
 
-.bg-lightgray-5 {
-  background-color: var(--lightgray-color-5) !important; }
-
 body {
   font-family: "Onest", sans-serif;
   color: var(--text-color);
