@@ -613,6 +613,9 @@ img {
         }
     }
     &.accordion-style-2--lightborder.accordion-style-2--lightborder {
+        .accordion-item {
+            border-color: rgba(112, 112, 112, 0.3);
+        }
         .accordion-button {
             padding-left: 0;
             padding-right: 0;
