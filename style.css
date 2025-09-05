@@ -11595,7 +11595,7 @@ img {
   border-color: var(--text-color); }
   .accordion-style-2.accordion-style-2.accordion-style-2 .accordion-item:last-child {
     border-bottom: none; }
-.accordion-style-2.accordion-style-2.accordion-style-2.accordion-style-2--lightborder .accordion-button {
+.accordion-style-2.accordion-style-2.accordion-style-2.accordion-style-2--lightborder.accordion-style-2--lightborder .accordion-button {
   padding-left: 0;
   padding-right: 0; }
 
