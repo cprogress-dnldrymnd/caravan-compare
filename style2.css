@@ -44,6 +44,9 @@
     background-color: #201F1F;
     opacity: 0.72;
 }
+.bg-decor-5-cover:before {
+    background-size: cover;
+}
 @media (min-width: 1200px) {
     .cta-section-v2 .logo-box {
         position: absolute;
