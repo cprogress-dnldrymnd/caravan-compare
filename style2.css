@@ -23,21 +23,29 @@
     padding-bottom: 100px;
 }
 
-.cta-section-v2 .cta-inner .logo-box img {
+.cta-section-v2  .logo-box img {
     max-width: 100px;
 }
 
-.cta-section-v2 .cta-inner .logo-box {
+.cta-section-v2  .logo-box {
     background-color: var(--bs-white);
     left: 15px;
     top: 15px;
     border-radius: 10px;
     display: inline-block;
     margin-bottom: 20px;
+    z-index: 2;
+    padding: 10px;
 }
-
+.cta-section-v2 .cta-inner  {
+    z-index: 3;
+}
+.cta-section-v2 .background-image:before {
+    background-color: #201F1F;
+    opacity: 0.72;
+}
 @media (min-width: 1200px) {
-    .cta-section-v2 .cta-inner .logo-box {
+    .cta-section-v2 .logo-box {
         position: absolute;
     }
 }
