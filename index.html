@@ -6,6 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Compare Caravans</title>
   <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="style2.css">
 </head>
 
 <body class="header-light breadcrumbs-light">
@@ -718,7 +719,8 @@
                     <div class="swiper swiper-listing" style="--padding: 18%;--fit: contain">
                       <div class="swiper-wrapper">
                         <div class="swiper-slide">
-                          <div class="listing-grid h-100 position-relative rounded style-1 background-white">
+                          <div
+                            class="listing-grid h-100 position-relative rounded style-1 background-white d-flex flex-column justify-content-between">
                             <div class="listing-grid-item__top position-relative">
                               <h3 class="mb-3">Glossop Caravans</h3>
                               <div class="listing-grid__image image-style">
@@ -745,7 +747,8 @@
                           </div>
                         </div>
                         <div class="swiper-slide">
-                          <div class="listing-grid h-100 position-relative rounded style-1 background-white">
+                          <div
+                            class="listing-grid h-100 position-relative rounded style-1 background-white d-flex flex-column justify-content-between">
                             <div class="listing-grid-item__top position-relative">
                               <h3 class="mb-3">Spinney</h3>
                               <div class="listing-grid__image image-style">
@@ -772,7 +775,8 @@
                           </div>
                         </div>
                         <div class="swiper-slide">
-                          <div class="listing-grid h-100 position-relative rounded style-1 background-white">
+                          <div
+                            class="listing-grid h-100 position-relative rounded style-1 background-white d-flex flex-column justify-content-between">
                             <div class="listing-grid-item__top position-relative">
                               <h3 class="mb-3">Lowdhams</h3>
                               <div class="listing-grid__image image-style">
@@ -798,7 +802,8 @@
                           </div>
                         </div>
                         <div class="swiper-slide">
-                          <div class="listing-grid h-100 position-relative rounded style-1 background-white">
+                          <div
+                            class="listing-grid h-100 position-relative rounded style-1 background-white d-flex flex-column justify-content-between">
                             <div class="listing-grid-item__top position-relative">
                               <h3 class="mb-3">Salop Leisure</h3>
                               <div class="listing-grid__image image-style">
@@ -824,7 +829,8 @@
                           </div>
                         </div>
                         <div class="swiper-slide">
-                          <div class="listing-grid h-100 position-relative rounded style-1 background-white">
+                          <div
+                            class="listing-grid h-100 position-relative rounded style-1 background-white d-flex flex-column justify-content-between">
                             <div class="listing-grid-item__top position-relative">
                               <h3>Glossop Caravans</h3>
                               <div class="listing-grid__image image-style">
@@ -884,17 +890,21 @@
 
 
     <!----- NEW SECTION -->
-    <section class="deals-tabs  sm-padding-bottom overflow-hidden">
+    <section class="available-dealers-tab  sm-padding-bottom overflow-hidden">
       <div class="container">
-        <div class="heading-icon mb-5">
+        <div class="heading-icon mb-4">
           <h2 class="d-flex align-items-center gap-3">
             <svg xmlns="http://www.w3.org/2000/svg" width="44.025" height="40.881" viewBox="0 0 44.025 40.881">
               <path id="Icon_ionic-ios-star" data-name="Icon ionic-ios-star"
                 d="M44.6,17.526H30.149L25.756,4.417a1.592,1.592,0,0,0-2.987,0L18.376,17.526H3.822A1.577,1.577,0,0,0,2.25,19.1a1.156,1.156,0,0,0,.029.265,1.511,1.511,0,0,0,.658,1.11l11.881,8.373L10.259,42.1a1.577,1.577,0,0,0,.54,1.769,1.521,1.521,0,0,0,.884.383,1.926,1.926,0,0,0,.983-.354l11.6-8.265,11.6,8.265a1.841,1.841,0,0,0,.983.354,1.412,1.412,0,0,0,.875-.383,1.558,1.558,0,0,0,.54-1.769L33.7,28.847,45.479,20.4l.285-.246a1.649,1.649,0,0,0,.511-1.051A1.664,1.664,0,0,0,44.6,17.526Z"
                 transform="translate(-2.25 -3.375)" fill="#f2007d" />
             </svg>
-            Recommended dealers
+            Available dealers
           </h2>
+        </div>
+        <div class="desc-box mb-5">
+          <p>If you're a dealer and are interested in featuring on Compare, <a href="#" class="fw-medium">register for
+              free</a>.</p>
         </div>
         <div class="deals-swiper-holder">
           <div class="tab-nav-holder mb-5">
@@ -941,136 +951,280 @@
               <div class="tab-content" id="myTabRecommendedDeals-SwiperContent">
                 <div class="tab-pane fade active show" id="Deals-Caravans-Available-Dealers-pane" role="tabpanel"
                   aria-labelledby="Deals-Caravans-tab" tabindex="0">
-                  <div class="logo-gallery" style="--fit: contain">
-                    <div class="row g-3">
-                      <div class="col-sm-6 col-md-4 col-lg-3 col-xl-2">
-                        <div class="logo-gallery-inner background-white p-4 rounded text-center fw-semibold">
-                          <div class="image-box image-style mb-3">
-                            <img src="./images/logo-glossop.png" alt="">
+                  <div class="swiper-holder">
+                    <div class="swiper swiper-logo-grid">
+                      <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                          <div class="logo-gallery" style="--fit: contain; --padding: 25%">
+                            <div class="row g-sm">
+                              <div class="col-sm-6 col-md-4 col-lg-3 col-xl-2">
+                                <div class="logo-grid-inner background-white p-4 rounded text-center fw-semibold">
+                                  <div class="image-box image-style mb-3">
+                                    <img src="./images/logo-glossop.png" alt="">
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="col-lg-2">
+                                <div class="logo-grid-inner background-white p-4 rounded text-center fw-semibold">
+                                  <div class="image-box image-style mb-3">
+                                    <img src="./images/logo-glossop.png" alt="">
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="col-lg-2">
+                                <div class="logo-grid-inner background-white p-4 rounded text-center fw-semibold">
+                                  <div class="image-box image-style mb-3">
+                                    <img src="./images/logo-glossop.png" alt="">
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="col-lg-2">
+                                <div class="logo-grid-inner background-white p-4 rounded text-center fw-semibold">
+                                  <div class="image-box image-style mb-3">
+                                    <img src="./images/logo-glossop.png" alt="">
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="col-lg-2">
+                                <div class="logo-grid-inner background-white p-4 rounded text-center fw-semibold">
+                                  <div class="image-box image-style mb-3">
+                                    <img src="./images/logo-glossop.png" alt="">
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="col-lg-2">
+                                <div class="logo-grid-inner background-white p-4 rounded text-center fw-semibold">
+                                  <div class="image-box image-style mb-3">
+                                    <img src="./images/logo-glossop.png" alt="">
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="col-lg-2">
+                                <div class="logo-grid-inner background-white p-4 rounded text-center fw-semibold">
+                                  <div class="image-box image-style mb-3">
+                                    <img src="./images/logo-glossop.png" alt="">
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="col-lg-2">
+                                <div class="logo-grid-inner background-white p-4 rounded text-center fw-semibold">
+                                  <div class="image-box image-style mb-3">
+                                    <img src="./images/logo-glossop.png" alt="">
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="col-lg-2">
+                                <div class="logo-grid-inner background-white p-4 rounded text-center fw-semibold">
+                                  <div class="image-box image-style mb-3">
+                                    <img src="./images/logo-glossop.png" alt="">
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="col-lg-2">
+                                <div class="logo-grid-inner background-white p-4 rounded text-center fw-semibold">
+                                  <div class="image-box image-style mb-3">
+                                    <img src="./images/logo-glossop.png" alt="">
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="col-lg-2">
+                                <div class="logo-grid-inner background-white p-4 rounded text-center fw-semibold">
+                                  <div class="image-box image-style mb-3">
+                                    <img src="./images/logo-glossop.png" alt="">
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="col-lg-2">
+                                <div class="logo-grid-inner background-white p-4 rounded text-center fw-semibold">
+                                  <div class="image-box image-style mb-3">
+                                    <img src="./images/logo-glossop.png" alt="">
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="col-lg-2">
+                                <div class="logo-grid-inner background-white p-4 rounded text-center fw-semibold">
+                                  <div class="image-box image-style mb-3">
+                                    <img src="./images/logo-glossop.png" alt="">
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="col-lg-2">
+                                <div class="logo-grid-inner background-white p-4 rounded text-center fw-semibold">
+                                  <div class="image-box image-style mb-3">
+                                    <img src="./images/logo-glossop.png" alt="">
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="col-lg-2">
+                                <div class="logo-grid-inner background-white p-4 rounded text-center fw-semibold">
+                                  <div class="image-box image-style mb-3">
+                                    <img src="./images/logo-glossop.png" alt="">
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="col-lg-2">
+                                <div class="logo-grid-inner background-white p-4 rounded text-center fw-semibold">
+                                  <div class="image-box image-style mb-3">
+                                    <img src="./images/logo-glossop.png" alt="">
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="col-lg-2">
+                                <div class="logo-grid-inner background-white p-4 rounded text-center fw-semibold">
+                                  <div class="image-box image-style mb-3">
+                                    <img src="./images/logo-glossop.png" alt="">
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="col-lg-2">
+                                <div class="logo-grid-inner background-white p-4 rounded text-center fw-semibold">
+                                  <div class="image-box image-style mb-3">
+                                    <img src="./images/logo-glossop.png" alt="">
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="swiper-slide">
+                          <div class="logo-gallery" style="--fit: contain; --padding: 25%">
+                            <div class="row g-sm">
+                              <div class="col-sm-6 col-md-4 col-lg-3 col-xl-2">
+                                <div class="logo-grid-inner background-white p-4 rounded text-center fw-semibold">
+                                  <div class="image-box image-style mb-3">
+                                    <img src="./images/logo-glossop.png" alt="">
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="col-lg-2">
+                                <div class="logo-grid-inner background-white p-4 rounded text-center fw-semibold">
+                                  <div class="image-box image-style mb-3">
+                                    <img src="./images/logo-glossop.png" alt="">
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="col-lg-2">
+                                <div class="logo-grid-inner background-white p-4 rounded text-center fw-semibold">
+                                  <div class="image-box image-style mb-3">
+                                    <img src="./images/logo-glossop.png" alt="">
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="col-lg-2">
+                                <div class="logo-grid-inner background-white p-4 rounded text-center fw-semibold">
+                                  <div class="image-box image-style mb-3">
+                                    <img src="./images/logo-glossop.png" alt="">
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="col-lg-2">
+                                <div class="logo-grid-inner background-white p-4 rounded text-center fw-semibold">
+                                  <div class="image-box image-style mb-3">
+                                    <img src="./images/logo-glossop.png" alt="">
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="col-lg-2">
+                                <div class="logo-grid-inner background-white p-4 rounded text-center fw-semibold">
+                                  <div class="image-box image-style mb-3">
+                                    <img src="./images/logo-glossop.png" alt="">
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="col-lg-2">
+                                <div class="logo-grid-inner background-white p-4 rounded text-center fw-semibold">
+                                  <div class="image-box image-style mb-3">
+                                    <img src="./images/logo-glossop.png" alt="">
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="col-lg-2">
+                                <div class="logo-grid-inner background-white p-4 rounded text-center fw-semibold">
+                                  <div class="image-box image-style mb-3">
+                                    <img src="./images/logo-glossop.png" alt="">
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="col-lg-2">
+                                <div class="logo-grid-inner background-white p-4 rounded text-center fw-semibold">
+                                  <div class="image-box image-style mb-3">
+                                    <img src="./images/logo-glossop.png" alt="">
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="col-lg-2">
+                                <div class="logo-grid-inner background-white p-4 rounded text-center fw-semibold">
+                                  <div class="image-box image-style mb-3">
+                                    <img src="./images/logo-glossop.png" alt="">
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="col-lg-2">
+                                <div class="logo-grid-inner background-white p-4 rounded text-center fw-semibold">
+                                  <div class="image-box image-style mb-3">
+                                    <img src="./images/logo-glossop.png" alt="">
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="col-lg-2">
+                                <div class="logo-grid-inner background-white p-4 rounded text-center fw-semibold">
+                                  <div class="image-box image-style mb-3">
+                                    <img src="./images/logo-glossop.png" alt="">
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="col-lg-2">
+                                <div class="logo-grid-inner background-white p-4 rounded text-center fw-semibold">
+                                  <div class="image-box image-style mb-3">
+                                    <img src="./images/logo-glossop.png" alt="">
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="col-lg-2">
+                                <div class="logo-grid-inner background-white p-4 rounded text-center fw-semibold">
+                                  <div class="image-box image-style mb-3">
+                                    <img src="./images/logo-glossop.png" alt="">
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="col-lg-2">
+                                <div class="logo-grid-inner background-white p-4 rounded text-center fw-semibold">
+                                  <div class="image-box image-style mb-3">
+                                    <img src="./images/logo-glossop.png" alt="">
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="col-lg-2">
+                                <div class="logo-grid-inner background-white p-4 rounded text-center fw-semibold">
+                                  <div class="image-box image-style mb-3">
+                                    <img src="./images/logo-glossop.png" alt="">
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="col-lg-2">
+                                <div class="logo-grid-inner background-white p-4 rounded text-center fw-semibold">
+                                  <div class="image-box image-style mb-3">
+                                    <img src="./images/logo-glossop.png" alt="">
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="col-lg-2">
+                                <div class="logo-grid-inner background-white p-4 rounded text-center fw-semibold">
+                                  <div class="image-box image-style mb-3">
+                                    <img src="./images/logo-glossop.png" alt="">
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
                           </div>
                         </div>
                       </div>
-                      <div class="col-lg-2">
-                        <div class="logo-gallery-inner background-white p-4 rounded text-center fw-semibold">
-                          <div class="image-box image-style mb-3">
-                            <img src="./images/logo-glossop.png" alt="">
-                          </div>
-                        </div>
-                      </div>
-                      <div class="col-lg-2">
-                        <div class="logo-gallery-inner background-white p-4 rounded text-center fw-semibold">
-                          <div class="image-box image-style mb-3">
-                            <img src="./images/logo-glossop.png" alt="">
-                          </div>
-                        </div>
-                      </div>
-                      <div class="col-lg-2">
-                        <div class="logo-gallery-inner background-white p-4 rounded text-center fw-semibold">
-                          <div class="image-box image-style mb-3">
-                            <img src="./images/logo-glossop.png" alt="">
-                          </div>
-                        </div>
-                      </div>
-                      <div class="col-lg-2">
-                        <div class="logo-gallery-inner background-white p-4 rounded text-center fw-semibold">
-                          <div class="image-box image-style mb-3">
-                            <img src="./images/logo-glossop.png" alt="">
-                          </div>
-                        </div>
-                      </div>
-                      <div class="col-lg-2">
-                        <div class="logo-gallery-inner background-white p-4 rounded text-center fw-semibold">
-                          <div class="image-box image-style mb-3">
-                            <img src="./images/logo-glossop.png" alt="">
-                          </div>
-                        </div>
-                      </div>
-                      <div class="col-lg-2">
-                        <div class="logo-gallery-inner background-white p-4 rounded text-center fw-semibold">
-                          <div class="image-box image-style mb-3">
-                            <img src="./images/logo-glossop.png" alt="">
-                          </div>
-                        </div>
-                      </div>
-                      <div class="col-lg-2">
-                        <div class="logo-gallery-inner background-white p-4 rounded text-center fw-semibold">
-                          <div class="image-box image-style mb-3">
-                            <img src="./images/logo-glossop.png" alt="">
-                          </div>
-                        </div>
-                      </div>
-                      <div class="col-lg-2">
-                        <div class="logo-gallery-inner background-white p-4 rounded text-center fw-semibold">
-                          <div class="image-box image-style mb-3">
-                            <img src="./images/logo-glossop.png" alt="">
-                          </div>
-                        </div>
-                      </div>
-                      <div class="col-lg-2">
-                        <div class="logo-gallery-inner background-white p-4 rounded text-center fw-semibold">
-                          <div class="image-box image-style mb-3">
-                            <img src="./images/logo-glossop.png" alt="">
-                          </div>
-                        </div>
-                      </div>
-                      <div class="col-lg-2">
-                        <div class="logo-gallery-inner background-white p-4 rounded text-center fw-semibold">
-                          <div class="image-box image-style mb-3">
-                            <img src="./images/logo-glossop.png" alt="">
-                          </div>
-                        </div>
-                      </div>
-                      <div class="col-lg-2">
-                        <div class="logo-gallery-inner background-white p-4 rounded text-center fw-semibold">
-                          <div class="image-box image-style mb-3">
-                            <img src="./images/logo-glossop.png" alt="">
-                          </div>
-                        </div>
-                      </div>
-                      <div class="col-lg-2">
-                        <div class="logo-gallery-inner background-white p-4 rounded text-center fw-semibold">
-                          <div class="image-box image-style mb-3">
-                            <img src="./images/logo-glossop.png" alt="">
-                          </div>
-                        </div>
-                      </div>
-                      <div class="col-lg-2">
-                        <div class="logo-gallery-inner background-white p-4 rounded text-center fw-semibold">
-                          <div class="image-box image-style mb-3">
-                            <img src="./images/logo-glossop.png" alt="">
-                          </div>
-                        </div>
-                      </div>
-                      <div class="col-lg-2">
-                        <div class="logo-gallery-inner background-white p-4 rounded text-center fw-semibold">
-                          <div class="image-box image-style mb-3">
-                            <img src="./images/logo-glossop.png" alt="">
-                          </div>
-                        </div>
-                      </div>
-                      <div class="col-lg-2">
-                        <div class="logo-gallery-inner background-white p-4 rounded text-center fw-semibold">
-                          <div class="image-box image-style mb-3">
-                            <img src="./images/logo-glossop.png" alt="">
-                          </div>
-                        </div>
-                      </div>
-                      <div class="col-lg-2">
-                        <div class="logo-gallery-inner background-white p-4 rounded text-center fw-semibold">
-                          <div class="image-box image-style mb-3">
-                            <img src="./images/logo-glossop.png" alt="">
-                          </div>
-                        </div>
-                      </div>
-                      <div class="col-lg-2">
-                        <div class="logo-gallery-inner background-white p-4 rounded text-center fw-semibold">
-                          <div class="image-box image-style mb-3">
-                            <img src="./images/logo-glossop.png" alt="">
-                          </div>
-                        </div>
+                      <div
+                        class="swiper-pagination swiper-pagination-dark mt-4 mt-lg-5 mb-4 mb-lg-0 text-center position-static">
                       </div>
                     </div>
                   </div>
+
                 </div>
                 <div class="tab-pane fade" id="Deals-Motorhomes-Available-Dealers-pane" role="tabpanel"
                   aria-labelledby="Deals-Motorhomes-tab" tabindex="0">
@@ -1091,45 +1245,195 @@
             </div>
           </div>
         </div>
+        <div class="button-box text-center my-5">
+          <a type="submit" class="btn btn-primary btn-lg w-100 w-md-auto">View all 30 dealers</a>
+        </div>
+        <div class="desc-box text-center">
+          <p>Interested in featuring on Compare? <a href="#">Register now for free.</a></p>
+        </div>
       </div>
     </section>
-    <!----- END OF NEW SECTION -->
 
-
-    <section class="gallery-slider ">
+    <div class="recommended-manufacturers background-pink md-padding-top md-padding-bottom ">
       <div class="container">
-        <div class="swiper swiper-gallery-slider">
-          <div class="swiper-wrapper">
-            <div class="swiper-slide">
-              <div class="image-box image-style background-yellow rounded">
+        <div class="heading-icon mb-5 text-white">
+          <h2 class="d-flex align-items-center gap-3">
+            <svg xmlns="http://www.w3.org/2000/svg" width="36.887" height="59.013" viewBox="0 0 36.887 59.013">
+              <g id="flame-svgrepo-com" transform="translate(-114.73 0)">
+                <path id="Path_1057" data-name="Path 1057"
+                  d="M124.5,58.935a.636.636,0,0,0,.832-.906,14.591,14.591,0,0,1-.84-14.459c4.82-10.775,7.752-16.355,7.752-16.355a38.793,38.793,0,0,0,5.788,12.3c4.07,5.573,6.3,12.582,2.706,18.42a.636.636,0,0,0,.83.9C146.011,56.565,151,52,151.56,42.927A31.056,31.056,0,0,0,149.9,31.37c-2-6.211-4.459-9.108-5.881-10.353a.636.636,0,0,0-1.052.522c.415,6.7-2.106,8.4-3.541,4.569a23.452,23.452,0,0,1-.907-7.4,25.312,25.312,0,0,0-4.991-15.383A17.422,17.422,0,0,0,130.392.134a.636.636,0,0,0-1.023.55c.264,3.639.025,14.067-9.124,26.526-8.3,11.557-5.081,20.433-3.94,22.837A18.814,18.814,0,0,0,124.5,58.935Z"
+                  transform="translate(0 0)" fill="#fff" />
+              </g>
+            </svg>
+            Recommended manufacturers
+          </h2>
+        </div>
+        <div class="deals-swiper-holder">
+          <div class="tab-nav-holder mb-5">
+            <div class="container p-0">
+              <div class="nav-tabs-swiper swiper overflow-visible">
+                <ul class=" swiper-wrapper nav nav-tabs nav-tabs-style-2" id="myTabRecommendedDeals-Swiper">
+                  <li class="swiper-slide nav-item">
+                    <button class="nav-link text-white active" id="Deals-Caravans-tab" data-bs-toggle="tab"
+                      data-bs-target="#Deals-Caravans-Recommended-Dealers-pane" type="button" role="tab"
+                      aria-controls="Deals-Caravans-Recommended-Dealers-pane" aria-selected="true">Caravans &
+                      Motorhomes</button>
+                  </li>
 
+                  <li class="swiper-slide nav-item">
+                    <button class="nav-link text-white" id="Deals-Campervans-tab" data-bs-toggle="tab"
+                      data-bs-target="#Deals-Campervans-Recommended-Dealers-pane" type="button" role="tab"
+                      aria-controls="Deals-Campervans-Recommended-Dealers-pane" aria-selected="false"
+                      tabindex="-1">Campervans</button>
+                  </li>
+                  <li class="swiper-slide nav-item">
+                    <button class="nav-link text-white" id="Deals-Accessories-tab" data-bs-toggle="tab"
+                      data-bs-target="#Deals-Accessories-Recommended-Dealers-pane" type="button" role="tab"
+                      aria-controls="Deals-Accessories-Recommended-Dealers-pane" aria-selected="false"
+                      tabindex="-1">Accessories</button>
+                  </li>
+
+                </ul>
               </div>
             </div>
-            <div class="swiper-slide">
-              <div class="image-box image-style background-pink rounded">
+          </div>
+          <div class="tab-content-holder">
+            <div class="container p-0">
+              <div class="tab-content" id="myTabRecommendedDeals-SwiperContent">
+                <div class="tab-pane fade active show" id="Deals-Caravans-Recommended-Dealers-pane" role="tabpanel"
+                  aria-labelledby="Deals-Caravans-tab" tabindex="0">
+                  <div class="swiper-holder">
+                    <div class="swiper swiper-listing-v2" style="--padding: 8%;--fit: contain">
+                      <div class="swiper-wrapper">
 
-              </div>
-            </div>
-            <div class="swiper-slide">
-              <div class="image-box image-style background-teal rounded">
+                        <div class="swiper-slide">
+                          <div
+                            class="listing-grid h-100 position-relative rounded style-1 background-white d-flex flex-column justify-content-between">
+                            <div class="listing-grid-item__top position-relative">
+                              <div class="listing-grid__image mb-4">
+                                <img src="./images/logo-swift.png">
+                              </div>
+                              <h3 class="mb-3">Find your dream touring caravan, motorhome or campervan with Swift</h3>
+
+                              <div class="desc mt-3">
+                                <p>The 2026 season has arrived at Swift! We continue to focus on creating the finest
+                                  award-winning leisure products, designed to give you unforgettable holiday experiences
+                                  year after year.</p>
+                              </div>
+                            </div>
+                            <div class="listing-grid-item__bottom">
+                              <div class="listing-grid-item__button p-20">
+                                <a href="#" class="btn btn-dark">
+                                  Browse leisure vehicles
+                                </a>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="swiper-slide">
+                          <div
+                            class="listing-grid h-100 position-relative rounded style-1 background-white d-flex flex-column justify-content-between">
+                            <div class="listing-grid-item__top position-relative">
+                              <div class="listing-grid__image mb-4">
+                                <img src="./images/logo-coachman.png">
+                              </div>
+                              <h3 class="mb-3">Your road to freedom: designed for comfort, built for adventure</h3>
+
+                              <div class="desc mt-3">
+                                <p>Our best just got better. Discover the all new 2026 caravan and motorhome ranges.</p>
+                              </div>
+                            </div>
+                            <div class="listing-grid-item__bottom">
+                              <div class="listing-grid-item__button p-20">
+                                <a href="#" class="btn btn-dark">
+                                  Browse leisure vehicles
+                                </a>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="swiper-slide">
+                          <div
+                            class="listing-grid h-100 position-relative rounded style-1 background-white d-flex flex-column justify-content-between">
+                            <div class="listing-grid-item__top position-relative">
+                              <div class="listing-grid__image mb-4">
+                                <img src="./images/logo-bailey.png">
+                              </div>
+                              <h3 class="mb-3">Go Bailey</h3>
+
+                              <div class="desc mt-3">
+                                <p>We build every Bailey caravan & motorhome on one simple principle: high
+                                  specifications, superb value for money, and no hidden extras. Simply put, we believe
+                                  in more.</p>
+                              </div>
+                            </div>
+                            <div class="listing-grid-item__bottom">
+                              <div class="listing-grid-item__button p-20">
+                                <a href="#" class="btn btn-dark">
+                                  Browse leisure vehicles
+                                </a>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="swiper-slide">
+                          <div
+                            class="listing-grid h-100 position-relative rounded style-1 background-white d-flex flex-column justify-content-between">
+                            <div class="listing-grid-item__top position-relative">
+                              <div class="listing-grid__image mb-4">
+                                <img src="./images/logo-swift.png">
+                              </div>
+                              <h3 class="mb-3">Find your dream touring caravan, motorhome or campervan with Swift</h3>
+
+                              <div class="desc mt-3">
+                                <p>The 2026 season has arrived at Swift! We continue to focus on creating the finest
+                                  award-winning leisure products, designed to give you unforgettable holiday experiences
+                                  year after year.</p>
+                              </div>
+                            </div>
+                            <div class="listing-grid-item__bottom">
+                              <div class="listing-grid-item__button p-20">
+                                <a href="#" class="btn btn-dark">
+                                  Browse leisure vehicles
+                                </a>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+
+                      </div>
+                      <div class="swiper-pagination  mt-4 mt-lg-5 mb-4 mb-lg-0 text-center position-static">
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="tab-pane fade" id="Deals-Campervans-Recommended-Dealers-pane" role="tabpanel"
+                  aria-labelledby="Deals-Campervans-tab" tabindex="0">
+
+                </div>
+                <div class="tab-pane fade" id="Deals-Accessories-Recommended-Dealers-pane" role="tabpanel"
+                  aria-labelledby="Deals-Accessories-tab" tabindex="0">
+
+                </div>
 
               </div>
             </div>
           </div>
-          <div class="swiper-pagination swiper-pagination-dark"></div>
         </div>
       </div>
-    </section>
-    <section class="logo-slider  sm-padding-top md-padding-bottom overflow-hidden">
+    </div>
+    <section
+      class="logo-slider bg-decor bg-decor-5 sm-padding-top md-padding-bottom overflow-hidden background-black position-relative">
       <div class="container">
-        <div class="heading-icon mb-5">
+        <div class="heading-icon mb-5 text-white">
           <h2 class="d-flex align-items-center gap-3">
             <svg xmlns="http://www.w3.org/2000/svg" width="43.762" height="42.079" viewBox="0 0 43.762 42.079">
               <path id="Icon_ionic-ios-heart" data-name="Icon ionic-ios-heart"
                 d="M35.355,3.938H35.25a11.97,11.97,0,0,0-9.994,5.47,11.97,11.97,0,0,0-9.994-5.47h-.105A11.893,11.893,0,0,0,3.375,15.825c0,3.892,1.7,9.415,5.028,13.96,6.333,8.658,16.852,16.232,16.852,16.232s10.52-7.574,16.852-16.232c3.324-4.544,5.028-10.067,5.028-13.96A11.893,11.893,0,0,0,35.355,3.938Z"
                 transform="translate(-3.375 -3.938)" fill="#f2007d" />
             </svg>
-            Popular manufacturers
+            Search by manufacturer
           </h2>
         </div>
         <div class="swiper swiper-logo-slider overflow-visible">
@@ -1242,11 +1546,309 @@
 
           </div>
         </div>
-        <div class="button-box text-center mt-5">
+        <div class="button-box text-center my-5">
           <a type="submit" class="btn btn-primary btn-lg w-100 w-md-auto">View all 30 manufacturers</a>
+        </div>
+        <div class="desc-box text-center text-white">
+          <p>
+            Interested in featuring on Compare? <a href="#">Enquire now</a>.
+          </p>
         </div>
       </div>
     </section>
+
+    <section class="Popular-Awning-tab  sm-padding-bottom sm-padding-top overflow-hidden">
+      <div class="container">
+        <div class="heading-icon mb-5">
+          <h2 class="d-flex align-items-center gap-3">
+            <svg xmlns="http://www.w3.org/2000/svg" width="43.762" height="43.563" viewBox="0 0 43.762 43.563">
+              <path id="Icon_material-wb-sunny" data-name="Icon material-wb-sunny"
+                d="M12.958,9.359,9.377,5.8l-2.8,2.8,3.561,3.561ZM7.468,20.617H1.5V24.6H7.468ZM25.37.825H21.392V6.693H25.37V.825ZM40.189,8.6l-2.8-2.8L33.824,9.359l2.8,2.8L40.189,8.6ZM33.8,35.854l3.561,3.581,2.8-2.8-3.581-3.561L33.8,35.854Zm5.49-15.237V24.6h5.968V20.617ZM23.381,10.671A11.935,11.935,0,1,0,35.316,22.606,11.944,11.944,0,0,0,23.381,10.671ZM21.392,44.388H25.37V38.52H21.392ZM6.572,36.61l2.8,2.8,3.561-3.581-2.8-2.8L6.572,36.61Z"
+                transform="translate(-1.5 -0.825)" fill="#f2007d" />
+            </svg>
+            Popular awning brands
+          </h2>
+        </div>
+
+        <div class="deals-swiper-holder">
+          <div class="tab-nav-holder mb-5">
+            <div class="container p-0">
+              <div class="nav-tabs-swiper swiper overflow-visible">
+                <ul class=" swiper-wrapper nav nav-tabs nav-tabs-style-2" id="myTabRecommendedDeals-Swiper">
+                  <li class="swiper-slide nav-item">
+                    <button class="nav-link active" id="Deals-All-tab" data-bs-toggle="tab"
+                      data-bs-target="#Deals-Caravans-Popular-Awning-pane" type="button" role="tab"
+                      aria-controls="Deals-Caravans-Popular-Awning-pane" aria-selected="true">All</button>
+                  </li>
+                  <li class="swiper-slide nav-item">
+                    <button class="nav-link" id="Deals-Caravan-Awnings-tab" data-bs-toggle="tab"
+                      data-bs-target="#Deals-Motorhomes-Popular-Awning-pane" type="button" role="tab"
+                      aria-controls="Deals-Motorhomes-Popular-Awning-pane" aria-selected="false"
+                      tabindex="-1">Motorhomes</button>
+                  </li>
+                  <li class="swiper-slide nav-item">
+                    <button class="nav-link" id="Deals-Motorhome-Awnings-tab" data-bs-toggle="tab"
+                      data-bs-target="#Deals-Campervans-Popular-Awning-pane" type="button" role="tab"
+                      aria-controls="Deals-Campervans-Popular-Awning-pane" aria-selected="false"
+                      tabindex="-1">Campervans</button>
+                  </li>
+
+                  <li class="swiper-slide nav-item">
+                    <button class="nav-link " id="Deals-Campervan-Awnings-tab" data-bs-toggle="tab"
+                      data-bs-target="#Deals-Holiday-Homes-Popular-Awning-pane" type="button" role="tab"
+                      aria-controls="Deals-Holiday-Homes-Popular-Awning-pane" aria-selected="false"
+                      tabindex="-1">Holiday
+                      Homes</button>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="tab-content-holder">
+            <div class="container p-0">
+              <div class="tab-content" id="myTabRecommendedDeals-SwiperContent">
+                <div class="tab-pane fade active show" id="Deals-Caravans-Popular-Awning-pane" role="tabpanel"
+                  aria-labelledby="Deals-All-tab" tabindex="0">
+                  <div class="swiper-holder">
+                    <div class="swiper swiper-logo-grid">
+                      <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                          <div class="logo-gallery" style="--fit: contain; --padding: 25%">
+                            <div class="row g-sm">
+                              <div class="col-sm-6 col-md-4 col-lg-3 col-xl-2">
+                                <div class="logo-grid-inner background-white p-4 rounded text-center fw-semibold">
+                                  <div class="image-box image-style mb-3">
+                                    <img src="./images/logo-glossop.png" alt="">
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="col-lg-2">
+                                <div class="logo-grid-inner background-white p-4 rounded text-center fw-semibold">
+                                  <div class="image-box image-style mb-3">
+                                    <img src="./images/logo-glossop.png" alt="">
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="col-lg-2">
+                                <div class="logo-grid-inner background-white p-4 rounded text-center fw-semibold">
+                                  <div class="image-box image-style mb-3">
+                                    <img src="./images/logo-glossop.png" alt="">
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="col-lg-2">
+                                <div class="logo-grid-inner background-white p-4 rounded text-center fw-semibold">
+                                  <div class="image-box image-style mb-3">
+                                    <img src="./images/logo-glossop.png" alt="">
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="col-lg-2">
+                                <div class="logo-grid-inner background-white p-4 rounded text-center fw-semibold">
+                                  <div class="image-box image-style mb-3">
+                                    <img src="./images/logo-glossop.png" alt="">
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="col-lg-2">
+                                <div class="logo-grid-inner background-white p-4 rounded text-center fw-semibold">
+                                  <div class="image-box image-style mb-3">
+                                    <img src="./images/logo-glossop.png" alt="">
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="col-lg-2">
+                                <div class="logo-grid-inner background-white p-4 rounded text-center fw-semibold">
+                                  <div class="image-box image-style mb-3">
+                                    <img src="./images/logo-glossop.png" alt="">
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="col-lg-2">
+                                <div class="logo-grid-inner background-white p-4 rounded text-center fw-semibold">
+                                  <div class="image-box image-style mb-3">
+                                    <img src="./images/logo-glossop.png" alt="">
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="col-lg-2">
+                                <div class="logo-grid-inner background-white p-4 rounded text-center fw-semibold">
+                                  <div class="image-box image-style mb-3">
+                                    <img src="./images/logo-glossop.png" alt="">
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="col-lg-2">
+                                <div class="logo-grid-inner background-white p-4 rounded text-center fw-semibold">
+                                  <div class="image-box image-style mb-3">
+                                    <img src="./images/logo-glossop.png" alt="">
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="col-lg-2">
+                                <div class="logo-grid-inner background-white p-4 rounded text-center fw-semibold">
+                                  <div class="image-box image-style mb-3">
+                                    <img src="./images/logo-glossop.png" alt="">
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="col-lg-2">
+                                <div class="logo-grid-inner background-white p-4 rounded text-center fw-semibold">
+                                  <div class="image-box image-style mb-3">
+                                    <img src="./images/logo-glossop.png" alt="">
+                                  </div>
+                                </div>
+                              </div>
+                        
+                            </div>
+                          </div>
+                        </div>
+                     <div class="swiper-slide">
+                          <div class="logo-gallery" style="--fit: contain; --padding: 25%">
+                            <div class="row g-sm">
+                              <div class="col-sm-6 col-md-4 col-lg-3 col-xl-2">
+                                <div class="logo-grid-inner background-white p-4 rounded text-center fw-semibold">
+                                  <div class="image-box image-style mb-3">
+                                    <img src="./images/logo-glossop.png" alt="">
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="col-lg-2">
+                                <div class="logo-grid-inner background-white p-4 rounded text-center fw-semibold">
+                                  <div class="image-box image-style mb-3">
+                                    <img src="./images/logo-glossop.png" alt="">
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="col-lg-2">
+                                <div class="logo-grid-inner background-white p-4 rounded text-center fw-semibold">
+                                  <div class="image-box image-style mb-3">
+                                    <img src="./images/logo-glossop.png" alt="">
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="col-lg-2">
+                                <div class="logo-grid-inner background-white p-4 rounded text-center fw-semibold">
+                                  <div class="image-box image-style mb-3">
+                                    <img src="./images/logo-glossop.png" alt="">
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="col-lg-2">
+                                <div class="logo-grid-inner background-white p-4 rounded text-center fw-semibold">
+                                  <div class="image-box image-style mb-3">
+                                    <img src="./images/logo-glossop.png" alt="">
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="col-lg-2">
+                                <div class="logo-grid-inner background-white p-4 rounded text-center fw-semibold">
+                                  <div class="image-box image-style mb-3">
+                                    <img src="./images/logo-glossop.png" alt="">
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="col-lg-2">
+                                <div class="logo-grid-inner background-white p-4 rounded text-center fw-semibold">
+                                  <div class="image-box image-style mb-3">
+                                    <img src="./images/logo-glossop.png" alt="">
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="col-lg-2">
+                                <div class="logo-grid-inner background-white p-4 rounded text-center fw-semibold">
+                                  <div class="image-box image-style mb-3">
+                                    <img src="./images/logo-glossop.png" alt="">
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="col-lg-2">
+                                <div class="logo-grid-inner background-white p-4 rounded text-center fw-semibold">
+                                  <div class="image-box image-style mb-3">
+                                    <img src="./images/logo-glossop.png" alt="">
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="col-lg-2">
+                                <div class="logo-grid-inner background-white p-4 rounded text-center fw-semibold">
+                                  <div class="image-box image-style mb-3">
+                                    <img src="./images/logo-glossop.png" alt="">
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="col-lg-2">
+                                <div class="logo-grid-inner background-white p-4 rounded text-center fw-semibold">
+                                  <div class="image-box image-style mb-3">
+                                    <img src="./images/logo-glossop.png" alt="">
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="col-lg-2">
+                                <div class="logo-grid-inner background-white p-4 rounded text-center fw-semibold">
+                                  <div class="image-box image-style mb-3">
+                                    <img src="./images/logo-glossop.png" alt="">
+                                  </div>
+                                </div>
+                              </div>
+                        
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div
+                        class="swiper-pagination swiper-pagination-dark mt-4 mt-lg-5 mb-4 mb-lg-0 text-center position-static">
+                      </div>
+                    </div>
+                  </div>
+
+                </div>
+                <div class="tab-pane fade" id="Deals-Motorhomes-Popular-Awning-pane" role="tabpanel"
+                  aria-labelledby="Deals-Caravan-Awnings-tab" tabindex="0">
+
+                </div>
+                <div class="tab-pane fade" id="Deals-Campervans-Popular-Awning-pane" role="tabpanel"
+                  aria-labelledby="Deals-Motorhome-Awnings-tab" tabindex="0">
+
+                </div>
+
+                <div class="tab-pane fade" id="Deals-Holiday-Homes-Popular-Awning-pane" role="tabpanel"
+                  aria-labelledby="Deals-Campervan-Awnings-tab" tabindex="0">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+      </div>
+    </section>
+    <!----- END OF NEW SECTION -->
+
+
+    <section class="gallery-slider md-padding-top md-padding-bottom">
+      <div class="container">
+        <div class="swiper swiper-gallery-slider">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <div class="image-box image-style background-yellow rounded">
+
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="image-box image-style background-pink rounded">
+
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="image-box image-style background-teal rounded">
+
+              </div>
+            </div>
+          </div>
+          <div class="swiper-pagination swiper-pagination-dark"></div>
+        </div>
+      </div>
+    </section>
+
 
     <section class="grid-section  sm-padding-bottom overflow-hidden">
       <div class="container">
@@ -1811,6 +2413,7 @@
     crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
   <script type="text/javascript" src="./assets/javascripts/main.js"></script>
+  <script type="text/javascript" src="./assets/javascripts/main2.js"></script>
 
 </body>
 
