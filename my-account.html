@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Account</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="header-light header-background-pink">
+    <div id="top-bar-insert"></div>
+    <div id="header-insert"></div>
+    <main id="main" class="main-offset-with-topbar background-lightgray-2">
+        <section class="hero">
+            <div class="container">
+                <div class="breadcrumbs fs-16 mt-3">
+                    <ul class="list-inline">
+                        <li><a href="/">Home</a></li>
+                        <li><span>Your account</span></li>
+                    </ul>
+                </div>
+                <div class="hero-title-image md-margin-top">
+                    <div class="row">
+                        <div class="col-12">
+                            <h1 class="mb-4">Your account</h1>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="my-account sm-padding-top md-padding-bottom">
+            <div class="container">
+                <div class="my-account--boxes flex-column d-flex gap-5">
+                    <div class="my-account--inner">
+                        <h3 class="fs-24 mb-4">Buying & selling</h3>
+                        <div class="row g-3 g-lg-5">
+                            <div class="col-sm-6 col-lg-3">
+                                <a class="my-account--box text-color rounded d-block background-lightgray-5 px-4 pt-4 sm-padding-bottom text-decoration-none h-100"
+                                    href="#">
+                                    <h5 class="fs-20 fw-semibold mb-3 icon-decor">Vehicles you're selling</h5>
+                                    <div class="desc opacity-75">
+                                        <p>Create, edit and manage your ads</p>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col-sm-6 col-lg-3">
+                                <a class="my-account--box text-color rounded d-block background-lightgray-5 px-4 pt-4 sm-padding-bottom text-decoration-none h-100"
+                                    href="#">
+                                    <h5 class="fs-20 fw-semibold mb-3 icon-decor">Saved leisure vehicles</h5>
+                                    <div class="desc opacity-75">
+                                        <p>View and manage your saved leisure vehicles</p>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col-sm-6 col-lg-3">
+                                <a data-bs-toggle="modal" data-bs-target="#savedSearchModal"
+                                    class="my-account--box text-color rounded d-block background-lightgray-5 px-4 pt-4 sm-padding-bottom text-decoration-none h-100"
+                                    href="#">
+                                    <h5 class="fs-20 fw-semibold mb-3 icon-decor">Saved searches</h5>
+                                    <div class="desc opacity-75">
+                                        <p>View and manage your saved searches</p>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col-sm-6 col-lg-3">
+                                <a class="my-account--box text-color rounded d-block background-lightgray-5 px-4 pt-4 sm-padding-bottom text-decoration-none h-100"
+                                    href="#">
+                                    <h5 class="fs-20 fw-semibold mb-3 icon-decor">My enquiries</h5>
+                                    <div class="desc opacity-75">
+                                        <p>View and manage your enquiries</p>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="my-account--inner">
+                        <h3 class="fs-24 mb-4">Account settings</h3>
+                        <div class="row g-3 g-lg-5">
+                            <div class="col-sm-6 col-lg-3">
+                                <a class="my-account--box text-color rounded d-block background-lightgray-5 px-4 pt-4 sm-padding-bottom text-decoration-none h-100"
+                                    href="#">
+                                    <h5 class="fs-20 fw-semibold mb-3 icon-decor">Personal details</h5>
+                                    <div class="desc opacity-75">
+                                        <p>Update your personal and contact details</p>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col-sm-6 col-lg-3">
+                                <a class="my-account--box text-color rounded d-block background-lightgray-5 px-4 pt-4 sm-padding-bottom text-decoration-none h-100"
+                                    href="#">
+                                    <h5 class="fs-20 fw-semibold mb-3 icon-decor">Preferences</h5>
+                                    <div class="desc opacity-75">
+                                        <p>Manage what emails and notifications you receive</p>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="my-account--inner">
+                        <h3 class="fs-24 mb-4">Payment details</h3>
+                        <div class="row g-3 g-lg-5">
+                            <div class="col-sm-6 col-lg-3">
+                                <a class="my-account--box text-color rounded d-block background-lightgray-5 px-4 pt-4 sm-padding-bottom text-decoration-none h-100"
+                                    href="#">
+                                    <h5 class="fs-20 fw-semibold mb-3 icon-decor">Personal details</h5>
+                                    <div class="desc opacity-75">
+                                        <p>Update and manage your payment methods</p>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col-sm-6 col-lg-3">
+                                <a class="my-account--box text-color rounded d-block background-lightgray-5 px-4 pt-4 sm-padding-bottom text-decoration-none h-100"
+                                    href="#">
+                                    <h5 class="fs-20 fw-semibold mb-3 icon-decor">Payment history</h5>
+                                    <div class="desc opacity-75">
+                                        <p>See your advert and payment history</p>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="my-account--inner">
+                        <a href="" class="btn btn-primary btn-lg">Sign Out</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <div id="footer-insert"></div>
+    <div id="offcanvas-menu"></div>
+    <div id="save-search-modal"></div>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO"
+        crossorigin="anonymous"></script>
+    <script type="text/javascript"
+        src="https://newglossopacaravans.theprogressteam.co.uk/wp-content/themes/glossop-caravans/assets/vendors/swiper/js/swiper-bundle.min.js?ver=6.8.1"
+        id="swiper-js"></script>
+    <script type="text/javascript" src="./assets/javascripts/main.js"></script>
+
+</body>
+
+</html>
+<script>
+
+    fetch('template-parts/modals/--save-search.html') // Path to the HTML file you want to insert
+        .then(response => response.text())
+        .then(data => {
+            document.getElementById('save-search-modal').innerHTML = data;
+        })
+        .catch(error => {
+            console.error('Error fetching the HTML file:', error);
+            document.getElementById('save-search-modal').innerHTML = '<p>Error loading content.</p>';
+        });
+
+</script>
