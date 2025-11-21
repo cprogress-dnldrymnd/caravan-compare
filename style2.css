@@ -139,7 +139,18 @@
     .delear-details--inner h3 {
         font-size: 18px;
     }
-    #offCanvas-ListingInner .listing-pricing {
-        margin: -40px -20px 20px;
+    #offCanvas-ListingInner .offcanvas-body {
+        padding: 0;
+    }
+    #offCanvas-ListingInner .dealer-details {
+        padding: 20px;
+    }
+    .listing-pricing-mobile {
+        position: sticky !important;
+        top: 0;
+    }
+    .dealer-details > .delear-details--inner:not(:last-child) {
+        border-bottom: none;
+        padding-bottom: 0;
     }
 }
