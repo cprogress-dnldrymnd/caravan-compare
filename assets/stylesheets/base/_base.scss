@@ -205,6 +205,10 @@ select {
     --bs-btn-disabled-border-color: var(--blue-color);
 }
 
+.btn-bordered {
+    border: 1px solid;
+}
+
 .nav-tabs {
     --bs-nav-link-font-size: inherit;
     --bs-nav-link-color: var(--pink-color);
