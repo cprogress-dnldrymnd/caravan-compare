@@ -48,6 +48,37 @@
     opacity: 0.72;
 }
 
+.btn-bordered {
+    border: 1px solid ;
+}
+.btn-bordered:hover {
+    background-color: var(--pink-color);
+    border-color: var(--pink-color);
+}
+.btn-white {
+    --bs-btn-color: var(--text-color);
+    --bs-btn-bg: var(--bs-white);
+    --bs-btn-border-color: var(--text-color);
+    --bs-btn-hover-color: var(--bs-white);
+    --bs-btn-hover-bg: var(--text-color);
+    --bs-btn-hover-border-color: var(--text-color);
+    --bs-btn-focus-shadow-rgb: 49, 132, 253;
+    --bs-btn-active-color: var(--bs-white);
+    --bs-btn-active-bg: var(--pink-color);
+    --bs-btn-active-border-color: var(--pink-color);
+    --bs-btn-active-shadow: none;
+    --bs-btn-disabled-color: var(--bs-white);
+    --bs-btn-disabled-bg: var(--pink-color);
+    --bs-btn-disabled-border-color: var(--pink-color);
+}
+
+.btn-white:hover {
+ background-color: var(--pink-color);
+    border-color: var(--pink-color);
+}
+.sticky-buttons {
+    z-index: 2;
+}
 @media (min-width: 1200px) {
     .cta-section-v2 .logo-box {
         position: absolute;
@@ -63,7 +94,3 @@
     }
 }
 
-
-@media(max-width: 575px) {
-    .logo-gallery .
-}
