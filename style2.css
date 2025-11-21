@@ -49,7 +49,7 @@
 }
 
 .btn-bordered {
-    border: 1px solid ;
+    border: 1px solid;
 }
 .btn-bordered:hover {
     background-color: var(--pink-color);
@@ -73,11 +73,31 @@
 }
 
 .btn-white:hover {
- background-color: var(--pink-color);
+    background-color: var(--pink-color);
     border-color: var(--pink-color);
 }
-.sticky-buttons {
+.sticky-buttons,
+.listing-pricing-mobile {
     z-index: 2;
+}
+.fs-14 {
+    font-size: 14px !important;
+}
+@media (min-width: 992px) {
+    #offCanvas-ListingInner {
+        max-width: 100%;
+        z-index: 2;
+        transform: none;
+        opacity: 1;
+        visibility: visible;
+        position: static;
+        border: none;
+    }
+    #offCanvas-ListingInner .offcanvas-body {
+        padding: 0;
+        background-color: transparent;
+                overflow: hidden;
+    }
 }
 @media (min-width: 1200px) {
     .cta-section-v2 .logo-box {
@@ -93,4 +113,3 @@
         margin-top: 100px;
     }
 }
-
