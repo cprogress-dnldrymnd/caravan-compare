@@ -83,6 +83,15 @@
 .fs-14 {
     font-size: 14px !important;
 }
+.btn-close-svg {
+    padding: 0;
+    border: none;
+    background-color: transparent;
+}
+.btn-close-svg svg {
+    width: 35px;
+    height: 35px;
+}
 @media (min-width: 992px) {
     #offCanvas-ListingInner {
         max-width: 100%;
@@ -95,9 +104,11 @@
     }
     #offCanvas-ListingInner .offcanvas-body {
         padding: 0;
-        background-color: transparent;
-                overflow: hidden;
+        overflow: hidden;
     }
+}
+.offcanvas-backdrop {
+    z-index: 9999;
 }
 @media (min-width: 1200px) {
     .cta-section-v2 .logo-box {
@@ -111,5 +122,24 @@
 @media (max-width: 1199px) {
     .cta-section-v2 .logo-box {
         margin-top: 100px;
+    }
+}
+
+@media (max-width: 991px) {
+    .listing--single-right {
+        position: static !important;
+    }
+    .dealer-contact.dealer-contact-v2 ul li {
+        width: calc(50% - 0.5rem) !important;
+    }
+    .dealer-contact.dealer-contact-v2 ul li a {
+        font-size: 14px;
+        padding: 14px;
+    }
+    .delear-details--inner h3 {
+        font-size: 18px;
+    }
+    #offCanvas-ListingInner .listing-pricing {
+        margin: -40px -20px 20px;
     }
 }
